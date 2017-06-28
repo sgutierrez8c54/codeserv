@@ -23,4 +23,6 @@ The REV Robotics Expansion Hub is the electronic input/output (or “I/O”) mod
 
 During a typical FIRST Tech Challenge match, a team’s robot has to perform a variety of tasks in an effort to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write “op modes” (which stand for “operational modes”) to specify the behavior for their robot.
 
+Op Modes are computer programs that are used to customize the behavior of a competition robot.  The Robot Controller can _execute_ a selected op mode to perform certain tasks during a match.
+
 Teams who are participating in the FIRST Tech Challenge have a variety of programming tools that they can use to create their own op modes.  Teams can use a visual ("drag and drop") programming tool called the FTC Blocks Programming Tool to create their op modes.  Teams can also use a text-based Java tool to create their op modes. 
