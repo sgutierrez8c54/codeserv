@@ -3,7 +3,7 @@ The _FIRST_ Tech Challenge seeks to inspire youth to become the next generation 
 
 <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/HoustonMatchPlay.jpg" alt="Houston 2017 Match" width="400">
 
-A _FIRST_ Tech Challenge match has an _autonomous_ phase and a _driver-controlled_ or _"tele-operated"_ phase.  In the autonomous phase of a match the run operates without any human input or control.  In the driver-controlled phase, the robot can receive input from up to two human drivers.
+A _FIRST_ Tech Challenge match has an _autonomous_ phase and a _driver-controlled_ or _"tele-operated"_ phase.  In the autonomous phase of a match the robot operates without any human input or control.  In the driver-controlled phase, the robot can receive input from up to two human drivers.
 
 ### Point-to-Point Control System
 The _FIRST_ Tech Challenge uses Android phones to control its robots.  During a competition, each team has two Android phones.  
