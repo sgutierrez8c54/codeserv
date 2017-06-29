@@ -14,8 +14,8 @@ This wiki contains tutorials that demonstrate how to configure, program, and ope
 | _FIRST_-approved 12V DC Motor (such as Tetrix W39530, <br/>with power cable W41352). <br/><br/>For a list of _FIRST_-approved 12V motors, refer to the current <br/>FTC Game Manual Part 1, rule \<RE09\>.  | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/MotorAndCable.jpg"  width="175"> |
 | REV Robotics Anderson to JST VH Cable (REV-31-1381).  | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndersonToJST.jpg"  width="125"> |
 | 180-Degree Standard Scale Servo (such as <br/>Hitec HS-485HB). | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/HitecServo.jpg"  width="100"> |
-| REV Robotics Color Sensor with 4-Pin Cable <br/>(REV-31-1154) | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVColorSensor.jpg"  width="100"> |
-| REV Robotics Touch Sensor with 4-Pin Cable <br/>(REV-31-1425) | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVTouchSensor.jpg"  width="100"> |
-| USB Type A male to type mini-B male cable | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/USBTypeACable.jpg"  width="100"> |
-| Two (2) micro USB OTG adapters | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OTGAdapter.jpg"  width="100"> <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OTGAdapter.jpg"  width="100"> |
-| Logitech F310 USB Gamepad | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/LogitechF310.jpg"  width="150"> |
+| REV Robotics Color Sensor with 4-Pin Cable <br/>(REV-31-1154). | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVColorSensor.jpg"  width="100"> |
+| REV Robotics Touch Sensor with 4-Pin Cable <br/>(REV-31-1425). | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVTouchSensor.jpg"  width="100"> |
+| USB Type A male to type mini-B male cable. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/USBTypeACable.jpg"  width="100"> |
+| Two (2) micro USB OTG adapters. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OTGAdapter.jpg"  width="100"> <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OTGAdapter.jpg"  width="100"> |
+| Logitech F310 USB Gamepad. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/LogitechF310.jpg"  width="150"> |
