@@ -1,3 +1,6 @@
 1.  [Home](https://github.com/ftctechnh/ftc_app/wiki)
 2.  [The FTC Control System](https://github.com/ftctechnh/ftc_app/wiki/The-FTC-Control-System)
 3.  [Required Materials](https://github.com/ftctechnh/ftc_app/wiki/Required-Materials)
+4.  [Setting Up the Android Phones](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones)
+      * [Renaming Smartphones](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones/#renaming-your-smartphones)
+      * [Installing the FTC Apps](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones#installing-the-ftc-apps)
