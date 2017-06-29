@@ -5,6 +5,7 @@ The _FIRST_ Tech Challenge seeks to inspire youth to become the next generation 
 
 (Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)
 
+### Autonomous vs. Driver-Controlled
 A _FIRST_ Tech Challenge match has an _autonomous_ phase and a _driver-controlled_ or _"tele-operated"_ phase.  In the autonomous phase of a match the robot operates without any human input or control.  In the driver-controlled phase, the robot can receive input from up to two human drivers.
 
 ### Point-to-Point Control System
