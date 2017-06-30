@@ -4,3 +4,5 @@
 4.  [Setting Up the Android Phones](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones)
       * [Renaming Smartphones](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones/#renaming-your-smartphones)
       * [Installing the FTC Apps](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones#installing-the-ftc-apps)
+      * [Placing Phones into Airplane Mode](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones#placing-phones-into-airplane-mode-with-wi-fi-on)
+      * [Pairing the Phones](https://github.com/ftctechnh/ftc_app/wiki/Setting-Up-the-Android-Phones#pairing-the-driver-station-to-the-robot-controller)
