@@ -4,6 +4,7 @@ This wiki provides information about using the _FIRST_ Tech Challenge (FTC) cont
 
 You can navigate the sections of this Wiki by using the sidebar located on the right hand side of this web page. Click on a section heading to navigate to the topic.
 
+### Additional Information
 For additional information about using the _FIRST_ Tech Challenge control system, check out the official _FIRST_ Tech Challenge videos on YouTube:
 
 https://www.youtube.com/user/FIRSTTechChallenge/playlists
