@@ -9,7 +9,7 @@ Note that it will take an estimated 5 minutes per phone to complete this task.
 
 | Step| Image |
 | ----------- | :---: |
-| 1. Click on **Settings** icon to display Settings screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep1.jpg" width="175"> |
+| 1. Using the Android App Drawer, locate the **Settings** icon.<br/>Click on **Settings** icon to display the Settings screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep1.jpg" width="175"> |
 | 2. Click on **Wi-Fi** to launch the Wi-Fi screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep2.jpg" width="175"> |
 | 3. Touch the three vertical dots to display a pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep3.jpg" width="175"> |
 | 4. Select **Advanced** from the pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep4.jpg" width="175"> |
@@ -58,9 +58,9 @@ Note that it will take an estimated 10 minutes to complete this task.
 
 | Step| Image |
 | ----------- | :---: |
-| 1. On the main Robot Controller smartphone, look <br/>for the FTC Robot Controller icon.  Tap on the icon to <br/>launch the Robot Controller app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep1.jpg" width="175"> |
+| 1. Using the Android App Drawer, locate the <br/>**FTC Robot Controller** icon.  Tap on the icon to <br/>launch the Robot Controller app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep1.jpg" width="175"> |
 | 2. Verify that the Robot Controller app is running.  <br/>The **Robot Status** field should read “running” if it <br/>is working properly. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep2.jpg" width="175"> |
-| 3. On your Driver Station phone, find the FTC Driver <br/>Station app icon.  Tap on the icon to launch the <br/>Driver Station app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep3.jpg" width="175"> |
+| 3. Using the Android App Drawer, locate the <br/>**FTC Driver Station** icon. Tap on the icon to launch the <br/>Driver Station app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep3.jpg" width="175"> |
 | 4. Touch the three vertical dots on the upper right <br/>hand corner of the main screen of the FTC Driver Station <br/>app.  This will launch a pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep4.jpg" width="175"> |
 | 5. Select Settings from the pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep5.jpg" width="175"> |
 | 6. From the Settings screen, look for and select <br/>“Connect with Robot Controller” to launch the Connect <br/>with Robot Controller screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep6.jpg" width="175"> |
