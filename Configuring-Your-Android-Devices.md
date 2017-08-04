@@ -24,7 +24,7 @@ The FTC apps are available to download for free from the Google Play store.  You
 
 It is also possible to "side-load" the FTC Android Apps onto the Robot Controller and Driver Station phones.  The GitHub repository contains the release versions of the Android apps:
 
-https://github.com/ftctechnh/ftc_app/tree/master/doc/apk
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/ftctechnh/ftc_app/tree/master/doc/apk
 
 However, this section of the wiki does **not** include instructions on how to side-load the apps.  It only explains how to use Google Play to install the FTC apps.
 
