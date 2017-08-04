@@ -19,7 +19,7 @@ A second phone sits with the team drivers and has one or two gamepads connected.
 ### REV Robotics Expansion Hub
 The REV Robotics Expansion Hub is the electronic input/output (or “I/O”) module that lets the Robot Controller talk to the robot’s motors, servos, and sensors.  The Robot Controller communicates with the Expansion Hub through a USB connection.  The Expansion Hub is connected to a 12V battery which is used to power the Expansion Hub, the motors, the servos and sensors.  The Robot Controller typically has its own internal battery, which can also be charged through the USB cable connected to the Expansion Hub.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVExpansionHubLayout.jpg" width="500"><p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVExpansionHubLayout.jpg" width="600"><p>
 
 ### What's an Op Mode?
 
