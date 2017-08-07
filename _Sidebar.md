@@ -35,3 +35,4 @@
       * [Inserting Telemetry Statements](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#inserting-telemetry-statements)
       * [Saving Your Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#saving-your-op-mode)
       * [Exiting Programming Mode](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#exiting-programming-mode)
+9.  [Running Your Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Running-Your-Op-Mode)
