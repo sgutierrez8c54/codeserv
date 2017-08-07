@@ -30,7 +30,7 @@
       * [Connecting Your Laptop](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#connecting-your-laptop-to-the-ftc-blocks-programming-mode-server)
       * [Troubleshooting Wireless Connection](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#troubleshooting-your-wireless-connection)
       * [Creating Your First Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#creating-your-first-op-mode)
-      * [Op Mode Structure](https://https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#examining-the-structure-of-your-op-mode)
+      * [Op Mode Structure](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#examining-the-structure-of-your-op-mode)
       * [Controlling a DC Motor](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#controlling-a-dc-motor)
       * [Inserting Telemetry Statements](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#inserting-telemetry-statements)
       * [Saving Your Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#saving-your-op-mode)
