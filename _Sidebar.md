@@ -42,3 +42,4 @@
 11.  [Using Sensors (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks))
       * [Color-Distance Sensor](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks)#color-distance-sensor)
       * [Touch Sensor](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks)#touch-sensor)
+12.  [Troubleshooting](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting)
