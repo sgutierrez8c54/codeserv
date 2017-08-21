@@ -49,7 +49,7 @@ If you cannot see your Programming Mode wireless network in the list of availabl
 1.	Is the Robot Controller in Programming Mode?
 2.	Is your Windows laptop updated with the most current system updates and service packs?  Older versions of Windows 8 and 10, for example, had issues that could prevent the laptop from displaying the Programming Mode wireless network in the list of available networks.
 
-If you are still having issues with connecting the laptop to the Robot Controller, visit Troubleshooting section of this wiki for instructions on how to manually connect to the Programming Mode wireless network with a Windows 10 laptop.
+If you are still having issues with connecting the laptop to the Robot Controller, visit [Troubleshooting](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting) section of this wiki for instructions on how to manually connect to the Programming Mode wireless network with a Windows 10 laptop.
 
 ### Creating Your First Op Mode
 If you connected your laptop successfully to the Programming Mode wireless network of the Robot Controller, then you are ready to create your first op mode.  In this section, you will use the FTC Blocks Programming Tool to create the program logic for your first op mode.
@@ -147,7 +147,4 @@ Note it will take an estimated 1 minute to complete this task.
 | ---- |
 | 1. Press the Android back arrow to exit Programming Mode.  You need to exit Programming Mode before you can run your op mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExitingProgrammingModeStep1.jpg" width="175"></p> |
 
-Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Running-Your-Op-Mode).
-
-
-
+Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](https://github.com/FIRST-Tech-Challenge/TmpTesting/wiki/Running-Your-Op-Mode).
