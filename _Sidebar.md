@@ -39,3 +39,6 @@
 10.  [Controlling a Servo (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks))
       * [What is a Servo Motor?](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks)#what-is-a-servo-motor)
       * [Modifying Your Op Mode to Control a Servo](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks)#modifying-your-op-mode-to-control-a-servo)
+11.  [Using Sensors (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks))
+      * [Color-Distance Sensor](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks)#color-distance-sensor)
+      * [Touch Sensor](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks)#touch-sensor)
