@@ -36,3 +36,6 @@
       * [Saving Your Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#saving-your-op-mode)
       * [Exiting Programming Mode](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#exiting-programming-mode)
 9.  [Running Your Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Running-Your-Op-Mode)
+10.  [Controlling a Servo (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks))
+      * [What is a Servo Motor?](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks)#what-is-a-servo-motor)
+      * [Modifying Your Op Mode to Control a Servo](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks)#modifying-your-op-mode-to-control-a-servo)
