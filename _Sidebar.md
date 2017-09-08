@@ -3,4 +3,5 @@
 3.  [Choosing a Programming Tool](https://github.com/ftctechnh/ftc_app/wiki/Choosing-a-Programming-Tool)
 4.  [FTC Blocks Tutorial](https://github.com/ftctechnh/ftc_app/wiki/Blocks-Tutorial)
 5.  [OnBot Java Tutorial](https://github.com/ftctechnh/ftc_app/wiki/OnBot-Java-Tutorial)
-6.  [Troubleshooting](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting)
+6.  [Advanced Topics](https://github.com/ftctechnh/ftc_app/wiki/Advanced-Topics)
+7.  [Troubleshooting](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting)
