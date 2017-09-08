@@ -1,7 +1,7 @@
 ### What’s an Op Mode?
-During a typical FIRST Tech Challenge match, a team’s robot must perform a variety of tasks to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write programs called “op modes” (which stands for “operational modes”) to specify the behavior for their robot.  These op modes run on the Robot Controller phone after being selected on the Driver Station phone.
+During a typical _FIRST_ Tech Challenge match, a team’s robot must perform a variety of tasks to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write programs called “op modes” (which stands for “operational modes”) to specify the behavior for their robot.  These op modes run on the Robot Controller phone after being selected on the Driver Station phone.
 
-Teams who are participating in the FIRST Tech Challenge have a variety of programming tools that they can use to create their own op modes.  This section of the wiki explains how to use the FTC Blocks Programming Tool to write an op mode for an FTC robot.
+Teams who are participating in the _FIRST_ Tech Challenge have a variety of programming tools that they can use to create their own op modes.  This section of the wiki explains how to use the FTC Blocks Programming Tool to write an op mode for an FTC robot.
 
 ### The FTC Blocks Programming Tool
 The FTC Blocks Programming Tool is a user-friendly programming tool that is served up by the Robot Controller phone.  A user can create custom op modes for their robot using this tool and then save these op modes directly onto the Robot Controller.
@@ -16,40 +16,7 @@ The examples in this section use a Windows laptop computer to connect to the Rob
 
 Note that if you prefer, you can use an alternate device, such as an Apple Mac laptop, an Apple iPad, an Android tablet, or a Chromebook, instead of a Windows computer to access the FTC Blocks Programming Tool.  The instructions included in this document, however, assume that you are using a Windows laptop.
 
-### Installing a Javascript-Enabled Browser
-To be able to program using the blocks programming mode server, your laptop will need a Javascript-enabled browser.  The FTC Blocks Programming Tool should work with most modern web browsers.  However, FIRST recommends the use of Google Chrome with  the FTC Blocks Programming Tool.  If you would like to use Google Chrome as your browser, you can download it for free from the Google Chrome website.
-
-Note that it will take an estimated 15 minutes (depending on the speed of your Internet connection) to download and install the Javascript-enabled browser.
-
-| Installing a Javascript-Enabled Browser |
-| ---- |
-| 1. Visit the Google Chrome website (using your computer’s existing browser) and follow onscreen instructions to download and install Chrome.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/InstallingBrowserStep1.jpg" width="350"><p align="center">https://www.google.com/chrome/browser/desktop/index.html</p>|
-| 2. Note that your computer might prompt you with a security warning during the installation process.  If you are prompted with this warning, click on the “Run” button to continue with the installation.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/InstallingBrowserStep2.jpg" width="500"> |
-
-### Connecting Your Laptop to the FTC Blocks Programming Mode Server
-
-You will need to put your Robot Controller smartphone into FTC Blocks Programming Mode, which causes it to become a Programming Mode server, and then use your laptop to connect to this server so that you can start creating your op modes.  Before you begin this exercise, please make sure that your Windows laptop has the most current service packs and system updates from Microsoft installed. 
-
-Note that this example assumes the user has a Windows 10 laptop.  If you are not using a Windows 10 laptop, the procedure to connect to the Programming Mode server will differ.  Refer to your device’s documentation for details on how to connect to a Wi-Fi network.
-
-| Connecting Your Laptop to the FTC Blocks Programming Server |
-| ---- |
-| 1. On the Robot Controller, touch the three dots in the upper right hand corner of the screen to launch the pop-up menu. Select “Programming Mode” from the pop-up menu to place the Robot Controller into Programming Mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep1.jpg" width="175"></p> |
-| 2. Verify that the Robot Controller is now in Programming Mode. The Programming Mode screen displays important information that you can use to connect your laptop to the FTC Blocks Programming Mode server.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep2.jpg" width="175"></p> |
-| 3. Verify the network name and pass phrase for the Programming Mode’s wireless network. Towards the top of the screen, the name of the blocks programming mode wireless network is displayed.  In this example, the name of the Wi-Fi network is “DIRECT-F3-9999-C-RC” and the secure passphrase is “3lipIBQm”<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep3.jpg" width="350"></p> |
-| 4. On your Windows 10 computer, look in the lower right hand corner of your desktop for a Wi-Fi symbol.  Click on the Wi-Fi symbol to display a list of available Wi-Fi Networks in your vicinity.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep4.jpg" width="650"></p> |
-| 5. Look for the wireless network that matches the name displayed on the Robot Controller.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep5.jpg" width="400"></p>In this example, the name of the wireless network is “DIRECT-F3-9999-C-RC” and the network is visible in the list displayed on the Windows 10 computer. |
-| 6. Once you have found the target network in the list, click on it to select it.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep6.jpg" width="400"></p>Press the Connect button to connect to the network. |
-| 7. When prompted, provide the network passphrase (in this example “3lipIBQm”) and press “Next” to continue.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep7.jpg" width="350"></p>Note that the passphrase is case sensitive.  Make sure that your spelling and capitalization matches the original spelling and capitalization shown on the Programming Mode screen. |
-| 8. Once you have successfully established a wireless connection between your Windows 10 laptop and your Robot Controller Android device, the status should be displayed in the wireless settings for your laptop.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingLaptopStep8.jpg" width="350"></p>If the display is not updated as shown after a few seconds, try clicking on Network Connections at the bottom of the blue box showing the Wi-Fi connections.  This will bring up a Setting dialog box that includes a link to “Show available networks.”, which can be used to force the list of Wi-Fi connections to be updated.<br/><br/>Note that when you are connected to the blocks programming mode server on your Robot Controller phone, your laptop _will not have access to the Internet_.  It only has direct access to the Robot Controller. |
-
-### Troubleshooting Your Wireless Connection	
-If you cannot see your Programming Mode wireless network in the list of available networks, or, if you are having problems connecting your laptop to Programming Mode wireless network, make sure you answer the following questions:
-
-1.	Is the Robot Controller in Programming Mode?
-2.	Is your Windows laptop updated with the most current system updates and service packs?  Older versions of Windows 8 and 10, for example, had issues that could prevent the laptop from displaying the Programming Mode wireless network in the list of available networks.
-
-If you are still having issues with connecting the laptop to the Robot Controller, visit [Troubleshooting](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting) section of this wiki for instructions on how to manually connect to the Programming Mode wireless network with a Windows 10 laptop.
+Note that this section of the wiki assumes that you have already setup and configured your Android devices and robot hardware. It also assumes that you have successfully connected your laptop to the Progam & Manage server on the Robot Controller device.
 
 ### Creating Your First Op Mode
 If you connected your laptop successfully to the Programming Mode wireless network of the Robot Controller, then you are ready to create your first op mode.  In this section, you will use the FTC Blocks Programming Tool to create the program logic for your first op mode.
@@ -139,7 +106,9 @@ Note it will take an estimated 1 minute to complete this task.
 | 1. Press the “Save Op Mode” button to save the op mode to the Robot Controller’s programming mode server.  If your save was successful, you should see “Save completed successfully” in green letters next to the button.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/SavingOpModeStep1.jpg" width="300"></p> |
 
 ### Exiting Programming Mode
-After you have modified and saved your op mode, you need to exit Programming Mode before you will be able to run your op mode.
+With earlier versions of the Blocks Programming software (version 3.1 and earlier) you had to exit _Programming Mode_ before you were able to run your op mode.  Note that with versions 3.2 and higher, this step is **no longer necessary.**
+
+After you have modified and saved your op mode, if you are using v3.1 software or earlier, you need to exit Programming Mode before you will be able to run your op mode.
 
 Note it will take an estimated 1 minute to complete this task.
 
@@ -148,3 +117,6 @@ Note it will take an estimated 1 minute to complete this task.
 | 1. Press the Android back arrow to exit Programming Mode.  You need to exit Programming Mode before you can run your op mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExitingProgrammingModeStep1.jpg" width="175"></p> |
 
 Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](https://github.com/FIRST-Tech-Challenge/TmpTesting/wiki/Running-Your-Op-Mode).
+
+
+
