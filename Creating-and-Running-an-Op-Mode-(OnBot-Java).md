@@ -132,7 +132,7 @@ At the start of the runOpMode method, the op mode uses an object named hardwareM
 The hardwareMap object is available to use in the runOpMode method.  It is an object of type HardwareMap class.  
 
 Note that when you attempt to retrieve a reference to a specific device in your op mode, the name that you specify as the second argument of the HardwareMap.get method must match the name used to define the device in your configuration file.  For example, if you created a configuration file that had a DC motor named “motorTest”, then you must use this same name (it is case sensitive) to retrieve this motor from the hardwareMap object.  If the names do not match, the op mode will throw an exception indicating that it cannot find the device.
- 
+
 In the next few statements of the example, the op mode prompts the user to push the start button to continue.  It uses another object that is available in the runOpMode method.  This object is called telemetry and the op mode uses the addData method to add a message to be sent to the Driver Station.  The op mode then calls the update method to send the message to the Driver Station.  Then it calls the waitForStart method, to wait until the user pushes the start button on the driver station to begin the op mode run.
 
 ```
