@@ -13,6 +13,6 @@
 4. Writing an Op Mode
     * [Creating an Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks)
     * [Running an Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Running-Your-Op-Mode)
-    * [Controlling a Servo](https://github.com/ftctechnh/ftc_appg/wiki/Controlling-a-Servo-(Blocks))
+    * [Controlling a Servo](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks))
     * [Using Sensors](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks))
 
