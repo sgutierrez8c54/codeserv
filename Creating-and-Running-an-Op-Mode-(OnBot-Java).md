@@ -40,7 +40,7 @@ If you connected your laptop successfully to the Program & Manage wireless netwo
 
 Congratulations, you created your first op mode! The op mode currently does not do much, but you will eventually modify it to make it more useful.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step6_ProjectBrowser.jpg" width="200"></p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step6_ProjectBrowser.jpg" width="400"></p>
 
 Note that when you create an OnBot op mode, you create a .java file that is stored on the Robot Controller.  You can access your saved op modes using the project browser on the left side of the screen.  You can also organize your saved op modes by right mouse clicking on the project browser to display a list of options to create, edit or delete files and folders. 
 
