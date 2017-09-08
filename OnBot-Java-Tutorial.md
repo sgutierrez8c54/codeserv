@@ -1,7 +1,7 @@
 ### Table of Contents
 1. Introduction
     * [The FTC Control System](https://github.com/ftctechnh/ftc_app/wiki/The-FTC-Control-System)
-    * [Required Materials](https://github.com/ftctechnh/ftc_appg/wiki/Required-Materials)
+    * [Required Materials](https://github.com/ftctechnh/ftc_app/wiki/Required-Materials)
     * [Using Your Android Device](https://github.com/ftctechnh/ftc_app/wiki/Using-Your-Android-Device)
 2. Configuring Your Hardware
     * [Configuring Your Android Devices](https://github.com/ftctechnh/ftc_app/wiki/Configuring-Your-Android-Devices)
