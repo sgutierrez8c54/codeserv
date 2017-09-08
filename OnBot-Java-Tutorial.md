@@ -6,9 +6,9 @@
 2. Configuring Your Hardware
     * [Configuring Your Android Devices](https://github.com/ftctechnh/ftc_app/wiki/Configuring-Your-Android-Devices)
     * [Connecting Devices to an Expansion Hub](https://github.com/ftctechnh/ftc_app/wiki/Connecting-Devices-to-an-Expansion-Hub)
-    * [Configuring Your Hardware](https://github.com/ftctechnh/ftc_appg/wiki/Configuring-Your-Hardware)
+    * [Configuring Your Hardware](https://github.com/ftctechnh/ftc_app/wiki/Configuring-Your-Hardware)
 3. Connecting to the Program & Manage Server
-    * [Installing a Javascript Enabled Browser](https://github.com/ftctechnh/ftc_appg/wiki/Installing-a-Javascript-Enabled-Browser)
+    * [Installing a Javascript Enabled Browser](https://github.com/ftctechnh/ftc_app/wiki/Installing-a-Javascript-Enabled-Browser)
     * [Connecting a Laptop to Program & Manage Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Connecting-a-Laptop-to-the-Program-&-Manage-Network)
 4. Writing an Op Mode
     * [Creating & Running an Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Creating-and-Running-an-Op-Mode-(OnBot-Java))
