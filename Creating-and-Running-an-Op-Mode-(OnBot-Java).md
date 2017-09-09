@@ -226,7 +226,7 @@ The op mode will execute the statements in the runOpMode method up to the waitFo
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_PressStart.jpg" width="175"></p>
  
-Once you press the start button, the op mode will continue to iterate and send the “Status: Initialized” message to the Driver Station.  To stop the op mode, press the square-shaped stop button.
+Once you press the start button, the op mode will continue to iterate and send the “Status: Running” message to the Driver Station.  To stop the op mode, press the square-shaped stop button.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_PressStop.jpg" width="175"></p>
  
