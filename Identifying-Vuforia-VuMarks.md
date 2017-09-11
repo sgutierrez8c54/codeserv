@@ -1,7 +1,7 @@
 ### What is a VuMark? 
 The 2017-2018 FIRST Tech Challenge game includes special vision targets that contain secret clues that can be used to score extra points during the autonomous portion of a match.  These special vision targets are known as VuMarks.  The VuMarks use PTC’s Vuforia computer vision technology to encode hidden information within each picture.  This information isn’t easily noticeable to the casual human observer.  However, the FIRST Tech Challenge software for the 2017-2018 season includes special functions that let a robot read the VuMarks using the Robot Controller’s built-in camera.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuMarksLeftCenterRight.jpg" width="700"><br/>The VuMarks represent "LEFT", "CENTER", and "RIGHT" values.<p>    
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuMarksLeftCenterRight.jpg" width="700"><br/>The VuMarks represent "LEFT", "CENTER", and "RIGHT" values.<p>    
  
 The three images shown above represent “LEFT”, “CENTER” and “RIGHT” values.  If, for example, the “LEFT” image is displayed during a match, then the robots should try and score their preloaded game elements into the leftmost goal during the autonomous portion of that match.   
 
@@ -14,47 +14,47 @@ Version 3.3 and higher of the FTC Robot Controller app includes a sample op mode
  
 When you first look at the newly created example VuMark op mode, you will see Vuforia-specific blocks included in the op mode.  The Vuforia-specific blocks that are used in this example op mode can be found in the “Optimized” subcategory of the “Vuforia” collection of programming blocks.  Note that the “Vuforia” collection is a subcategory of the “Utilities” collection of blocks: 
  
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksOptimized.jpg" width="400"><br/>The Vuforia-related blocks can be found in the “Optimized” subcategory.<p> 
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksOptimized.jpg" width="400"><br/>The Vuforia-related blocks can be found in the “Optimized” subcategory.<p> 
 
 Let’s step through the blocks in the example op mode.  The op mode first uses the block “call Vuforia.initialize” to initialize the Vuforia software.  Note that the default values for the initialization parameters are used. 
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksInitialize.jpg" width="400"><br/>Initialize the Vuforia software (use default parameter values).<p> 
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksInitialize.jpg" width="400"><br/>Initialize the Vuforia software (use default parameter values).<p> 
 
 The op mode then prompts the user to push the start button to continue and it waits to receive a start command from the Driver Station. 
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksWaitForStart.jpg" width="300"><br/>Prompt user to push start button.<p>  
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksWaitForStart.jpg" width="300"><br/>Prompt user to push start button.<p>  
 
 After the op mode receives the start command, it will activate the vision tracking mechanism.  It then will enter a while loop and will continue to loop as long as the op mode is running. 
  
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksActivate.jpg" width="400"><br/>The op mode activates the tracking mechanism and starts the main op mode loop.<p> 
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksActivate.jpg" width="400"><br/>The op mode activates the tracking mechanism and starts the main op mode loop.<p> 
 
 At the start of the loop, the op mode will receive tracking information from the Vuforia system: 
  
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksResult.jpg" width="400"><br/>The op mode receives tracking information from the Vuforia system.<p> 
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksResult.jpg" width="400"><br/>The op mode receives tracking information from the Vuforia system.<p> 
  
 After the op mode has received the tracking results from the Vuforia system, it checks to see if a VuMark is currently visible,  
  
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksIsVisible.jpg" width="400"><br/>Is a VuMark Visible? <p> 
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksIsVisible.jpg" width="400"><br/>Is a VuMark Visible? <p> 
 
 If a VuMark is visible, the op mode will alert the user with a telemetry statement.  If a VuMark is visible, the op mode will also attempt to identify which VuMark it is. 
  
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksWhatType.jpg" width="700"><br/>The op mode checks to see which VuMark was detected.<p> 
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksWhatType.jpg" width="700"><br/>The op mode checks to see which VuMark was detected.<p> 
 
 If the target is identified, the op mode uses a telemetry statement to inform the user which target (LEFT, CENTER or RIGHT) was detected.  Otherwise it tells the user that the VuMark is of an unknown type. 
 If a VuMark was not visible, the op mode sends a message to Driver Station to inform the user that no VuMarks are currently visible.   
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuforiaBlocksDeactivate.jpg" width="400"><br/>The Op Mode deactivates Vuforia before it exits.<p> 
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuforiaBlocksDeactivate.jpg" width="400"><br/>The Op Mode deactivates Vuforia before it exits.<p> 
  
 When a user presses the stop button on the Driver Station, the op mode will stop its main program loop.  Before it exits, the op mode will deactivate the Vuforia software. 
 
 ### Example Java VuMark Op Mode 
 If you are a Java Programmer, there is a sample op mode that demonstrates how to check for and identify VuMarks in a Java op mode.   The sample op mode is named “ConceptVuMarkIdentification” and it’s available through both the FTC OnBot Java Programming Tool user interface, and in the ftc_app Android Studio project. If you are an OnBot Java user, when you create a new op mode, you should be able to see the item “ConceptVuMarkIdentification” listed in the drop down list of the sample op mode control.  Select this example as you create your new file. 
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuMarkJavaConceptOnBot.jpg" width="300"><br/>ConceptVuMarkIdentification is available through the OnBot Java UI.<p>  
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuMarkJavaConceptOnBot.jpg" width="300"><br/>ConceptVuMarkIdentification is available through the OnBot Java UI.<p>  
 
 If you are an Android Studio user, you can find a copy of the ConceptVuMarkIdentification sample op mode in the external.samples subfolder of the ftc_app Android project.  Copy this op mode to your teamcode op mode directory and comment out the @Disabled annotation to enable this op mode. 
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/TmpTesting/blob/master/images/VuMark/VuMarkJavaConcept.jpg" width="250"><br/>ConceptVuMarkIdentification is available in the Android Studio project folder.<p>  
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/VuMark/VuMarkJavaConcept.jpg" width="250"><br/>ConceptVuMarkIdentification is available in the Android Studio project folder.<p>  
  
 Let’s take a look at the key statements in the example source code. In the class definition for your op mode there is a member variable of type VuforiaLocalizer: 
 
