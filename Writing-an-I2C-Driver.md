@@ -704,7 +704,8 @@ Those are all the changes we need to make to the driver class in order to add th
 ```
 
 Now we have a very easy way for each OpMode to specify different settings depending on what’s needed. Again, it may be sufficient to have the settings hard coded, but this provides a somewhat more elegant solution.
-Other Sensors
+
+###Other Sensors
 As stated before, the practical uses of this temperature sensor are limited for FTC use, but it does a good job of showing the basics of creating an I2C sensor driver and the intricate details associated with doing so. To recap, the basic outline of the process is as follows:
 * Hardware
     * Buy sensor
