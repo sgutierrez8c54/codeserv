@@ -1,3 +1,8 @@
+### Introduction
+The FTC OnBot Java Programming Tool is a text-based programming tool that lets programmers use a web browser to create, edit and save their Java op modes.  This tool is recommended for programmers who have basic to advanced Java skills and who would like to write text-based op modes.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/onBotJavaScreen.jpg" width="250"><p>
+
 ### Table of Contents
 1. Introduction
     * [The FTC Control System](https://github.com/ftctechnh/ftc_app/wiki/The-FTC-Control-System)
