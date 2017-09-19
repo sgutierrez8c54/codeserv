@@ -4,7 +4,7 @@ If you are an Android Studio user, one of **the most important steps to take** i
 Teams who use Android Studio **_must_** disable Instant Run.
 
 ### Locating Instant Run Settings
-When you first launch Android Studio a Welcome screen should appear.  You can navigate to the Instant Run Settings from this Welcome screen by selecting the "Configure->Settings" from the "Configure" dropdown list in the lower right hand corner of the screen.
+When you first launch Android Studio a Welcome screen should appear.  You can navigate to the Instant Run Settings from this Welcome screen by selecting the "Configure->Settings" item from the "Configure" dropdown list in the lower right hand corner of the screen.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/ConfigureSettings.jpg" width="500"><p>
 
