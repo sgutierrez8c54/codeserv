@@ -173,9 +173,14 @@ Android Studio should prompt you to select a target device to install the Robot 
 
 Make sure that you select the correct target device.  In the figure above the Motorola phone is selected as the target device.  Hit OK to build the APK file and install it on the target device.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/RCLaunched.jpg" width="175"></p>
+Note that if you previously installed a copy of the FTC Robot Controller app the Google Play store, the installation of the app will fail the first time you attempt to install it.  This is because Android Studio detects that the app that you just build has a different digital signature than the official version of the FTC Robot Controller app.  If this happens, Android Studio will prompt you to ask if it's OK to uninstall the previous (official) version of the app from your device and replace it with the updated version of the app.  Select "OK" to uninstall the previous version and to replace it with your newly created Robot Controller App (see image below).
 
-If the installation was successful, the Robot Controller app should be launched on the target Android device.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/ApplicationInstallFailed.jpg" width="225"></p>
+
+If the installation was successful, the Robot Controller app should be launched on the target Android device (see image below).
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/RCLaunched.jpg" width="175"></p>
 
 ### Running Your Op Mode
 If you successfully built and installed your updated Android app with your new op mode, then you are ready to run the op mode.  Verify that the Driver Station is still connected to the Robot Controller.  Since you designated that your example op mode is a tele-operated op mode, it will be listed as a “TeleOp” op mode.  
