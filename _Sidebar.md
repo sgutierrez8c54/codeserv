@@ -1,7 +1,7 @@
 1.  [Home](https://github.com/ftctechnh/ftc_app/wiki)
 2.  [The FTC Control System](https://github.com/ftctechnh/ftc_app/wiki/The-FTC-Control-System)
 3.  [Choosing a Programming Tool](https://github.com/ftctechnh/ftc_app/wiki/Choosing-a-Programming-Tool)
-4.  [Block Programming Tutorial](https://github.com/ftctechnh/ftc_app/wiki/Blocks-Tutorial)
+4.  [Blocks Tutorial](https://github.com/ftctechnh/ftc_app/wiki/Blocks-Tutorial)
 5.  [OnBot Java Tutorial](https://github.com/ftctechnh/ftc_app/wiki/OnBot-Java-Tutorial)
 6.  [Android Studio Tutorial](https://github.com/ftctechnh/ftc_app/wiki/Android-Studio-Tutorial)
 7.  [Advanced Topics](https://github.com/ftctechnh/ftc_app/wiki/Advanced-Topics)
