@@ -21,5 +21,6 @@ The FTC Blocks Programming Tool is a visual design tool that lets programmers us
     * [Running an Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Running-Your-Op-Mode)
     * [Controlling a Servo](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Blocks))
     * [Using Sensors](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Blocks))
-5. [Blocks Reference Material] (https://github.com/ftctechnh/ftc_app/wiki/Blocks-Reference-Material)
+5. [Blocks Reference Material](https://github.com/ftctechnh/ftc_app/wiki/Blocks-Reference-Material)
+
 
