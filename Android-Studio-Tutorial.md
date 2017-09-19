@@ -20,4 +20,4 @@ Android Studio is an advanced integrated development environment for creating An
     * [Enabling Developer Options](https://github.com/ftctechnh/ftc_app/wiki/Enabling-Developer-Options)
     * [Creating & Running an Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Creating-and-Running-an-Op-Mode-(Android-Studio))
     * [Controlling a Servo](https://github.com/ftctechnh/ftc_app/wiki/Controlling-a-Servo-(Android-Studio))
-    * Using Sensors
+    * [Using Sensors](https://github.com/ftctechnh/ftc_app/wiki/Using-Sensors-(Android-Studio))
