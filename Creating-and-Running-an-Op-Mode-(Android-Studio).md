@@ -1,59 +1,50 @@
-### The Java Programming Language
-This tutorial assumes that you have a sound understanding of the Java programming language.  If you do not know Java, then you should consider using the FTC Blocks Programming Tool, which is a visual development tool.  Information about the FTC Blocks Programming Tool can be found at the following address:
+### TeamCode Module
+If you successfully imported the FTC Android Studio project folder, you will see on the project browser an Android module named "TeamCode".  The FTC Android Studio project folder will be used to build a version of the FTC Robot Controller app that includes the custom op modes that you will write to control your competition robot.
 
-https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/teamcodeFolder.jpg" width="300"><p>
 
-Or, you can learn the Java programming language by completing the Oracle Java Tutorial, which is available at the following address:
+When you create your classes and op modes, you will to create them in the org.firstinspires.ftc.teamcode package that resides in the TeamCode module. This package is reserved for your use within the FTC Android Studio project folder.
 
-https://docs.oracle.com/javase/tutorial/
+### Javadoc Reference Information
 
-### What's an Op Mode?
-During a typical FIRST Tech Challenge match, a team’s robot must perform a variety of tasks to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write programs called “op modes” (which stands for “operational modes”) to specify the behavior for their robot.  These op modes run on the Robot Controller phone after being selected on the Driver Station phone.
+The Javadoc reference documentation for the FTC SDK is available online. Visit the following URL to view the FTC SDK documentation:
 
-Teams who are participating in the FIRST Tech Challenge have a variety of programming tools that they can use to create their own op modes.  This document explains how to use the FTC OnBot Java Programming Tool to write an op mode for an FTC robot.
+http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html
 
-### The FTC OnBot Java Programming Tool
+### Enabling Auto Import
+The auto import feature of Android Studio is a convenient function that helps save time as you write your op mode.  If you would like to enable this feature, select the Editor->General->Auto Import item from the Android Studio Settings screen.  This will display the editor's auto import settings. 
 
-The FTC OnBot Java Programming Tool is a user-friendly programming tool that is served up by the Robot Controller phone.  A user can create custom op modes for their robot using this tool and then save these op modes directly onto the Robot Controller.  Users write their op modes using Java.  The op modes are compiled very quickly on the Robot Controller and then loaded dynamically by the Robot Controller during run time.
+Check the "Add unambiguous imports on the fly" so that Android Studio will automatically add the required import statements for classes that you would like to use in your op mode.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc001_MainScreen.jpg" width="500"><p>
-
-The examples in this document use a Windows laptop computer to connect to the Robot Controller.  This Windows laptop computer has a Javascript-enabled web browser installed that is used to access the FTC OnBot Java Programming Tool.
-
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc002_WiFiConnection.jpg" width="500"><p>
-
-Note that if you prefer, you can use an alternate device, such as an Apple Mac laptop, Chromebook, or an iPad instead of a Windows computer to access the OnBot Java Programming Tool.  The instructions included in this document, however, assume that you are using a Windows laptop.
-
-Note that this section of the wiki assumes that you have already setup and configured your Android devices and robot hardware.  It also assumes that you have successfully connected your laptop to the Progam & Manage server on the Robot Controller device.
-
-### Creating Your First Op Mode
-If you connected your laptop successfully to the Program & Manage wireless network of the Robot Controller, then you are ready to create your first op mode.  In this section, you will use the OnBot Java Programming Tool to create the program logic for your first op mode.
-
-| Creating Your First Op Mode |
-| ---- |
-| 1. Find the web address that is displayed on the Program & Manage screen of the Robot Controller Android device.  In our example, the web address is “192.168.49.1:8080”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/ProgramAndManageWebAddress.jpg" width="250"></p>Launch the web browser on your laptop (FIRST recommends using Google Chrome). Type this web address into the address field of your browser to navigate to the Program & Manage web server.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/ChromeWebAddress.jpg" width="300"></p> |
-| 2. Verify that your web browser is connected to the Program & Manage server.  If it connected to the Program & Manage server successfully, then you should see the main Robot Controller Connection screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step2_MainProgramAndManage.jpg" width="550"></p> |
-| 3. Click on the word “OnBotJava” towards the top of the screen.  This will switch the browser to OnBot Java Programming mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step3_OnBotJavaButton.jpg" width="250"></p> |
-| 4. Take a look at the OnBot Java user interface.  On the left hand side, there is the project browser pane.  In the upper right hand corner, there is the source code editing pane.  In the lower right hand corner, there is the message pane.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step4_OnBotScreen.jpg" width="650"></p> |
-| 5. In the project browser pane, press the “+” symbol to create a new file.  Pushing this button will launch the New File dialog box.  This dialog box has several parameters that you can configure to customize your new file.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step5_NewFile.jpg" width="350"></p><br/>For this example, specify “MyFIRSTJavaOpMode” as the File Name in the New File dialog box.<br/><br/>Using the Sample dropdown list control, select “BlankLinearOpMode” from the list of available sample op modes (see image above).  By selecting “BlankLinearOpMode” the OnBot Java editor will automatically generate a basic LinearOpMode framework for you.<br/><br/>Check the option labeled “TeleOp” to ensure that this new file will be configured as a tele-operated (i.e., driver controlled) op mode.<br/><br/>Also, make sure you check the “Setup Code for Configured Hardware” option.  If this option is enabled, the OnBot Java editor will look at the hardware configuration file for your Robot Controller and automatically generate the code that you will need to access the configured devices in your op mode.<br/><br/>Press the “OK” button to create your new op mode. |
-| 6. You should see your newly created op mode in the editing pane of the OnBot Java user interface.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step6_NewOpModeEditPane.jpg" width="550"></p> |
-
-Congratulations, you created your first op mode! The op mode currently does not do much, but you will eventually modify it to make it more useful.
-
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_Step6_ProjectBrowser.jpg" width="400"></p>
-
-Note that when you create an OnBot op mode, you create a .java file that is stored on the Robot Controller.  You can access your saved op modes using the project browser on the left side of the screen.  You can also organize your saved op modes by right mouse clicking on the project browser to display a list of options to create, edit or delete files and folders. 
-
-Also, note that the OnBot Java editor automatically saves your op mode as you are editing it, provided that you are connected to the Program & Manage server.
-
-### Examining the Structure of Your Op Mode
-It can be helpful to think of an op mode as a list of tasks for the Robot Controller to perform.  For a linear op mode, the Robot Controller will process this list of tasks sequentially.  Users can also use control loops (such as a while loop) to have the Robot Controller repeat (or iterate) certain tasks within a linear op mode.
-
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/ExaminingStructurePic2.jpg" width="300"></p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/AutoImport.jpg" width="500"><p>
  
-If you think about an op mode as a list of instructions for the robot, this set of instructions that you created will be executed by the robot whenever a team member selects the op mode called “MyFIRSTJavaOpMode” from the list of available op modes for this Robot Controller.
+### Sample Op Modes
+A great way to learn how to program a robot is to examine the sample op modes that are included with the FTC Android Studio project folder.  You can locate these files in the FtcRobotController module in the package "org.firstinspires.ftc.robotcontroller.external.samples".
 
-Let’s look at the structure of your newly created op mode.  Here’s a copy of the op mode text (minus some comments, the package definition, and some import package statements):
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/externalSamples.jpg" width="300"><p>
+
+If you would like to use a sample op mode, copy it from the "org.firstinspires.ftc.robotcontroller.external.samples" package and move it to the "org.firstinspires.ftc.teamcode".  
+
+In your newly copied op mode, look for the following annotation,
+
+```
+@Disabled
+```
+and comment out this line to enable the op mode and allow it to be run on the Robot Controller:
+
+```
+//@Disabled
+```
+### Creating Your FIRST Op Mode
+Right mouse click on the "org.firstinspires.ftc.teamcode" package and select New->Java Class from the pop-up menu.  The Create New Class dialog box appear.  Specify the name of the new class as "MyFIRSTJavaOpMode" and specify as its superclass the class LinearOpMode which is in the package "com.qualcomm.robotcore.eventloop.opmode".
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/CreateLinearOpMode.jpg" width="500"><p>
+
+Press the OK button to create the new class.  The source code for the new class should appear in the editing pane of the Android Studio user interface.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/NewOpMode.jpg" width="700"><p>
+
+Modify the main portion of your op mode so that it looks like the following code (note that the package definition and some import statements have been omitted in the following source code):
 
 ```
 @TeleOp
@@ -88,6 +79,20 @@ public class MyFIRSTJavaOpMode extends LinearOpMode {
     }
 }
 ```
+
+We will use this source code as the framework for your first op mode.  Note that Android Studio automatically saves your source code as you are editing it.
+
+Congratulations!  You've written an op mode.  It does not do much, but we will modify it to make it more useful.
+
+### Examining the Structure of Your Op Mode
+It can be helpful to think of an op mode as a list of tasks for the Robot Controller to perform.  For a linear op mode, the Robot Controller will process this list of tasks sequentially.  Users can also use control loops (such as a while loop) to have the Robot Controller repeat (or iterate) certain tasks within a linear op mode.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/ExaminingStructurePic2.jpg" width="300"></p>
+ 
+If you think about an op mode as a list of instructions for the robot, this set of instructions that you created will be executed by the robot whenever a team member selects the op mode called “MyFIRSTJavaOpMode” from the list of available op modes for this Robot Controller.
+
+Let’s look at the structure of your newly created op mode 
+
 At the start of the op mode there is an annotation that occurs before the class definition.  This annotation states that this is a tele-operated (i.e., driver controlled) op mode:
 
 ```
@@ -157,63 +162,23 @@ After a start command has been received, the op mode enters a while loop and kee
 
 As the op mode iterates in the while loop, it will continue to send telemetry messages with the index of “Status” and the message of “Running” to be displayed on the Driver Station.
 
-### Building Your Op Mode
-When you create or edit an op mode the OnBot Java editor will auto-save the .java file to the file system of the Robot Controller.  However, before you can execute your changes on the Robot Controller, you must first build the op mode and convert it from a Java text file to a binary that can be loaded dynamically into the FTC Robot Controller app.
+### Building and Installing Your Op Mode
+Verify that the Robot Controller phone is connected to your laptop and that the laptop has USB debugging permission for the phone.  Look towards the top of the Android Studio user interface and find the little green Play or Run button (which is represented by a green triangle) next to the words “Team Code”.  Press this green button to build the Robot Controller app and to install it onto your phone.
 
-If you are satisfied with your op mode and are ready to build, press the Build button (which is the button with the wrench symbol, see image below) to start the build process.  Note that the build process will build **all of the .java files** on your Robot Controller.
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/RunTeamCode.jpg" width="300"></p>
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_BuildButton.jpg" width="175"></p>
+Android Studio should prompt you to select a target device to install the Robot Controller app.  Your screen might look something like the image shown below.
 
-You should see messages appear in the message pane, which is located in the lower right hand side of the window.  If your build was successful, you should see a “Build succeeded!” message in the message pane.
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/SelectDeploymentTarget.jpg" width="300"></p>
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_BuildSucceeded.jpg" width="550"></p>
+Make sure that you select the correct target device.  In the figure above the Motorola phone is selected as the target device.  Hit OK to build the APK file and install it on the target device.
 
-Once you have built the binary files with your updated op modes, they are ready to run on the Robot Controller.  Before we run our example op mode, let’s see what happens if a problem occurs during the build process.
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/RCLaunched.jpg" width="175"></p>
 
-### Troubleshooting Build Messages
-In the previous section, the build process went smoothly.  Let’s modify your op mode slightly to cause an error in the build process.
+If the installation was successful, the Robot Controller app should be launched on the target Android device.
 
-In the editing pane of the OnBot Java window, look for the line that reads “private Servo servoTest;”.  This should appear somewhere near the beginning of your op mode class definition.  Change the word “Servo” to the word “Zervo”:
-
-```
-private Zervo servoTest;
-```
-
-Also, let’s modify the telemetry statement that informs the user that the op mode has been initialized, and let’s remove one of the two arguments so that the statement looks like this:
-
-```
-telemetry.addData("Status",);
-```
-
-Note that when you eliminate the second argument, a little “x” should appear next to the line with the modified addData statement.  This “x” indicates that there is a syntax error in the statement.
-
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_SyntaxError.jpg" width="350"></p>
-
-After you have modified your op mode, you can press the build button and see what error messages appear.  
-
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_IllegalStart.jpg" width="550"></p>
-
-When you first attempt to build the op mode, you should get an “illegal start of expression error”.  This is because the addData method is missing its second argument.  The OnBot Java system also directs you to the file that has the error, and the location within the file where the error occurs.  
-
-In this example, the problem file is called “org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java” and the error occurs at line 62, column 37.  It is important to note that the build process builds all of the .java files on the Robot Controller.  If there is an error in a different file (one that you are not currently editing) you will need to look at the file name to determine which file is causing the problem.
-
-Let’s restore this statement back to its original, correct form:
-
-```
-telemetry.addData("Status", "Initialized");
-```
-
-After you have corrected the addData statement, push the build button again to see what happens.  The OnBot Java system should complain that it cannot find the symbol “Zervo” in a source file called “org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java” at line 51, column 13.
-
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_cannotFind.jpg" width="550"></p>
-
-You should restore the statement back to its original form and then push the build button and verify that the op mode gets built properly.
-
-```
-private Servo servoTest;
-```
 ### Running Your Op Mode
-If you successfully rebuilt your op mode, you are ready to run the op mode.  Verify that the Driver Station is still connected to the Robot Controller.  Since you designated that your example op mode is a tele-operated op mode, it will be listed as a “TeleOp” op mode.  
+If you successfully built and installed your updated Android app with your new op mode, then you are ready to run the op mode.  Verify that the Driver Station is still connected to the Robot Controller.  Since you designated that your example op mode is a tele-operated op mode, it will be listed as a “TeleOp” op mode.  
 On the Driver Station, use the “TeleOp” dropdown list control to display the list of available op modes.  Select your op mode (“MyFIRSTJavaOpMode”) from the list.
  
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_SelectMyFIRSTOpMode.jpg" width="175"></p>
@@ -275,7 +240,7 @@ The next set of statements sets the power of motorTest to the value represented 
     telemetry.addData("Motor Power", motorTest.getPower());
 ```
 
-After you have modified your op mode to include these new statements, press the build button and verify that the op mode was built successfully.
+After you have modified your op mode to include these new statements, build and install the updated app onto your Robot Controller Android device.
 
 ### Running Your Op Mode with a Gamepad Connected
 
