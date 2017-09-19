@@ -14,7 +14,7 @@ Android Studio is an advanced integrated development environment for creating An
     * [Configuring Your Hardware](https://github.com/ftctechnh/ftc_app/wiki/Configuring-Your-Hardware)
 3. Installing Android Studio
     * [Downloading and Installing Android Studio](https://github.com/ftctechnh/ftc_app/wiki/Installing-Android-Studio)
-    * Disabling Android Studio Instant Run
+    * [Disabling Android Studio Instant Run](https://github.com/ftctechnh/ftc_app/wiki/Disabling-Android-Studio-Instant-Run)
     * [Downloading the FTC Android Studio Project](https://github.com/ftctechnh/ftc_app/wiki/Downloading-the-Android-Studio-Project-Folder)
 4. Writing an Op Mode
     * Creating & Running an Op Mode
