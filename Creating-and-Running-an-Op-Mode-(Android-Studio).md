@@ -179,6 +179,7 @@ If the installation was successful, the Robot Controller app should be launched 
 
 ### Running Your Op Mode
 If you successfully built and installed your updated Android app with your new op mode, then you are ready to run the op mode.  Verify that the Driver Station is still connected to the Robot Controller.  Since you designated that your example op mode is a tele-operated op mode, it will be listed as a “TeleOp” op mode.  
+
 On the Driver Station, use the “TeleOp” dropdown list control to display the list of available op modes.  Select your op mode (“MyFIRSTJavaOpMode”) from the list.
  
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_SelectMyFIRSTOpMode.jpg" width="175"></p>
