@@ -1,5 +1,5 @@
 ### Blocks Reference Manual
-As you start to write more complicated op modes, you will need to use more features of the FIRST Tech Challenge software development kit (SDK).  Bruce Schaffer of the Oregon Robotics Tournament & Outreach Program (ORTOP) created a useful reference document that describes the programming blocks that are available with the FTC Blocks Programming Tool:
+As you start to write more complicated op modes, you will need to use more features of the FIRST Tech Challenge software development kit (SDK).  Bruce Schafer of the Oregon Robotics Tournament & Outreach Program (ORTOP) created a useful reference document that describes the programming blocks that are available with the FTC Blocks Programming Tool:
 
 [FTC Blocks Programming Tool Reference Manual](http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf)
 
