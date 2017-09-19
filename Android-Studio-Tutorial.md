@@ -18,6 +18,6 @@ Android Studio is an advanced integrated development environment for creating An
     * [Downloading the FTC Android Studio Project](https://github.com/ftctechnh/ftc_app/wiki/Downloading-the-Android-Studio-Project-Folder)
 4. Writing an Op Mode
     * [Enabling Developer Options](https://github.com/ftctechnh/ftc_app/wiki/Enabling-Developer-Options)
-    * Creating & Running an Op Mode
+    * [Creating & Running an Op Mode](https://github.com/ftctechnh/ftc_app/wiki/Creating-and-Running-an-Op-Mode-(Android-Studio))
     * Controlling a Servo
     * Using Sensors
