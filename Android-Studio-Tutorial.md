@@ -17,6 +17,7 @@ Android Studio is an advanced integrated development environment for creating An
     * [Disabling Android Studio Instant Run](https://github.com/ftctechnh/ftc_app/wiki/Disabling-Android-Studio-Instant-Run)
     * [Downloading the FTC Android Studio Project](https://github.com/ftctechnh/ftc_app/wiki/Downloading-the-Android-Studio-Project-Folder)
 4. Writing an Op Mode
+    * [Enabling Developer Options](https://github.com/ftctechnh/ftc_app/wiki/Enabling-Developer-Options)
     * Creating & Running an Op Mode
     * Controlling a Servo
     * Using Sensors
