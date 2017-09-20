@@ -38,7 +38,7 @@ This sequence will repeat over and over again.
 Use this process to check the serial addresses for each of your Expansion Hubs.  Note that the factory default address is 2. 
 
 ### Changing the Address of an Expansion Hub 
-You can use the Advanced Settings menu of the FTC apps to change the address of an Expansion Hub.  Note that it is recommended that when you change the address of an Expansion Hub, you only connect one Expansion Hub to the Robot Controller during the change address process.
+You can use the Advanced Settings menu of the FTC Robot Controller App to change the address of an Expansion Hub.  Note that it is recommended that when you change the address of an Expansion Hub, you only connect one Expansion Hub to the Robot Controller during the change address process.
 
 With your Expansion Hub connected to the 12V battery and to the Robot Controller, launch the Settings menu from Robot Controller app (note you can also do this from the Driver Station app, if the Driver Station is paired to the Robot Controller).
    
