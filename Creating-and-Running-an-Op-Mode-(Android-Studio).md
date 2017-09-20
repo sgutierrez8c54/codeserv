@@ -107,7 +107,7 @@ You can see from the sample code that an op mode is defined as a Java class.  In
 public class MyFIRSTJavaOpMode extends LinearOpMode {
 ```
 
-You can also see that the OnBot Java editor created five private member variables for this op mode.  These variables will hold references to the five configured devices that the OnBot Java editor detected in the configuration file of your Robot Controller.
+You can also see that the sample op mode includes five private member variables for this op mode.  These variables will hold references to the five devices that you configured earlier for the configuration file of your Robot Controller.
 
 ```
     private Gyroscope imu;
