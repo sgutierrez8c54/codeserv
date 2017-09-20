@@ -99,6 +99,6 @@ If you click on the Portal item in the configuration screen, you should see two 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Advanced/TwoExpansionHubs/TwoHubsConfigured.jpg" width="175"> </p>
  
-You can save this configuration file and return to the main screen of the Robot Controller.  After the robot has been restarted, each hub's LED should be blinking in the manner that indicates its individual address. 
+You can save this configuration file and return to the main screen of the Robot Controller.  After the robot has been restarted, each Hub's LED should be blinking in the manner that indicates its individual address. 
   
 Congratulations, you are now ready to use your dual Expansion Hubs!  You can configure and operate these Hubs as you would an individual Hub. 
