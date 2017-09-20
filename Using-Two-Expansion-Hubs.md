@@ -19,7 +19,7 @@ To follow along with the instructional steps in this document, you will need the
 | REV Robotics XT30 Extension Cable (REV-31-1394). | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Advanced/TwoExpansionHubs/xt30Extension.jpg"  width="150"> |
 
 ### Checking the Address of an Expansion Hub 
-Before you connect your two Expansion Hubs together, you should first check the serial addresses associated with each of the Hubs.   
+Before you connect your two Expansion Hubs together, you should first check the serial address associated with each of the Hubs.   
 
 Each Expansion Hub has a serial address assigned to it at the factory.   By default, this serial address is the same for all Hubs.  If you want to connect two Expansion Hubs together, then you will have to change the address of one of your Hubs. 
 
