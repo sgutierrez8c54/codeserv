@@ -62,7 +62,7 @@ Push the "Done" button to change the address.    You should see a message indica
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Advanced/TwoExpansionHubs/AddressChangeComplete.jpg" width="175"> </p>
 
-### Warning: Expansion Hub "Expansion Hub2" is missing 
+### Warning: Expansion Hub "Expansion Hub 2" is missing 
 After the address has been successfully changed, if you return back to the main screen of your Robot Controller app (which will restart the robot), you should see an error message indicating that the Robot Controller can no longer find the Expansion Hub that you configured earlier.  This is because the configuration file was created with the original address of the Expansion Hub. 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Advanced/TwoExpansionHubs/ExpansionHub2Missing.jpg" width="175"> </p>
