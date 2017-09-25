@@ -23,4 +23,4 @@ The technology forum can be found at the following address:
 
 ### REV Robotics Expansion Hub Documentation
 
-  * [REV Robotics Expansion Hub Getting Started Guide](http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf)
+[REV Robotics Expansion Hub Getting Started Guide](http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf)
