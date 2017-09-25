@@ -20,3 +20,6 @@ Registered teams can create user accounts on the FIRST Tech Challenge forum.  Te
 The technology forum can be found at the following address:
 
 [https://ftcforum.usfirst.org/forum/ftc-technology?156-FTC-Technology](https://ftcforum.usfirst.org/forum/ftc-technology?156-FTC-Technology)
+
+REV Robotics Expansion Hub Documentation
+[REV Robotics Expansion Hub Getting Started Guide](http://www.revrobotics.com/content/docs/REV-31-1153-GS.pdf)
