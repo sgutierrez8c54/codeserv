@@ -2,6 +2,8 @@ The REV Robotics Expansion Hub allows a user to change the PID coefficients used
 
 The following op mode uses an extended or enhanced DcMotor class (called "DcMotorEx") to change the PID coefficients for the RUN_USING_ENCODER mode for a motor named "left_drive".  The op mode uses the setPIDCoefficients method of the DcMotorEx class to change the values.  This method is not available with the standard DcMotor class.
 
+Note that changes made to the PID coefficients do not persist if you power cycle the REV Robotics Expansion Hub.  If you need your changes to the PID to persist, you should consider modifying your op mode to store state information on the Android phone.  The Android Developer website has a tutorial on how to save data from your app onto an Android device (see https://developer.android.com/training/basics/data-storage/index.html).
+
 ```
 package org.firstinspires.ftc.teamcode;
 
