@@ -76,7 +76,7 @@ Certain parts of the Control System’s electronics have exposed metal or are po
 
 For example, the 4-wire sensor cables that are used by the REV Robotics Expansion Hub have plastic connectors that are poorly insulated.  If a charge accumulates on the metal frame of the robot, and the end of sensor cable is placed close to the frame, a shock can occur and this shock can disrupt or even damage the I2C port of an Expansion Hub.  
 
-Similarly, some servo extension cables (see Figure 41) have exposed portions of metal that could be vulnerable to ESD unless properly isolated or insulated.
+Similarly, some servo extension cables (see figure above) have exposed portions of metal that could be vulnerable to ESD unless properly isolated or insulated.
  
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/keepawayfromframe.jpg" width="300"></p>
 
