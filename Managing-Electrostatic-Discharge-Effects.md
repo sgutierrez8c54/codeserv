@@ -84,7 +84,7 @@ Similarly, some servo extension cables (see figure above) have exposed portions 
 
 Moving these vulnerable areas of the electronics system away from the frame (with an air gap greater than 3/8” or 10mm) can help reduce the risk of an ESD disruption.  Using electrical tape to insulate these areas can be equally effective and may be easier to implement.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/tapepoorlyinsulated.jpg" width="300"></p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/tapepoorlyinsulated.jpg" width="500"></p>
 
 <p align="center">Electrical tape can be used to insulate exposed or poorly insulated metal.</p>
 
