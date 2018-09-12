@@ -9,6 +9,26 @@ An electrostatic discharge (ESD) event occurs when a highly charged conductive o
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/positivelyChargedRobot.png" width="500"></p>
 <p align="center">Positively charged robot next to neutral field wall.</p>
 
+### How Robots Become Charged
+Consider what happens when you shuffle your feet on a carpet in wool socks and then touch a door knob. You'll almost certainly get a shock. What causes this phenomenon? When two surfaces interact, there is a small amount of adhesion. This means that they share electrons and if they are made from different materials the electron sharing may be uneven. When the surfaces are taken apart, they can become charged.  This is called the triboelectric effect. 
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/triboelectric.png" width="400"></p>
+<p align="center">Robots become charged due to the triboelectric effect.</p>
+ 
+A robot's wheels moving on field tiles build charge on the robot frame just like your wool socks moving on carpet build charge on your body. Many other plastic and rubber materials behave similarly. It is important to note that triboelectric charging takes charge from one object and gives it to another, so the charges are mirrored. In the case of an FTC robot, positive charge accumulates on the wheels and negative charge accumulates on the tiles.
+
+Note that a robot with wheels that slide across the soft tiles of a competition field will build electrostatic charge on its frame more rapidly than a robot with wheels that roll across the tiles.
+
+### Discharging a Robot
+
+Current “wants” to flow from objects at higher potential to the objects at lower potential to equalize the voltage difference between them and it will if given a conductive path to do so (like an uninsulated wire). In the case of a robotics competition, if a robot is at a higher potential than another metallic object (such as a portion of the game field), an ESD event will occur if the frame of the charged robot contacts the other object.   
+
+
+If the potential difference is high enough, it is also possible for current to flow through the air in the form of an electrical arc.  Arcing occurs when the air between two differently charged conductors becomes ionized and allows current to flow from one conductor to the other. Arcs at voltages seen on FIRST Tech Challenge robots can jump air gaps of more than 3/8” (1 cm). Arcs behave almost like direct contact, so they can carry a significant amount of current. Visible sparks go with large electrostatic arcs.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/discharging.png" width="400"></p>
+<p align="center">Electric arc between two spheres of opposite charge.</p>
+
 ### What Steps can be Taken to Mitigate the Risk of an ESD Disruption?
 
 #### Step 1: Treating the Tile Floor with Anti-Static Spray (Event Hosts Only)
