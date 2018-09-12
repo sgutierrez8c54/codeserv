@@ -64,13 +64,13 @@ Electrically isolating or insulating the electronics from the frame can help avo
 ##### Sub Step A: Mounting Electronics on a Non-Conductive Material
 Mounting the Control System Electronics on a non-conductive material, such as a thin sheet of plywood or a sheet of PVC type A, can help reduce the risk of an ESD event between the frame and the electronics.  Using a non-conductive, rigid panel can also help with wire management and strain relieving.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/mountonplywood.jpg" width="300"></p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/mountonplywood.jpg" width="500"></p>
 
 ##### Sub Step B: Isolate Exposed or Poorly Insulated Parts of the Electronics
 Certain parts of the Control System’s electronics have exposed metal or are poorly insulated.  If these parts are placed too close to the metal frame, a shock can occur if a charge accumulates on the frame.
 
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/poorlyinsulated.jpg" width="300"></p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/poorlyinsulated.jpg" width="700"></p>
    
 <p align="center">Electrostatic shocks can occur at poorly insulated or exposed portions of the electronics.</p>
 
@@ -92,7 +92,7 @@ Moving these vulnerable areas of the electronics system away from the frame (wit
 
 Another ESD mitigation strategy is to cover exposed portions of metallic frame pieces with an electrically insulating material.  Covering the conductive exterior parts of a robot with a non-conductive material reduces the risk that they will touch a conductive object at a different electrical potential and trigger an ESD event. Wooden bumpers, electrical tape, and other non-conductive coatings are all effective.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/coverwithtape.jpg" width="300"></p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/coverwithtape.jpg" width="500"></p>
 <p align="center">Insulating portions of the robot that touch other metallic objects on the field can help.</p>
 
 In past seasons, teams who have done this have observed reductions in the frequency and severity of ESD events on their robots.
