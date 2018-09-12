@@ -113,7 +113,7 @@ Note that if your team uses Anderson Powerpole connectors, then you will need to
 
 To ground the electronics, plug one end of the FIRST-approved cable into a spare XT30 port on the Control System electronics.  Then bolt the other end using a conductive (i.e., metal) bolt to the frame of the robot.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/groundtheelectronics.png" width="300"></p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/esd/groundtheelectronics.png" width="500"></p>
 <p align="center">Ground the electronics to the frame using a FIRST-approved cable.</p>
 
 It might initially seem contradictory to both insulate the electronic components of the control system from the frame and to also ground the electronics to the frame.  However, if the electronics are not grounded to the frame, shocks can occur if a charge builds on the robot frame and an exposed or poorly insulated portion of the electronics (such as the base of a REV Robotics color sensor) gets close it. If the electronics are grounded to the frame, the grounding wire helps keep the electronics at the same potential as the frame, preventing arcs between the two systems.
