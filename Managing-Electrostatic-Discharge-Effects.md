@@ -57,7 +57,7 @@ Using ferrite chokes can be a very effective method for mitigating the effects o
     * Servo cables
 
 #### Step 3: Electrically Isolating the Electronics from the Metal Frame of the Robot
-As a robot moves back and forth across the tile floor during a FIRST Tech Challenge match, charge can accumulate on the metallic frame of the robot due to the triboelectric effect.  If a charge builds up on the frame of the robot, but electronics that make up the Control System is at a different voltage, then a shock can occur if an exposed or poorly insulated portion of the Control System gets close (less than 3/8” or 10mm) to the metal frame.
+As a robot moves back and forth across the tile floor during a FIRST Tech Challenge match, charge can accumulate on the metallic frame of the robot due to the triboelectric effect.  If a charge builds up on the frame of the robot, but the electronics that make up the Control System are at a different voltage, then a shock can occur if an exposed or poorly insulated portion of the Control System gets close (less than 3/8” or 10mm) to the metal frame.
 
 Electrically isolating or insulating the electronics from the frame can help avoid disruptions due to this type of shock.
 
