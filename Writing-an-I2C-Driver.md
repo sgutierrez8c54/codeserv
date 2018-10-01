@@ -1,3 +1,6 @@
+## Editorial Note:
+This article refers to a deprecated approach to writing a driver.  A revised document with updated instructions on how to write an I2C driver will post posted soon to replace this version.
+
 ### Tutorial: Writing an I2C Driver
 I2C (which can be pronounced as either "I squared C" or "I two C") is a type of low cost serial bus that is commonly used to connect peripheral electronic devices, such as a sensor, to a microcontroller (such as the REV Robotics Expansion Hub).  The _FIRST_ Tech Challenge software has built-in support for several commercially available sensors.  The _FIRST_ Tech Challenge software development kit (SDK) also lets advanced users write their own software driver to integrate an I2C device with the FTC Robot Controller app.
 
