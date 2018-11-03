@@ -60,7 +60,7 @@ The "Left" and "Right" values of an object's bounding box correspond to horizont
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/images/tfodBoundaries.png" width="300"><br/>The "Left" and "Top" boundaries of a detection box when the image is in Portrait mode.<p>
 
-If you wanted to use your smartphone in Landscape mode, then make sure that your phone is in Landscape mode when the TensorFlow object detector is initialized.
+If you want to use your smartphone in Landscape mode, then make sure that your phone is in Landscape mode when the TensorFlow object detector is initialized.  Landscape mode is preferable for this season's game since it offers a wider field of view so that all three minerals can fit in a single image.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/images/tfodLandscape.png" height="300"><br/>The system can also be run in Landscape mode.<p>
 
