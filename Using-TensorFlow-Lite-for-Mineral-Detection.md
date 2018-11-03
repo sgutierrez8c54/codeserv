@@ -4,7 +4,7 @@
 ### Important Note on Phone Compatibility
 Unfortunately, the TensorFlow Lite technology will not run on the older ZTE Speed phones that are approved for use in the FIRST Tech Challenge competition.  Teams who would like to use the TensorFlow Lite technology for objection detection, will have to use a different type of approved phone (such as the Motorola Moto G4 Play).  The TensorFlow Lite technology requires Android 6.0 (Marshmallow) or higher.
 
-Note that if you are a Blocks programmer and you are using an older Android device that is not running Marshmallow or higher, then the TensorFlow Object Detection category of Blocks will automatically not be available in the Blocks design palette.
+Note that if you are a Blocks programmer and you are using an older Android device that is not running Marshmallow or higher, then the TensorFlow Object Detection category of Blocks will automatically be missing from the Blocks design palette.
 
 ### Sample Op Modes
 The FIRST Tech Challenge software contains sample Blocks and Java op modes that demonstrate how to use the TensorFlow technology to detect the relative location of the Gold Mineral (i.e., the yellow cube) with respect to the two Silver Minerals (i.e., the white wiffle-style balls).
