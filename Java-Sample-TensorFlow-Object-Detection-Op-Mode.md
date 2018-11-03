@@ -192,6 +192,10 @@ If the phone is in Landscape mode when the object detector is initialized, then 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/images/tfodBoundariesLandscape.png" height="300"><br/>The "Left" and "Top" boundaries of a detection box when the image is in Landscape mode.<p>
 
+Note that Android devices can be locked into Portrait Mode so that the screen image will not rotate even if the phone is held in a Landscape orientation.  If your phone is locked in Portrait Mode, then the TensorFlow object detector will interpret all images as Portrait images.  If you would like to use the phone in Landscape mode, then you need to make sure your phone is set to "Auto-rotate" mode.  In Auto-rotate mode, if the phone is held in a Landscape orientation, then the screen will auto rotate to display the contents in Landscape form.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/tensorflow/images/autorotate.png" width="300"><br/>Auto-rotate must be enabled in order to operate in Landscape mode.<p>
+
 ### Deactivating TensorFlow
 When the example Op Mode is no longer active (i.e., when the user has pressed the stop button on the Driver Station) the Op Mode will attempt to deactivate the TensorFlow library before it's done.  It's important to deactivate the library to free up system resources.
 
