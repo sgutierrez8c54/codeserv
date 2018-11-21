@@ -60,7 +60,7 @@ If you use this alternate way to wait for a start command, then the Robot Contro
 
 #### Workaround for a Java Linear Op Mode
 
-If you are a Java programmer and you are using a LinearOpMode, instead of using the waitForStart() method (which is commented out in the code snippet below), you should use opModeIsActive() and isStopRequested() methods to create a loop that sends telemetry data to the Driver Station while waiting for the start command.
+If you are a Java programmer and you are using a LinearOpMode, instead of using the waitForStart() method (which is commented out in the code snippet below), you should use the opModeIsActive() and isStopRequested() methods to create a loop that sends telemetry data to the Driver Station while waiting for the start command.
 
 ```
         // Do not use waitForStart() if you have Motorola E4 phones.
@@ -75,7 +75,7 @@ If you use this alternate way to wait for a start command, then the Robot Contro
 
 #### Workaround for a Java Iterative Op Mode
 
-If you are a Java programmer and user are using an iterative OpMode, you should define your own init_loop() method and put a telemetry statement to send data to the Driver Station while waiting for the start command.
+If you are a Java programmer and are using an iterative OpMode, you should define your own init_loop() method and put a telemetry statement to send data to the Driver Station while waiting for the start command.
 
 ```
     @Override
