@@ -1,4 +1,39 @@
-### Manually Connecting to the Blocks Programming Mode Wi-Fi Network.
+## Index
+  * [Motorola E4 Phones Disconnecting Momentarily (Reported 10/2018)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#motorola-e4-phones-disconnecting-momentarily-reported-102018)
+  * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
+  * [Commonly Encountered Problems (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#commonly-encountered-problems-blocks)
+
+### Motorola E4 Phones Disconnecting Momentarily (Reported 10/2018)
+The Motorola E4 phone is one of the _FIRST_-approved phones for use in the _FIRST_ Tech Challenge.  In fall 2018, teams reported seemingly random disconnects between the Driver Station and Robot Controller devices when the E4 phones were used.
+
+There is a thread on the FTC Technology Forum that describes the problem:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://ftcforum.usfirst.org/forum/ftc-technology/67146-moto-e4-phones-disconnecting
+
+The posts suggest that the problem occurs when the Motorola E4 phone is acting as the Driver Station phone.  The phone seems to temporarily disconnect from the Robot Controller and then it quickly reconnects.  This can cause a problem when teams experience such a disconnect during a match.
+
+A careful inspection of the Driver Station log file (which is located on the Driver Station Android phone with the filename "driverStationLog.txt") has log statements that look like the following:
+
+```
+11-21 12:18:08.541  5238  5714 V DriverStation: { -144  8.396} ui:uiWaitingForStartEvent 
+11-21 12:19:19.212  5238  5717 V Robocol : { -144 19.068} issuing peerDisconnected(): lastRecvPacket=2.036 s 
+11-21 12:19:19.214  5238  5717 E RobotCore: { -144 19.070} java.lang.Throwable: Peer disconnected 
+11-21 12:19:19.219  5238  5717 E RobotCore: { -144 19.075}     at com.qualcomm.ftcdriverstation.FtcDriverStationActivity.peerDisconnected(FtcDriverStationActivity.java:1187) 
+11-21 12:19:19.221  5238  5717 E RobotCore: { -144 19.076}     at org.firstinspires.ftc.robotcore.internal.network.SendOnceRunnable.run(SendOnceRunnable.java:132) 
+11-21 12:19:19.222  5238  5717 E RobotCore: { -144 19.077}     at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428) 
+11-21 12:19:19.223  5238  5717 E RobotCore: { -144 19.079}     at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:278) 
+11-21 12:19:19.224  5238  5717 E RobotCore: { -144 19.080}     at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:273) 
+11-21 12:19:19.225  5238  5717 E RobotCore: { -144 19.081}     at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133) 
+11-21 12:19:19.228  5238  5717 E RobotCore: { -144 19.084}     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607) 
+11-21 12:19:19.229  5238  5717 E RobotCore: { -144 19.084}     at java.lang.Thread.run(Thread.java:761) 
+11-21 12:19:19.229  5238  5717 V DriverStation: { -144 19.085} robot controller disconnected 
+11-21 12:19:19.229  5238  5717 V DriverStation: { -144 19.085} Assuming client disconnected 
+```
+
+In the snippet of log statements above, you can see that at 12:18:08.541 an Op Mode calls the waitForStart() method to wait for a 
+
+
+### Manually Connecting to the Blocks Programming Mode Wi-Fi Network
 
 The section of this wiki with the title [Connecting Your Laptop to the FTC Blocks Programming Mode Server](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#connecting-your-laptop-to-the-ftc-blocks-programming-mode-server) describes how to search for the blocks programming mode Wi-Fi network from a list of available networks and then connect to it with a Windows laptop.  For some Windows devices, the laptop might not display your blocks programming mode Wi-Fi network in its list of available networks.  This problem can occur with some Windows 10 machines (and possibly with some Windows 8 machines), especially if the computer does not have current system updates and service packs. 
 
