@@ -11,7 +11,7 @@ There is a thread on the FTC Technology Forum that describes the problem:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://ftcforum.usfirst.org/forum/ftc-technology/67146-moto-e4-phones-disconnecting
 
-The posts suggest that the problem occurs when the Motorola E4 phone is acting as the Driver Station phone.  The phone seems to temporarily disconnect from the Robot Controller and then it quickly reconnects.  This can cause a problem when teams experience such a disconnect during a match.
+The posts suggest that the problem occurs when the Motorola E4 phone is acting as the Driver Station.  The phone seems to temporarily disconnect from the Robot Controller and then it quickly reconnects.  This can cause a problem when teams experience such a disconnect during a match.
 
 A careful inspection of the Driver Station log file (which is located on the Driver Station Android phone with the filename "driverStationLog.txt") has log statements that look like the following:
 
