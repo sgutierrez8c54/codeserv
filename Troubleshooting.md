@@ -1,6 +1,6 @@
 ## Index
   * [Motorola E4 Phones Disconnecting Momentarily (*Reported 10/2018*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#motorola-e4-phones-disconnecting-momentarily-reported-102018)
-  * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
+  * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
   * [Commonly Encountered Problems (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/commonly-encountered-problems-blocks)
 
 ### Motorola E4 Phones Disconnecting Momentarily (*Reported 10/2018*)
