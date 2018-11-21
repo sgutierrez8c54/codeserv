@@ -1,9 +1,9 @@
 ## Index
-  * [Motorola E4 Phones Disconnecting Momentarily (Reported 10/2018)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#motorola-e4-phones-disconnecting-momentarily-reported-102018)
+  * [Motorola E4 Phones Disconnecting Momentarily (*Reported 10/2018*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#motorola-e4-phones-disconnecting-momentarily-reported-102018)
   * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
   * [Commonly Encountered Problems (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#commonly-encountered-problems-blocks)
 
-### Motorola E4 Phones Disconnecting Momentarily (Reported 10/2018)
+### Motorola E4 Phones Disconnecting Momentarily (*Reported 10/2018*)
 The Motorola E4 phone is one of the _FIRST_-approved phones for use in the _FIRST_ Tech Challenge.  In fall 2018, teams reported seemingly random disconnects between the Driver Station and Robot Controller devices when the E4 phones were used.
 
 There is a thread on the FTC Technology Forum that describes the problem:
@@ -30,8 +30,64 @@ A careful inspection of the Driver Station log file (which is located on the Dri
 11-21 12:19:19.229  5238  5717 V DriverStation: { -144 19.085} Assuming client disconnected 
 ```
 
-In the snippet of log statements above, you can see that at 12:18:08.541 an Op Mode calls the waitForStart() method to wait for a 
+In the snippet of log statements above, you can see that at 12:18:08.541 an Op Mode calls the waitForStart() method to wait for a start command from the Driver Station.  Then you can see at 12:19:19.212 the Driver Station logs that it thinks it's disconnected from the Robot Controller since it hasn't received a packet from the Robot Controller in over 2 seconds.
 
+It appears that for some undetermined reason, when a Motorola E4 is acting as a Driver Station and the Robot Controller is running an op mode and is blocking in the waitForStart() method, the Driver Station appears to lose communication with the Robot Controller for over 2 seconds (even though it is supposed be sending heartbeat packets to the Robot Controller every tenth of a second or so).  When this happens the Robot Controller stops the op mode run for safety reasons.  In the Robot Controller log file (which has the name "robotControllerLog.txt" on the Android device acting as the Robot Controller) you can see statements like the following:
+
+```
+11-22 01:19:19.064  5935  6013 V Robocol : issuing peerDisconnected(): lastRecvPacket=2.035 s
+11-22 01:19:19.066  5935  6013 V UpdateUI: Network: active, disconnected
+11-22 01:19:19.068  5935  6013 I RobotCore: ******************** STOP - OPMODE /storage/emulated/0/FIRST/matchlogs/Match-0-Concept:_Vuforia_Rover_Nav.txt ********************
+11-22 01:19:19.073  5935  6163 I RobotCore: saving match logcat to /storage/emulated/0/FIRST/matchlogs/Match-0-Concept:_Vuforia_Rover_Nav.txt
+11-22 01:19:19.073  5935  6163 I RobotCore: logging command line: exec logcat -d -T '11-22 1:18:8.000' -f /storage/emulated/0/FIRST/matchlogs/Match-0-Concept:_Vuforia_Rover_Nav.txt -n4 -v threadtime UsbRequestJNI:S UsbRequest:S art:W ThreadPool:W System:W ExtendedExtractor:W OMXClient:W MediaPlayer:W dalvikvm:W  *:V
+11-22 01:19:19.073  5935  6013 I RobotCore: Lost connection while running op mode: Concept: Vuforia Rover Nav
+11-22 01:19:19.093  6164  6164 W sh      : type=1400 audit(0.0:223): avc: denied { read } for uid=10135 name="/" dev="rootfs" ino=2 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=0
+11-22 01:19:19.124  5935  6002 V SoundInfo: construct(0x0e74e3bd)
+11-22 01:19:19.168  5935  6163 I RobotCore: Done running exec logcat -d -T '11-22 1:18:8.000' -f /storage/emulated/0/FIRST/matchlogs/Match-0-Concept:_Vuforia_Rover_Nav.txt -n4 -v threadtime UsbRequestJNI:S UsbRequest:S art:W ThreadPool:W System:W ExtendedExtractor:W OMXClient:W MediaPlayer:W dalvikvm:W  *:V
+11-22 01:19:19.169  5935  6163 I RobotCore: exiting match logcat for /storage/emulated/0/FIRST/matchlogs/Match-0-Concept:_Vuforia_Rover_Nav.txt
+```
+
+As a workaround to this problem on the Motorola E4 phones, some members of the _FIRST_ community discovered that if the Robot Controller sends telemetry messages to the Driver Station while the Robot Controller is waiting for a start command from the Driver Station, the phones will not disconnect.
+
+#### Workaround for Blocks Users
+
+If you are a Blocks programmer, instead of using the "waitForStart" block (which is disabled in the screenshot below), you should use the alternate blocks (opModeIsActive and isStopRequested) shown in the screenshot below to avoid a disconnect with the E4 phones.  
+
+If you are a Blocks programmer, instead of using the "waitForStart" block (which is disabled in the screenshot below), you should use the "opModeIsActive" and "isStopRequested" blocks to create a loop that sends telemetry data to the Driver Station while waiting for the start command.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/troubleshooting/blocksE4Fix.png" width="900"><p>
+
+If you use this alternate way to wait for a start command, then the Robot Controller will constantly send telemetry messages to the Driver Station while it is waiting.  This seems to prevent the disconnects that are reported with the E4 phones. 
+
+#### Workaround for a Java Linear Op Mode
+
+If you are a Java programmer and you are using a LinearOpMode, instead of using the waitForStart() method (which is commented out in the code snippet below), you should use opModeIsActive() and isStopRequested() methods to create a loop that sends telemetry data to the Driver Station while waiting for the start command.
+
+```
+        // Do not use waitForStart() if you have Motorola E4 phones.
+        //waitForStart();
+        while (!opModeIsActive() && !isStopRequested()) {
+            telemetry.addData("status", "waiting for start command...");
+            telemetry.update();
+        }
+```
+
+If you use this alternate way to wait for a start command, then the Robot Controller will constantly send telemetry messages to the Driver Station while it is waiting.  This seems to prevent the disconnects that are reported with the E4 phones. 
+
+#### Workaround for a Java Iterative Op Mode
+
+If you are a Java programmer and user are using an iterative OpMode, you should define your own init_loop() method and put a telemetry statement to send data to the Driver Station while waiting for the start command.
+
+```
+    @Override
+    public void init_loop() {
+        // If you are using Motorola E4 phones, 
+        // you should send telemetry data while waiting for start.
+        telemetry.addData("status", "loop test... waiting for start");
+    }
+```
+
+If you add this init_loop() method, then the Robot Controller will constantly send telemetry messages to the Driver Station while it is waiting.  This seems to prevent the disconnects that are reported with the E4 phones. 
 
 ### Manually Connecting to the Blocks Programming Mode Wi-Fi Network
 
