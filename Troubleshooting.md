@@ -52,8 +52,6 @@ As a workaround to this problem on the Motorola E4 phones, some members of the _
 
 #### Workaround for Blocks Users
 
-If you are a Blocks programmer, instead of using the "waitForStart" block (which is disabled in the screenshot below), you should use the alternate blocks (opModeIsActive and isStopRequested) shown in the screenshot below to avoid a disconnect with the E4 phones.  
-
 If you are a Blocks programmer, instead of using the "waitForStart" block (which is disabled in the screenshot below), you should use the "opModeIsActive" and "isStopRequested" blocks to create a loop that sends telemetry data to the Driver Station while waiting for the start command.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/troubleshooting/blocksE4Fix.png" width="900"><p>
