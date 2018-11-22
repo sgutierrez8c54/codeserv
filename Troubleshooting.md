@@ -31,7 +31,7 @@ A careful inspection of the Driver Station log file (which is located on the Dri
 11-21 12:19:19.229  5238  5717 V DriverStation: { -144 19.085} Assuming client disconnected 
 ```
 
-In the snippet of log statements above, you can see that at 12:18:08.541 an Op Mode calls the waitForStart() method to wait for a start command from the Driver Station.  Then you can see at 12:19:19.212 the Driver Station logs that it thinks it's disconnected from the Robot Controller since it hasn't received a packet from the Robot Controller in over 2 seconds.
+In the snippet of log statements above, you can see that at 12:18:08.541 an Op Mode calls the waitForStart() method to wait for a start command from the Driver Station.  Then you can see at 12:19:19.212 the Driver Station logs that it thinks it's disconnected from the Robot Controller since it hasn't communicated with the Robot Controller in over 2 seconds.
 
 It appears that for some undetermined reason, when a Motorola E4 is acting as a Driver Station and the Robot Controller is running an op mode and is blocking in the waitForStart() method, the Driver Station appears to lose communication with the Robot Controller for over 2 seconds (even though it is supposed be sending heartbeat packets to the Robot Controller every tenth of a second or so).  When this happens the Robot Controller stops the op mode run for safety reasons.  In the Robot Controller log file (which has the name "robotControllerLog.txt" on the Android device acting as the Robot Controller) you can see statements like the following:
 
