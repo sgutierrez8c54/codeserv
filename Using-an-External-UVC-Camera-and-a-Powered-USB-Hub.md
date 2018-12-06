@@ -11,7 +11,7 @@ The system supports a “UVC” or USB Video Device Class cameras.  Theoreticall
 *	Logitech HD Webcam C310 
 *	Logitech HD Pro Webcam C920
 
-Note that calibrating a UVC camera is an advanced task.  Details on how to create a calibration file can be found in the comments of the teamwebcamcalibrations.xml file that is available as part of the ftc_app project folder (visit this link for an online copy of the file).
+Note that calibrating a UVC camera is an advanced task.  Details on how to create a calibration file can be found in the comments of the _teamwebcamcalibrations.xml_ file that is available as part of the ftc_app project folder (visit this [link](https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml) for an online copy of the file).
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/uvc/images/uvcdiagram.png" width="400"><br/>
 
