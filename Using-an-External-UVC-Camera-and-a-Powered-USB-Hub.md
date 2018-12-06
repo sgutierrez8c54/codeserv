@@ -30,7 +30,7 @@ Also note that rule <RE14>c(iii) permits the use of a powered USB hub to make th
 1.	An externally connected USB 5V Battery Pack.
 2.	The 5V DC Aux power port of a REV Robotics Expansion Hub (note that this requires advanced skills to implement).
 
-FIRST has tested a few USB 2.0 powered hubs and recommends one from Anker.  At the time this document was written, this hub was available from Amazon.com. 
+FIRST has tested a few USB 2.0 powered hubs and recommends one from Anker.  At the time this document was written, this hub was available from [Amazon.com](https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_1?s=electronics&ie=UTF8&qid=1543857698&sr=1-1&keywords=Anker+4-Port+USB+3.0+Ultra-Slim+Portable+Data+Hub+with+12W+Power+Adapter+for+MacBook%2C+Mac+Pro%2FMini%2C+iMac%2C+XPS%2C+Surface+Pro%2C+Notebook+PCs+and+More). 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/uvc/images/ankerhub.jpg" width="400"><br/>
 
