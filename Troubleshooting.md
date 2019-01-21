@@ -2,8 +2,15 @@
   * [Motorola E4, G5 and G5 Plus Phones Disconnecting Momentarily (*Reported 10/2018, Updated 11/2018*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#motorola-e4-phones-disconnecting-momentarily-reported-102018)
   * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
   * [Commonly Encountered Problems (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#commonly-encountered-problems-blocks)
+  * [Westside (Los Angeles) Robotics Troubleshooting Guide](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
 
 # Commonly Encountered Problems
+
+### Westside (Los Angeles) Robotics FTA Troubleshooting Guide (*Reported 01/2019*)
+Chris Johannesen, who is a longtime FIRST technical volunteer, created an FTA Troubleshooting guide with useful tips, especially for the novice FTA or FTA Assistant (FTAA).  A copy of the FTA Troubleshooting Guide is available at the following link:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Westside Robotics (Los Angeles) FTA Troubleshooting Guide](http://tinyurl.com/FTC-troubleshooting)
+
 ### Motorola E4 Phones Disconnecting Momentarily (*Reported 10/2018*)
 The Motorola E4 phone is approved for use in the _FIRST_ Tech Challenge.  In fall 2018, teams reported seemingly random disconnects between the Driver Station and Robot Controller devices when the E4 phones were used.  Note that this issue was first reported with the Motorola E4 phone, but it also occurs with the Motorola G5 and G5 Plus phones.
 
