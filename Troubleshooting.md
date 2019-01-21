@@ -1,5 +1,5 @@
 # Index
-  * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/_edit#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
+  * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
   * [Motorola E4, G5 and G5 Plus Phones Disconnecting Momentarily (*Reported 10/2018, Updated 11/2018*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#motorola-e4-phones-disconnecting-momentarily-reported-102018)
   * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
   * [Commonly Encountered Problems (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#commonly-encountered-problems-blocks)
