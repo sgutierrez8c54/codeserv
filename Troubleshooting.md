@@ -11,6 +11,8 @@ Chris Johannesen, who is a longtime FIRST technical volunteer, created an FTA Tr
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Westside Robotics (Los Angeles) FTA Troubleshooting Guide](http://tinyurl.com/FTC-troubleshooting)
 
+Thank you Chris and Thank you Westside Robotics!
+
 ### Motorola E4 Phones Disconnecting Momentarily (*Reported 10/2018*)
 The Motorola E4 phone is approved for use in the _FIRST_ Tech Challenge.  In fall 2018, teams reported seemingly random disconnects between the Driver Station and Robot Controller devices when the E4 phones were used.  Note that this issue was first reported with the Motorola E4 phone, but it also occurs with the Motorola G5 and G5 Plus phones.
 
