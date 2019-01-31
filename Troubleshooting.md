@@ -1,10 +1,32 @@
 # Index
+  * [Wi-Fi Blocker at Venue (*Listed 01/2019*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
   * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
   * [Motorola E4, G5 and G5 Plus Phones Disconnecting Momentarily (*Reported 10/2018, Updated 11/2018*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#motorola-e4-phones-disconnecting-momentarily-reported-102018)
   * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
   * [Commonly Encountered Problems (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#commonly-encountered-problems-blocks)
 
 # Commonly Encountered Problems
+
+### Wi-Fi Blocker at Venue (*Listed 01/2019*)
+We have had several incidents where FTC (and even FRC) events have been disrupted by the presence of Wi-Fi Blocking technology.  A Wi-Fi Blocker or Suppressor is a device (often built-in as a feature of a wireless access point) that prevents people from using an unauthorized Wi-Fi network in the vicinity of the Blocker.
+
+If there is a Wi-Fi blocker present, then teams will have trouble connecting their Driver Station devices to their Robot Controllers whenever they are in the range of the Blocker.  The Driver Station might be able to see, for example, the Robot Controller listed as an available device, but it would fail to connect or stay connected in to the Robot Controller in the presence of the Blocker.
+
+A good way to detect a Wi-Fi blocker is to take a pair of the problematic Android devices outside, away from the school's Wi-Fi system.  If the devices can pair outside and stay connected (and can run op modes) outside, and if these devices suddenly disconnect once you move them back inside, then you might have a Wi-Fi Blocker present.
+
+Note that we have even had an instance of a region that was at a school where they held an event in a prior year without issue.  However, the teams were now having problems connecting their Android devices and it turned out that the school had installed a Wi-Fi Blocker in between the previous and current events.
+
+If you have confirmed that there is a Wi-Fi Blocker present, then the best course of action is to work with the venue's IT administrator to disable the Wi-Fi Blocker for the event.  Note that FIRST has seen instances where the IT administrators did not even realize this Wi-Fi Blocking technology was present.  It turned out that their wireless access points had this feature built-in, and they had to modify their configuration files to permit devices with a certain IP address range to be allowed in their venue.
+
+At some events, FTAs discovered a WiFi Blocker, but did not have an IT admin available to disable it.  The FTAs were able to find the Wi-Fi Blockers in the venue that were located close to the competition field and unplug them for the duration of their event.  The FTAs reported that after the devices were powered off, the teams were able to pair and control their robots successfully.
+
+Note that the Wi-Fi Event Checklist suggests that an FTA or similar technical volunteer conduct some preliminary tests in advance of an event to check for things like Wi-Fi Blockers.  The best way to deal with a Blocker is to detect it well in advance of your event.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wi-Fi Event Checklist](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/wi-fi-event-checklist.pdf).
+
+Also, in the United States of America, the FCC has ruled Wi-Fi Blocking illegal:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FCC Warning on Wi-Fi Blocking](https://www.fcc.gov/document/warning-wi-fi-blocking-prohibited)
 
 ### Westside (Los Angeles) Robotics FTA Troubleshooting Guide (*Reported 01/2019*)
 Chris Johannesen, who is a longtime FIRST technical volunteer, created an FTA Troubleshooting guide with useful tips, especially for the novice FTA or FTA Assistant (FTAA).  A copy of the FTA Troubleshooting Guide is available at the following link:
