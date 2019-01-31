@@ -10,7 +10,7 @@
 ### Wi-Fi Blocker at Venue (*Listed 01/2019*)
 We have had several incidents where FTC (and even FRC) events have been disrupted by the presence of Wi-Fi Blocking technology.  A Wi-Fi Blocker or Suppressor is a device (often built-in as a feature of a wireless access point) that prevents people from using an unauthorized Wi-Fi network in the vicinity of the Blocker.
 
-If there is a Wi-Fi blocker present, then teams will have trouble connecting their Driver Station devices to their Robot Controllers whenever they are in the range of the Blocker.  The Driver Station might be able to see, for example, the Robot Controller listed as an available device, but it would fail to connect or stay connected in to the Robot Controller in the presence of the Blocker.
+If there is a Wi-Fi blocker present, then teams will have trouble connecting their Driver Station devices to their Robot Controllers whenever they are in the range of the Blocker.  The Driver Station might be able to see, for example, the Robot Controller listed as an available device, but it would fail to connect or stay connected to the Robot Controller in the presence of the Blocker.
 
 A good way to detect a Wi-Fi blocker is to take a pair of the problematic Android devices outside, away from the school's Wi-Fi system.  If the devices can pair outside and stay connected (and can run op modes) outside, and if these devices suddenly disconnect once you move them back inside, then you might have a Wi-Fi Blocker present.
 
