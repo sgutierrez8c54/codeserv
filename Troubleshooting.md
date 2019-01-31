@@ -22,7 +22,7 @@ At some events, FTAs discovered a WiFi Blocker, but did not have an IT admin ava
 
 Note that the Wi-Fi Event Checklist suggests that an FTA or similar technical volunteer conduct some preliminary tests in advance of an event to check for things like Wi-Fi Blockers.  The best way to deal with a Blocker is to detect it well in advance of your event.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wi-Fi Event Checklist](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/wi-fi-event-checklist.pdf).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Wi-Fi Event Checklist](https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/wi-fi-event-checklist.pdf)
 
 Also, in the United States of America, the FCC has ruled Wi-Fi Blocking illegal:
 
