@@ -16,7 +16,9 @@ A good way to detect a Wi-Fi blocker is to take a pair of the problematic Androi
 
 Note that we have even had an instance of a region that was at a school where they held an event in a prior year without issue.  However, the teams were now having problems connecting their Android devices and it turned out that the school had installed a Wi-Fi Blocker in between the previous and current events.
 
-If you have confirmed that there is a Wi-Fi Blocker present, then the best course of action is to work with the venue's IT administrator to disable the Wi-Fi Blocker for the event.  Note that FIRST has seen instances where the IT administrators did not even realize this Wi-Fi Blocking technology was present.  It turned out that their wireless access points had this feature built-in, and they had to modify their configuration files to permit devices with a certain IP address range to be allowed in their venue.
+If you have confirmed that there is a Wi-Fi Blocker present, then the best course of action is to work with the venue's IT administrator to disable the Wi-Fi Blocker for the event.  
+
+Note that FIRST has seen instances where the IT administrators did not even realize this Wi-Fi Blocking technology was present.  It turned out that their wireless access points had this feature built-in, and they had to modify a configuration file (i.e., modify a "white list") to permit devices with a certain IP address range (192.x.x.x) to be allowed in their venue.
 
 At some events, FTAs discovered a WiFi Blocker, but did not have an IT admin available to disable it.  The FTAs were able to find the Wi-Fi Blockers in the venue that were located close to the competition field and unplug them for the duration of their event.  The FTAs reported that after the devices were powered off, the teams were able to pair and control their robots successfully.
 
