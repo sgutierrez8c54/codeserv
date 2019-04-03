@@ -3,6 +3,10 @@ The FTC Blocks Programming Tool is a visual design tool that lets programmers us
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/BlocksPicture1.jpg" width="200"><p>
 
+This tutorial is available in two different versions.
+    * If you are using an Android phone as your Robot Controller, click here to view the Android phone tutorial.
+    * If you are using the Control Hub as your Robot Controller, click here to view the Control Hub tutorial.
+
 ### Table of Contents
 
 1. Introduction
