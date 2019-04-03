@@ -5,7 +5,7 @@ The FTC Blocks Programming Tool is a visual design tool that lets programmers us
 
 This tutorial is available in two different versions.
 * If you are using an Android phone as your Robot Controller, click [here](https://github.com/cynergyou/ftc_app/wiki/Blocks-Tutorial#table-of-contents-for-android-phone-robot-controller) to view the tutorial.
-* If you are using the Control Hub as your Robot Controller, click here to view the Control Hub tutorial.
+* If you are using the Control Hub as your Robot Controller, click [here](https://github.com/cynergyou/ftc_app/wiki/Blocks-Tutorial#table-of-contents-for-control-hub)to view the tutorial.
 
 ### Table of Contents (for Android Phone Robot Controller)
 
