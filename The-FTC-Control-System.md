@@ -37,3 +37,4 @@ For the 2019-2020 season, teams in select regions will have the option of using 
 The Control Hub, which has its built-in Android device connected directly to the Expansion Hub using an internal serial bus, eliminates the need for an external USB connection between the Android Robot Controller and the I/O module.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVControlHubLayout.jpg" width="600"><p>
+
