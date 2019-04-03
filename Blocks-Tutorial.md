@@ -7,7 +7,7 @@ This tutorial is available in two different versions.
     * If you are using an Android phone as your Robot Controller, click here to view the Android phone tutorial.
     * If you are using the Control Hub as your Robot Controller, click here to view the Control Hub tutorial.
 
-### Table of Contents (Android Phone Robot Controller)
+### Table of Contents (for Android Phone Robot Controller)
 
 1. Introduction
     * [The FTC Control System](https://github.com/cynergyou/ftc_app/wiki/The-FTC-Control-System)
