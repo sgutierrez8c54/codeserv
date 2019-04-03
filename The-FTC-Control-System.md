@@ -22,7 +22,11 @@ The REV Robotics Expansion Hub is the electronic input/output (or “I/O”) mod
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVExpansionHubLayout.jpg" width="600"><p>
 
 ### REV Robotics Control Hub
-For the 2019-2020 season, teams in select regions will have the option of using the [REV Robotics Control Hub](http://www.revrobotics.com/rev-31-1152/).  The Control Hub is an integrated version of the Robot Controller.  It combines an Android device built into the same case as a REV Robotics Expansion Hub.  The Control Hub, which is connected directly to the Expansion Hub using an internal serial bus, eliminates the need for an external USB connection between the Android Robot Controller and the I/O module.
+For the 2019-2020 season, teams in select regions will have the option of using the [REV Robotics Control Hub](http://www.revrobotics.com/rev-31-1152/).  The Control Hub is an integrated version of the Robot Controller.  It combines an Android device built into the same case as a REV Robotics Expansion Hub.  
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVControlHubLayout.jpg" width="600"><p>
+
+The Control Hub, which is connected directly to the Expansion Hub using an internal serial bus, eliminates the need for an external USB connection between the Android Robot Controller and the I/O module.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVControlHubLayout.jpg" width="600"><p>
 
