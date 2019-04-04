@@ -1,6 +1,7 @@
-### Renaming Your Smartphones
-You will need to have two FIRST-approved Android smartphones for the control system.  One phone will be used as the Robot Controller, the other will be used as the Driver Station.
+### How Many Smartphones Do I Need to configure?
+Teams who are using a Control Hub as the Robot Controller will only need to configure a single smartphone for use as a Driver Station.  Teams who are not using a Control Hub will need to configure one smartphone for use as a Robot Controller and a second smartphone for use as a Driver Station.
 
+### Renaming Your Smartphones
 By establishing unique names for your phones, you can ensure that your phones will be communicating with each other rather than other teams’ phones at meets and tournaments. The official rules of the FIRST Tech Challenge require that you change the Wi-Fi name of your smartphones to include your team number and “-RC” if the phone is a Robot Controller or “-DS” if it is a Driver Station.  A team can insert an additional dash and a letter (“A”, “B”, “C”, etc.) if the team has more than one set of Android phones.
 
 If, for example, a team has a team number of 9999 and the team has multiple sets of phones, the team might decide to name one phone “9999-C-RC” for the Robot Controller and the other phone “9999-C-DS” for the Driver Station.  The “-C” indicates that these devices belong to the third set of phones for this team.
