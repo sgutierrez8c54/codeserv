@@ -11,11 +11,11 @@ Depending on your security settings, you might be challenged for a pass code or 
 
 ### Navigating in Android
 
-Your phone should display its home screen if you just powered it on and unlocked it.
+Your phone should display its home screen if you just powered it on and unlocked it.  Note that the actual screens on your smartphone might differ slightly from the screens depicted in this tutorial.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_homescreen.jpg" width="200"><p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_homescreen.jpg" width="200"> <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/nougat_homescreen.png" width="200"><p>
 
-At the bottom of the screen there should be some buttons that you can use to navigate the screens on your Android device. Note that the screenshots in this section were made using a Motorola Moto G4 Play phone.  If you are using a different Android device, then your screens might differ slightly.
+At the bottom of the screen there should be some buttons that you can use to navigate the screens on your Android device. 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_homescreen_controlsAtBottom.jpg" width="400"><p>
 
@@ -26,6 +26,8 @@ The center button is the "Home" button.  Pressing this button should take you ba
 The rightmost button is the "Recent Apps" button.  If you click on this button it will display the apps that were recently run and are dormant in the background.  You can close a recent app by tapping the "X" button on the app's listing.  
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_recentApps.jpg" width="200"><p>
+
+Note that some Android smartphones have an auto-hide feature which automatically hides the bottom navigation buttons.  If your smartphone has this feature, you might need to swipe up from the bottom of the screen to display the navigation buttons.
 
 ### Using the App Drawer
 There is another row of buttons visible above the "Back", "Home" and "Recent Apps" buttons.  In the center of this row of buttons is a button that has an array of dots or squares.  
