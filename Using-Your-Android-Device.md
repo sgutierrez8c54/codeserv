@@ -29,11 +29,19 @@ The rightmost button is the "Recent Apps" button.  If you click on this button i
 
 Note that some Android smartphones have an auto-hide feature which automatically hides the bottom navigation buttons.  If your smartphone has this feature, you might need to swipe up from the bottom of the screen to display the navigation buttons.
 
-### Using the App Drawer
-There is another row of buttons visible above the "Back", "Home" and "Recent Apps" buttons.  In the center of this row of buttons is a button that has an array of dots or squares.  
+### Displaying Available Apps on your Android Phone
+#### Android Marshmallow Users
+If you are using a device with Android Marshmallow (6.x) or earlier, you can display the available apps using the _Android App Drawer_ button that is available on the home screen.
+
+There should be another row of buttons visible above the "Back", "Home" and "Recent Apps" buttons.  In the center of this row of buttons is a button that has an array of dots or squares.  
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_nextToBottomButtons.jpg" width="400"><p> 
 
 Tapping on this button will launch the _Android App Drawer_.  The App Drawer displays a list of all of the apps that are available on your Android device.  You can scroll through the App Drawer screens to find and launch an app.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_appDrawer.jpg" width="200"><p>
+
+#### Android Nougat Users
+If you are using a device with Android Nougat (7.x) or newer, you can display the available apps by simply swiping upwards from the bottom of the touchscreen.  Newer versions of Android no longer have the _App Drawer_ feature.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/nougat_apps.png" width="200"><p>
