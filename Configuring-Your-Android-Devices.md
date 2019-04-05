@@ -67,6 +67,7 @@ Note that it will take an estimated 2.5 minutes per phone to complete this task.
 | 2. Placing the phone into airplane mode will turn off <br/>the Wi-Fi radio.  If the Wi-Fi icon has a diagonal line <br/>through it (see Step 1 above), then the Wi-Fi radio is <br/>disabled.  You will need to touch the “Wi-Fi” icon on the <br/>quick configuration screen to turn the Wi-Fi radio back <br/>on. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AirplaneStep2.jpg" width="175"> |
 
 ### Pairing the Driver Station to the Robot Controller
+#### Users with Two Android Smartphones
 Once you have successfully installed the FTC apps onto your Android phones, you will want to establish a secure wireless connection between the two devices.  This connection will allow your Driver Station phone to select op modes on your Robot Controller phone and send gamepad input to these programs.  Likewise, it will allow your op modes running on your Robot Controller phone to send telemetry data to your Driver Station phone where it can be displayed for your drivers. The process to connect the two phones is known as “pairing.”
 
 Note that it will take an estimated 10 minutes to complete this task.
