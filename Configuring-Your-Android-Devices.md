@@ -14,17 +14,15 @@ Teams who have two smartphones and are not using a Control Hub will need to conf
 * Pair (i.e., wirelessly connect) the Driver Station to the Robot Controller.
 
 ### Renaming Your Smartphones
-The official rules (see \<RS01\>) of the FIRST Tech Challenge require that you change the Wi-Fi name of your smartphones to include your team number and “-RC” if the phone is a Robot Controller or “-DS” if it is a Driver Station.  A team can insert an additional dash and a letter (“A”, “B”, “C”, etc.) if the team has more than one set of Android phones.
+The official rules of the FIRST Tech Challenge (see \<RS01\>) require that you change the Wi-Fi name of your smartphones to include your team number and “-RC” if the phone is a Robot Controller or “-DS” if it is a Driver Station.  A team can insert an additional dash and a letter (“A”, “B”, “C”, etc.) if the team has more than one set of Android phones.
 
 If, for example, a team has a team number of 9999 and the team has multiple sets of phones, the team might decide to name one phone “9999-C-RC” for the Robot Controller and the other phone “9999-C-DS” for the Driver Station.  The “-C” indicates that these devices belong to the third set of phones for this team.
-
-
 
 Note that it will take an estimated 5 minutes per phone to complete this task.
 
 | Step| Image |
 | ----------- | :---: |
-| 1. Using the Android App Drawer, locate the **Settings** icon.<br/>Click on **Settings** icon to display the Settings screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep1.jpg" width="175"> |
+| 1. Browse the list of available apps on the smartphone and locate the <br/>**Settings** icon. Click on **Settings** icon to display the Settings screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep1.jpg" width="175"> |
 | 2. Click on **Wi-Fi** to launch the Wi-Fi screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep2.jpg" width="175"> |
 | 3. Touch the three vertical dots to display a pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep3.jpg" width="175"> |
 | 4. Select **Advanced** from the pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep4.jpg" width="175"> |
