@@ -3,6 +3,7 @@
 Teams who are using a Control Hub as the Robot Controller will only need to configure a single smartphone for use as a Driver Station.  The process is as follows,
 * Rename the smartphone to "\<TEAM NUMBER\>-DS" (where \<TEAM NUMBER\> is replaced by your team number).
 * Install the Driver Station app onto the Driver Station phone.
+* Put your phone into Airplane Mode (with the WiFi radio still on).
 * Pair (i.e., wirelessly connect) the Driver Station to the Control Hub.
 
 #### Users with Two Android Smartphones
@@ -11,6 +12,7 @@ Teams who have two smartphones and are not using a Control Hub will need to conf
 * Install the Robot Controller app onto the Robot Controller phone.
 * Rename a second smartphone to "\<TEAM NUMBER\>-DS" (where \<TEAM NUMBER\> is replaced by your team number).
 * Install the Driver Station app onto the Driver Station phone.
+* Put your phones into Airplane Mode (with the WiFi radios still on).
 * Pair (i.e., wirelessly connect) the Driver Station to the Robot Controller.
 
 ### Renaming Your Smartphones
