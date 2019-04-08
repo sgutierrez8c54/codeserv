@@ -17,7 +17,9 @@ One Android device is mounted onto the robot and is called the _Robot Controller
 A second Android device sits with the team drivers and has one or two gamepads connected.  This second device is known as the _Driver Station_.  The Driver Station is sort of like a remote control that you might use to control your television.  The Driver Station allows a team to communicate remotely (using a secure, wireless connection) to the Robot Controller and to issue commands to the Robot Controller.  The Driver Station  consists of an Android device running an FTC Driver Station app.
 
 ### REV Robotics Expansion Hub
-The REV Robotics Expansion Hub is the electronic input/output (or “I/O”) module that lets the Robot Controller talk to the robot’s motors, servos, and sensors.  The Robot Controller communicates with the Expansion Hub through a serial connection.  The Expansion Hub is connected to a 12V battery which is used to power the Expansion Hub, the motors, the servos and sensors.  The Robot Controller typically has its own internal battery, which can also be charged through the USB cable connected to the Expansion Hub.
+The REV Robotics Expansion Hub is the electronic input/output (or “I/O”) module that lets the Robot Controller talk to the robot’s motors, servos, and sensors.  The Robot Controller communicates with the Expansion Hub through a serial connection.  For the situation where an Android smartphone is used as the Robot Controller, a USB cable is used to establish the serial connection.  For the situation where a REV Robotics Control Hub is used (which has a built-in Android controller) an internal serial connection is used to connect the Robot Controller to the Expansion Hub.
+
+The Expansion Hub is also connected to a 12V battery which is used to power the Expansion Hub, the motors, the servos and sensors.  The Robot Controller typically has its own internal battery
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVExpansionHubLayout.jpg" width="600"><p>
 
