@@ -75,12 +75,14 @@ Note that it will take an estimated 2.5 minutes per phone to complete this task.
 #### Control Hub Users
 The REV Robotics Control Hub should come with the Robot Controller app already pre-installed.  Once you have successfully installed the FTC Driver Station on an Android phone, you will want to establish a secure wireless connection between the Control Hub and the Driver Station.  This connection will allow your Driver Station phone to select op modes on your Robot Controller and send gamepad input to these programs.  Likewise, it will allow your op modes running on your Robot Controller to send telemetry data to your Driver Station phone where it can be displayed for your drivers. The process to connect the two devices is known as “pairing.”
 
+Note that the Control Hub does not have its own internal battery.  Before you can connect a Driver Station to the Control Hub, you must connect the Control Hub to a 12V battery.
+
 Note that it will take an estimated 10 minutes to complete this task.
 
 | Step| Image |
 | ----------- | :---: |
-| 1. Using the Android App Drawer, locate the <br/>**FTC Robot Controller** icon.  Tap on the icon to <br/>launch the Robot Controller app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep1.jpg" width="175"> |
-| 2. Verify that the Robot Controller app is running.  <br/>The **Robot Status** field should read “running” if it <br/>is working properly. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep2.jpg" width="175"> |
+| 1. Connect an approved 12V battery to the power switch <br/>(REV-31-1387) and make sure the switch is in the off position.  <br/>Connect the switch to an XT30 port on the Control Hub <br/>and turn the switch on. <br/><br/>The LED should initially be blue on the Control Hub. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingControlHubStep1.jpg" width="350"> |
+| 2. It takes approximately 40 seconds for the Control Hub to power on. <br/>The Control Hub is ready to pair with the <br/>Driver Station when the LED turns green. <br/><br/>Note: the light blinks blue every ~5 seconds to indicate that the Control Hub is healthy. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingControlHubStep2.jpg" width="250"> |
 | 3. Using the Android App Drawer, locate the <br/>**FTC Driver Station** icon. Tap on the icon to launch the <br/>Driver Station app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep3.jpg" width="175"> |
 | 4. Touch the three vertical dots on the upper right <br/>hand corner of the main screen of the FTC Driver Station <br/>app.  This will launch a pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep4.jpg" width="175"> |
 | 5. Select Settings from the pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep5.jpg" width="175"> |
