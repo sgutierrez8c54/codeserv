@@ -19,7 +19,7 @@ A second Android device sits with the team drivers and has one or two gamepads c
 ### REV Robotics Expansion Hub
 The REV Robotics Expansion Hub is the electronic input/output (or “I/O”) module that lets the Robot Controller talk to the robot’s motors, servos, and sensors.  The Robot Controller communicates with the Expansion Hub through a serial connection.  For the situation where an Android smartphone is used as the Robot Controller, a USB cable is used to establish the serial connection.  For the situation where a REV Robotics Control Hub is used (which has a built-in Android controller) an internal serial connection is used to connect the Robot Controller to the Expansion Hub.
 
-The Expansion Hub is also connected to a 12V battery which is used to power the Expansion Hub, the motors, the servos and sensors.  The Robot Controller typically has its own internal battery
+The Expansion Hub is also connected to a 12V battery which is used to power the Expansion Hub, the motors, the servos and sensors.  If an Android smartphone is used as the Robot Controller, then the smartphone will have its own independent battery.  If a REV Robotics Control Hub is used as the Robot Controller, then the Control Hub will use the main 12V battery to power its internal Android device.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVExpansionHubLayout.jpg" width="600"><p>
 
