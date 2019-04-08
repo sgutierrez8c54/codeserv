@@ -1,10 +1,13 @@
-### What needs to be configured for my robot?
+### What Needs to Be Configured for My Robot?
 #### Control Hub Users
+
 Teams who are using a Control Hub as the Robot Controller will only need to configure a single smartphone for use as a Driver Station.  The process is as follows,
 * Rename the smartphone to "\<TEAM NUMBER\>-DS" (where \<TEAM NUMBER\> is replaced by your team number).
 * Install the Driver Station app onto the Driver Station phone.
 * Put your phone into Airplane Mode (with the WiFi radio still on).
 * Pair (i.e., wirelessly connect) the Driver Station to the Control Hub.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ControlHubAndPhone.jpg" alt="Control Hub and Android Phone" width="200"><p>
 
 #### Users with Two Android Smartphones
 Teams who have two smartphones and are not using a Control Hub will need to configure one smartphone for use as a Robot Controller and a second smartphone for use as a Driver Station.  The process is as follows,
@@ -14,6 +17,8 @@ Teams who have two smartphones and are not using a Control Hub will need to conf
 * Install the Driver Station app onto the Driver Station phone.
 * Put your phones into Airplane Mode (with the WiFi radios still on).
 * Pair (i.e., wirelessly connect) the Driver Station to the Robot Controller.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/twoAndroidPhones.jpg" alt="2 Android Phones" width="150"></p>
 
 ### Renaming Your Smartphones
 The official rules of the FIRST Tech Challenge (see \<RS01\>) require that you change the Wi-Fi name of your smartphones to include your team number and “-RC” if the phone is a Robot Controller or “-DS” if it is a Driver Station.  A team can insert an additional dash and a letter (“A”, “B”, “C”, etc.) if the team has more than one set of Android phones.
@@ -67,6 +72,24 @@ Note that it will take an estimated 2.5 minutes per phone to complete this task.
 | 2. Placing the phone into airplane mode will turn off <br/>the Wi-Fi radio.  If the Wi-Fi icon has a diagonal line <br/>through it (see Step 1 above), then the Wi-Fi radio is <br/>disabled.  You will need to touch the “Wi-Fi” icon on the <br/>quick configuration screen to turn the Wi-Fi radio back <br/>on. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AirplaneStep2.jpg" width="175"> |
 
 ### Pairing the Driver Station to the Robot Controller
+#### Control Hub Users
+The REV Robotics Control Hub should come with the Robot Controller app already pre-installed.  Once you have successfully installed the FTC Driver Station on an Android phone, you will want to establish a secure wireless connection between the Control Hub and the Driver Station.  This connection will allow your Driver Station phone to select op modes on your Robot Controller and send gamepad input to these programs.  Likewise, it will allow your op modes running on your Robot Controller to send telemetry data to your Driver Station phone where it can be displayed for your drivers. The process to connect the two devices is known as “pairing.”
+
+Note that it will take an estimated 10 minutes to complete this task.
+
+| Step| Image |
+| ----------- | :---: |
+| 1. Using the Android App Drawer, locate the <br/>**FTC Robot Controller** icon.  Tap on the icon to <br/>launch the Robot Controller app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep1.jpg" width="175"> |
+| 2. Verify that the Robot Controller app is running.  <br/>The **Robot Status** field should read “running” if it <br/>is working properly. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep2.jpg" width="175"> |
+| 3. Using the Android App Drawer, locate the <br/>**FTC Driver Station** icon. Tap on the icon to launch the <br/>Driver Station app. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep3.jpg" width="175"> |
+| 4. Touch the three vertical dots on the upper right <br/>hand corner of the main screen of the FTC Driver Station <br/>app.  This will launch a pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep4.jpg" width="175"> |
+| 5. Select Settings from the pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep5.jpg" width="175"> |
+| 6. From the Settings screen, look for and select <br/>“Connect with Robot Controller” to launch the Connect <br/>with Robot Controller screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep6.jpg" width="175"> |
+| 7. Find the name of your Robot Controller from the <br/>list and select it.<br/><br/>After you have made your selection, use the back-arrow <br/>key to return to the Settings screen.<br/><br/>Then press the back-arrow key one more time to return <br/>to the main Driver Station screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep7.jpg" width="175"> |
+| 8. When the Driver Station returns to its main <br/>screen, the first time you attempt to connect to the <br/>Robot Controller a prompt should appear on the Robot <br/>Controller screen.<br/><br/>Click on the “ACCEPT” button to accept the connection <br/>request from the Driver Station. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep8.jpg" width="175"> |
+| 9. Verify that the Driver Station screen has <br/>changed and that it now indicates that it is connected <br/>to the Robot Controller.<br/><br/>The name of the Robot Controller’s remote network <br/>(“9999-C-RC” in this example) should be displayed in the <br/>Network field on the Driver Station. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep9.jpg" width="175"> |
+| 10. Verify that the Robot Controller screen has <br/>changed and that it now indicates that it is connected <br/>to the Driver Station.<br/><br/>The Network status should read “active, connected” on <br/>the Robot Controller’s main screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingStep10.jpg" width="175"> |
+
 #### Users with Two Android Smartphones
 Once you have successfully installed the FTC apps onto your Android phones, you will want to establish a secure wireless connection between the two devices.  This connection will allow your Driver Station phone to select op modes on your Robot Controller phone and send gamepad input to these programs.  Likewise, it will allow your op modes running on your Robot Controller phone to send telemetry data to your Driver Station phone where it can be displayed for your drivers. The process to connect the two phones is known as “pairing.”
 
