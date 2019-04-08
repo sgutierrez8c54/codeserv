@@ -77,7 +77,7 @@ The REV Robotics Control Hub should come with the Robot Controller app already p
 
 Note that the Control Hub does not have its own internal battery.  Before you can connect a Driver Station to the Control Hub, you must connect the Control Hub to a 12V battery.
 
-Note that it will take an estimated 10 minutes to complete this task.
+Also note that it will take an estimated 10 minutes to complete this task.
 
 | Step| Image |
 | ----------- | :---: |
