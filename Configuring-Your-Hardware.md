@@ -62,13 +62,13 @@ The REV Robotics Color Distance Sensor is an I2C sensor. It actually combines tw
 | 5. Press the Done button to complete the I2C sensor configuration. The app should return to the previous screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareColorDistanceStep5.jpg" width="175"></p> |
 
 ### Configuring a Digital Touch Sensor
-The REV Robotics Touch Sensor is a digital device.  The Touch Sensor is HIGH (returns TRUE) when it is not pressed.  It is pulled LOW (returns FALSE) when it is pressed.
+The REV Robotics Touch Sensor is a digital sensor.  An Op Mode can query the Touch Sensor to see if the its button is being pressed or not.
 
 | Configuring a Digital Touch Sensor |
 | ---- |
 | 1. Touch the words Digital Devices on the screen to launch the Digital I/O configuration screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareTouchStep1.jpg" width="400"></p><br/> |
-| 2. Use the touch screen to add a “Digital Device” for port #1 and name the device “digitalTouch”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareTouchStep2.jpg" width="175"></p>Notice that we are configuring the Touch Sensor on port #1 instead of port #0.  This is because when the REV Robotics Touch Sensor is connected to a digital port using a standard 4-wire JST sensor cable, it is the second digital pin that is connected.  The first pin remains disconnected. |
-| 3. Press the Done button to return to the previous screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareTouchStep3.jpg" width="175"></p> |
+| 2. Use the touch screen to add a “REV Touch Sensor” for port #1 and name the device “testTouch”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareTouchNewStep2.jpg" width="175"></p>Notice that we are configuring the Touch Sensor on port #1 instead of port #0.  This is because when the REV Robotics Touch Sensor is connected to a digital port using a standard 4-wire JST sensor cable, it is the second digital pin that is connected.  The first pin remains disconnected. |
+| 3. Press the Done button to return to the previous screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareTouchNewStep3.jpg" width="175"></p> |
 
 ### Saving the Configuration Information
 Once you have configured your hardware, you must save the information to the configuration file.  If you do not save this information, it will be lost and the robot controller will be unable to communicate with your hardware.
