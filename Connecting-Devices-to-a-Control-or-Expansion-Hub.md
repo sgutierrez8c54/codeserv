@@ -15,11 +15,11 @@ Note that it will take an estimated 5 minutes to complete this task.
 | 2. Connect the other end of the switch cable to a matching XT30 port on the Hub.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep2.jpg" width="350"></p> |
 | 3. Verify that the switch is in the OFF position.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep3.jpg" width="250"></p> |
 | 4. Connect the 12V battery to the Tamiya to XT30 cable.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep4.jpg" width="350"></p> |
-| 5. Turn on the switch and verify that the Expansion Hub is drawing power from the battery.  Note that the Hub’s LED should be illuminated (notice the blue LED in upper right-hand corner of the Hub in the image below).<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep5.jpg" width="350"></p> |
-| 6. Turn off the switch and verify that the Expansion Hub is off.  Note that the Hub’s LED should not be illuminated.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep6.jpg" width="350"></p> |
+| 5. Turn on the switch and verify that the Hub is drawing power from the battery.  Note that the Hub’s LED should be illuminated (notice the blue LED in upper right-hand corner of the Hub in the image below).<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep5.jpg" width="350"></p> |
+| 6. Turn off the switch and verify that the Hub is off.  Note that the Hub’s LED should not be illuminated.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep6.jpg" width="350"></p> |
 
 ### Connecting a Motor to the Hub
-The Hub can drive up to four (4) 12V DC motors per Expansion Hub.  The Hub uses a type of electrical connector known as a 2-pin JST VH connector.  Currently, the FIRST-approved 12V DC motors are equipped with Anderson Powerpole connectors.  An adapter cable is used to connect the Anderson Powerpole connectors to the Hub motor port.
+The Hub can drive up to four (4) 12V DC motors per Hub.  The Hub uses a type of electrical connector known as a 2-pin JST VH connector.  Currently, the FIRST-approved 12V DC motors are equipped with Anderson Powerpole connectors.  An adapter cable is used to connect the Anderson Powerpole connectors to the Hub motor port.
 <p align="center">
 
 <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/MotorRig.jpg" width="350">
@@ -40,7 +40,7 @@ The Hub has 6 built-in servo ports.  The servo ports accept the standard 3-wire 
 
 Note that it will take an estimated 2.5 minutes to complete this task.
 
-| Connecting a Servo to the Expansion Hub |
+| Connecting a Servo to the Hub |
 | ---- |
 | 1. Connect the servo cable to the servo port labeled “0” on the Hub.  Note that the ground pin is on the left side of the servo port. <br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingServoStep1.jpg" width="350"> </p> |
 | 2. Verify that the black ground wire of the servo cable matches the ground pin of the servo port (which is aligned on the left side of the port).<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConnectingServoStep2.jpg" width="350"></p> |
