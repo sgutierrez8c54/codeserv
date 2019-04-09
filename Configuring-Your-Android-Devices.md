@@ -1,5 +1,5 @@
 ### What Needs to Be Configured for My Control System?
-#### Control Hub Users
+#### Control Hub Users 
 
 Teams who are using a Control Hub as the Robot Controller will only need to configure a single smartphone for use as a Driver Station.  The process is as follows,
 * Rename the smartphone to "\<TEAM NUMBER\>-DS" (where \<TEAM NUMBER\> is replaced by your team number).
