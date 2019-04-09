@@ -19,7 +19,7 @@ Note that it will take an estimated 5 minutes to complete this task.
 | 6. Turn off the switch and verify that the Hub is off.  Note that the Hub’s LED should not be illuminated.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep6.jpg" width="350"></p> |
 
 ### Connecting a Motor to the Hub
-The Hub can drive up to four (4) 12V DC motors per Hub.  The Hub uses a type of electrical connector known as a 2-pin JST VH connector.  Currently, the FIRST-approved 12V DC motors are equipped with Anderson Powerpole connectors.  An adapter cable is used to connect the Anderson Powerpole connectors to the Hub motor port.
+The Hub can drive up to four (4) 12V DC motors per Hub.  The Hub uses a type of electrical connector known as a 2-pin JST VH connector.  Many of the FIRST-approved 12V DC motors are equipped with Anderson Powerpole connectors.  An adapter cable can be used to connect the Anderson Powerpole connectors to the Hub motor port.
 <p align="center">
 
 <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/MotorRig.jpg" width="350">
