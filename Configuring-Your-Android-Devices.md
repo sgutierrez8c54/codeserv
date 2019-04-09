@@ -29,7 +29,7 @@ Note that it will take an estimated 5 minutes per phone to complete this task.
 
 | Step| Image |
 | ----------- | :---: |
-| 1. Browse the list of available apps on the smartphone and locate the <br/>**Settings** icon. Click on **Settings** icon to display the Settings screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep1.jpg" width="175"> |
+| 1. Browse the list of available apps on the smartphone and locate <br/>the **Settings** icon. Click on **Settings** icon to display the Settings screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep1.jpg" width="175"> |
 | 2. Click on **Wi-Fi** to launch the Wi-Fi screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep2.jpg" width="175"> |
 | 3. Touch the three vertical dots to display a pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep3.jpg" width="175"> |
 | 4. Select **Advanced** from the pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/RenameStep4.jpg" width="175"> |
