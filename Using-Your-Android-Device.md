@@ -1,4 +1,4 @@
-Before you get started with your control system, it is helpful if you familiarize yourself with the basic operation of your Android device.  
+Before you get started with your control system, it is helpful if you familiarize yourself with the basic operation of your Android device. 
 
 ### Unlocking Your Screen
 When you first power on an Android phone, it usually starts off with the screen in a "locked" state.  For the Motorola smartphones that are used in the _FIRST_ Tech Challenge, you must touch the locked screen and then slide your finger upwards along the screen to unlock the phone.  Note that different devices might require a slightly different procedure to unlock the screen.
