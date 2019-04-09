@@ -1,4 +1,4 @@
-### What Needs to Be Configured for My Robot?
+### What Needs to Be Configured for My Control System?
 #### Control Hub Users
 
 Teams who are using a Control Hub as the Robot Controller will only need to configure a single smartphone for use as a Driver Station.  The process is as follows,
