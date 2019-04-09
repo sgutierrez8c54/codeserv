@@ -1,4 +1,4 @@
-This wiki contains tutorials that demonstrate how to configure, program, and operate the FTC control system.  In order to complete the tutorials, you will need to have the following materials available:
+This wiki contains tutorials that demonstrate how to configure, program, and operate the FTC control system.  In order to complete the tutorials, you will need to have the following materials available: 
 
 | Required Item(s) | Image |
 | ----------- | :---: |
