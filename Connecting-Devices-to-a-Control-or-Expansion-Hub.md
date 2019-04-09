@@ -2,7 +2,7 @@ This section explains how to connect a motor, a servo, and some sensors to your 
 
 The images in this section use an Expansion Hub to demonstrate how to connect the devices.  The process is identical for a Control Hub. 
 
-When the instructions in this section refer to a "Hub", they are referring to a Control Hub or Expansion Hub.
+When the instructions in this section use the word "Hub", they are referring to a Control Hub or Expansion Hub.
 
 ### Connecting 12V Power to the  Hub
 The Hub draws power from a 12V rechargeable battery.  For safety reasons, the battery has a 20A fuse built in.  A mechanical switch is used to turn on/turn off the power.
