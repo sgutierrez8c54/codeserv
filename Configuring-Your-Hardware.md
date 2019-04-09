@@ -62,7 +62,7 @@ The REV Robotics Color Distance Sensor is an I2C sensor. It actually combines tw
 | 5. Press the Done button to complete the I2C sensor configuration. The app should return to the previous screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareColorDistanceStep5.jpg" width="175"></p> |
 
 ### Configuring a Digital Touch Sensor
-The REV Robotics Touch Sensor is a digital sensor.  An Op Mode can query the Touch Sensor to see if the its button is being pressed or not.
+The REV Robotics Touch Sensor is a digital sensor.  An Op Mode can query the Touch Sensor to see if its button is being pressed or not.
 
 | Configuring a Digital Touch Sensor |
 | ---- |
