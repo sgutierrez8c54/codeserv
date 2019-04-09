@@ -1,4 +1,6 @@
-This section demonstrates how to connect and configure devices to your REV Robotics Expansion Hub.  For the examples in this document, we will connect the Expansion Hub through a switch to a 12V battery.  We will then connect a DC motor, a servo and some sensors to the Expansion Hub.
+This section explains how to connect a motor, a servo, and a sensor to your REV Robotics Control Hub or REV Robotics Expansion Hub.  While the Control Hub differs from the Expansion Hub because of its built in Android device, the layout of the external motor, servo, and sensor ports are identical for the Control Hub and Expansion Hub.
+
+The images in this section use an Expansion Hub to demonstrate how to connect the devices.  The process is identical for a Control Hub. 
 
 ### Connecting 12V Power to the Expansion Hub
 The Expansion Hub draws power from a 12V rechargeable battery.  For safety reasons, the battery has a 20A fuse built in.  A mechanical switch is used to turn on/turn off the power.
