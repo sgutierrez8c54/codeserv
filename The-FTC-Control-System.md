@@ -3,7 +3,6 @@ The _FIRST_ Tech Challenge seeks to inspire youth to become the next generation 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/HoustonMatchPlay.jpg" width="500"><br/>(Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)<p>
 
-
 ### Autonomous vs. Driver-Controlled
 A _FIRST_ Tech Challenge match has an _autonomous_ phase and a _driver-controlled_ or _"tele-operated"_ phase.  In the autonomous phase of a match the robot operates without any human input or control.  In the driver-controlled phase, the robot can receive input from up to two human drivers.
 
