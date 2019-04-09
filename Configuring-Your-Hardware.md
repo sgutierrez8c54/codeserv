@@ -11,22 +11,14 @@ If you are using an Android smartphone as a Robot Controller, you must physicall
 | 4. Verify that your Robot Controller smartphone is powered on and unlocked.  Plug in the USB Micro OTG adapter into the OTG port of the Robot Controller phone.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareStep4.jpg" width="350"></p> Note that when the OTG adapter is plugged into the smartphone, the phone will detect the presence of the Expansion Hub and launch the Robot Controller app. |
 | 5. The first time you connect the Robot Controller smartphone to the Expansion Hub, the Android operating system should prompt you to ask if it is OK to associate the newly detected USB device (which is the Expansion Hub) with the FTC Robot Controller app.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareStep5.jpg" width="250"></p><br/> **Important Information!**<br/>You might be prompted multiple times to associate the USB hardware with the FTC Robot Controller.  Whenever you are prompted by your phone with this message, you should always select the “Use by default for this USB device” option and hit the “OK” button to associate the USB device with the FTC Robot Controller app.<br/><br/>If you fail to make this association, then the Robot Controller app might not reliably connect to this Expansion Hub the next time you turn your system on. |
 
-### Powering On the Control Hub
-If you are using a Control Hub, you do not need to make any additional connections.  You simply need to power on the Control Hub and then wait for 40 seconds for the Control Hub to complete its power on process.
+### Getting the Control Hub Ready
+If you are using a Control Hub, you do not need to make any additional connections.  You simply need to make sure that the Control Hub is powered on and paired with the Driver Station
 
+### Creating a Configuration File Using the Driver Station
+Although the configuration file needs to reside on the Robot Controller, for this tutorial we will use the Driver Station app to create the configuration file remotely.  The Driver Station can be used to create a configuration file for a Control Hub or for an Android smartphone Robot Controller. 
 
-
-Note that it will take an estimated 20 minutes to create the configuration file, configure a motor, configure a servo, and configure the color and touch sensors.
-
-
-
-### Creating a Configuration File
-
-To start, you will need to create a configuration file:
-
-| Creating a Configuration File on the Robot Controller |
+| Creating a Configuration File on the Robot Controller using the Driver Station|
 | ---- |
-
 | 6. Touch the three vertical dots in the upper right hand corner of the Robot Controller.  This will launch a pop-up menu.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareStep6.jpg" width="175"></p> |
 | 7. Select Configure Robot from the pop up menu to display the Configuration screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareStep7.jpg" width="175"></p> |
 | 8. If your Robot Controller does not have any existing configuration files, the screen will display a message indicating that you need to create a file before proceeding.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareStep8.jpg" width="175"></p><br/>Hit the “New” button to create a new configuration file for your Robot Controller. |
