@@ -31,7 +31,7 @@ Although the configuration file needs to reside on the Robot Controller, for thi
 
 Now that you've created a file, you will need to add a DC Motor to the configuration file. 
 
-**Important note:** At this point, although you have created your configuration file, you have not yet saved its contents to the robot controller.  In a [subsequent tutorial](https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Configuring-Your-Hardware#saving-the-configuration-information), you will save the configuration file in a later step.
+**Important note:** At this point, although you have created your configuration file, you have not yet saved its contents to the robot controller.  You will save the configuration file in a [later step](https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Configuring-Your-Hardware#saving-the-configuration-information).
 
 | Configuring a DC Motor |
 | ---- |
