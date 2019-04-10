@@ -116,7 +116,7 @@ Note it will take an estimated 1 minute to complete this task.
 
 | Saving Your Op Mode |
 | ---- |
-| 1. Press the “Save Op Mode” button to save the op mode to the Robot Controller.  If your save was successful, you should see the words “Save completed successfully” to the right of the buttons.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/SavingOpModeStep1ControlHub.jpg" width="300"></p> |
+| 1. Press the “Save Op Mode” button to save the op mode to the Robot Controller.  If your save was successful, you should see the words “Save completed successfully” to the right of the buttons.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/SavingOpModeStep1ControlHub.jpg" width="600"></p> |
 
 ### Exiting Program & Manage Screen
 
