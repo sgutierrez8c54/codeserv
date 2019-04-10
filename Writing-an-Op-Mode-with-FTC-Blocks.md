@@ -102,12 +102,12 @@ Note that you will need an estimated 15 minutes to complete this task.
 
 | Inserting Telemetry Statements |
 | ---- |
-| 1. Click on the “Utilities” category on the left-hand side of the browser window.  Select the “Telemetry” subcategory and select the “call telemetry.addData(key, number)” block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep1.jpg" width="300"></p> |
-| 2. Drag the “call telemetry.addData(key, number)” block and place it below the “set motor1.Power to” block. Click on the green text block “key” and highlight the text and change it to read “Target Power”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep2.jpg" width="400"></p>Note that the “call telemetry.update” block is an important block.  Data that is added to the telemetry buffer will not be sent to the Driver Station until the telemetry.update method is called. |
-| 3. Click on the “Variables” block category and select the “tgtPower” block. Drag the block so it clicks into place next to the “number” parameter on the telemetry programming block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep3.jpg" width="400"></p>The Robot Controller will send the value of the variable tgtPower to the Driver Station with a key or label of “Target Power”.  The key will be displayed to the left of the value on the Driver Station. |
-| 4. Repeat this process and name the new key “Motor Power”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep4.jpg" width="400"></p> |
-| 5. Find and click on the ”DcMotor” subcategory. Look for the green programming block labeled “motorTest.Power”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep5.jpg" width="400"></p> |
-| 6. Drag the “motorTest.Power” block to the “number” parameter of the second telemetry block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep6.jpg" width="400"></p>Your op mode will now also send the motor power information from the Robot Controller to be displayed on the Driver Station. |
+| 1. Click on the “Utilities” category on the left-hand side of the browser window.  Select the “Telemetry” subcategory and select the “call telemetry.addData(key, number)” block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep1ControlHub.jpg" width="300"></p> |
+| 2. Drag the “call telemetry.addData(key, number)” block and place it below the “set motor1.Power to” block. Click on the green text block “key” and highlight the text and change it to read “Target Power”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep2ControlHub.jpg" width="400"></p>Note that the “call telemetry.update” block is an important block.  Data that is added to the telemetry buffer will not be sent to the Driver Station until the telemetry.update method is called. |
+| 3. Click on the “Variables” block category and select the “tgtPower” block. Drag the block so it clicks into place next to the “number” parameter on the telemetry programming block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep3ControlHub.jpg" width="400"></p>The Robot Controller will send the value of the variable tgtPower to the Driver Station with a key or label of “Target Power”.  The key will be displayed to the left of the value on the Driver Station. |
+| 4. Repeat this process and name the new key “Motor Power”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep4ControlHub.jpg" width="400"></p> |
+| 5. Find and click on the ”DcMotor” subcategory. Look for the green programming block labeled “motorTest.Power”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep5ControlHub.jpg" width="400"></p> |
+| 6. Drag the “motorTest.Power” block to the “number” parameter of the second telemetry block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TelemetryMotorStep6ControlHub.jpg" width="400"></p>Your op mode will now also send the motor power information from the Robot Controller to be displayed on the Driver Station. |
 
 ### Saving Your Op Mode
 After you have modified your op mode, it is very important to save the op mode to the Robot Controller.
@@ -116,18 +116,17 @@ Note it will take an estimated 1 minute to complete this task.
 
 | Saving Your Op Mode |
 | ---- |
-| 1. Press the “Save Op Mode” button to save the op mode to the Robot Controller’s programming mode server.  If your save was successful, you should see “Save completed successfully” in green letters next to the button.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/SavingOpModeStep1.jpg" width="300"></p> |
+| 1. Press the “Save Op Mode” button to save the op mode to the Robot Controller.  If your save was successful, you should see the words “Save completed successfully” to the right of the buttons.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/SavingOpModeStep1ControlHub.jpg" width="300"></p> |
 
-### Exiting Programming Mode
-With earlier versions of the Blocks Programming software (version 3.1 and earlier) you had to exit _Programming Mode_ before you were able to run your op mode.  Note that with versions 3.2 and higher, this step is **no longer necessary.**
+### Exiting Program & Manage Screen
 
-After you have modified and saved your op mode, if you are using v3.1 software or earlier, you need to exit Programming Mode before you will be able to run your op mode.
+After you have modified and saved your op mode, if your Driver Station is still in the Program & Manage screen, then you should exit this screen and return to the Main Driver Station screen.
 
 Note it will take an estimated 1 minute to complete this task.
 
 | Exiting Programming Mode |
 | ---- |
-| 1. Press the Android back arrow to exit Programming Mode.  You need to exit Programming Mode before you can run your op mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExitingProgrammingModeStep1.jpg" width="175"></p> |
+| 1. Press the Android back arrow to exit the Program & Manage screen.  You need to exit the Program & Manage screen before you can run your op mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExitingProgrammingModeStep1ControlHub.jpg" width="175"></p> |
 
 Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](https://github.com/FIRST-Tech-Challenge/TmpTesting/wiki/Running-Your-Op-Mode).
 
