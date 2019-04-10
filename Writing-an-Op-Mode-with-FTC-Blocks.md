@@ -38,7 +38,7 @@ Note that it will take an estimated 10 minutes to create your first op mode.
 ### Examining the Structure of Your Op Mode
 When you create a new op mode, there should already be a set of programming blocks that are placed on the design canvas for your op mode.  These blocks are automatically included with each new op mode that you create.  They create the basic structure for your op mode.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic1.jpg" width="600"><p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic1ControlHub.jpg" width="600"><p>
 
 In the figure shown above, the main body of the op mode is defined by the outer purple bracket that has the words “to runOpMode” at the top.  As the help tip indicates, this function is executed when this op mode (“MyFIRSTOpMode” in this example) is selected from the Driver Station. 
 
