@@ -1,10 +1,10 @@
 ### What’s an Op Mode?
-During a typical _FIRST_ Tech Challenge match, a team’s robot must perform a variety of tasks to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write programs called _op modes_ (which stands for “operational modes”) to specify the behavior for their robot.  These op modes run on the Robot Controller phone after being selected on the Driver Station phone.
+During a typical _FIRST_ Tech Challenge match, a team’s robot must perform a variety of tasks to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write programs called _op modes_ (which stands for “operational modes”) to specify the behavior for their robot.  These op modes run on the Robot Controller after being selected on the Driver Station.
 
 Teams who are participating in the _FIRST_ Tech Challenge have a variety of programming tools that they can use to create their own op modes.  This section of the wiki explains how to use the FTC Blocks Programming Tool to write an op mode for an FTC robot.
 
 ### The FTC Blocks Programming Tool
-The FTC Blocks Programming Tool is a user-friendly programming tool that is served up by the Robot Controller phone.  A user can create custom op modes for their robot using this tool and then save these op modes directly onto the Robot Controller.
+The FTC Blocks Programming Tool is a user-friendly programming tool that is served up by the Robot Controller.  A user can create custom op modes for their robot using this tool and then save these op modes directly onto the Robot Controller.
 Users drag and drop jigsaw-shaped programming blocks onto a design “canvas” and arrange these blocks to create the program logic for their op mode.
 The FTC Blocks Programming Tool is powered by Google’s Blockly software and was developed with support from Google.
 
