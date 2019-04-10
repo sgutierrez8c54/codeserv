@@ -97,9 +97,9 @@ Also note that it will take an estimated 10 minutes to complete this task.
 | 13. Verify that the Driver Station screen has <br/>changed and that it now indicates that it is connected <br/>to the Control Hub.<br/><br/>The name of the Control Hub's WiFi network <br/>(“FTC-1Ybr” in this example) should be displayed in the <br/>Network field on the Driver Station. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingControlHubStep13.jpg" width="175"> |
 
 #### Users with Two Android Smartphones
-Once you have successfully installed the FTC apps onto your Android phones, you will want to establish a secure wireless connection between the two devices.  This connection will allow your Driver Station phone to select op modes on your Robot Controller phone and send gamepad input to these programs.  Likewise, it will allow your op modes running on your Robot Controller phone to send telemetry data to your Driver Station phone where it can be displayed for your drivers. The process to connect the two phones is known as “pairing.”
-
 Important Note: If your Driver Station was previously paired to a Control Hub, and you currently would like to connect to an Android smartphone Robot Controller, then before attempting to pair to the Robot Controller, you should forget the Wi-Fi network for the previous Control Hub (using the Android Wifi Settings screen on the Driver Station) and then power cycle the Driver Station phone.  If the previous Control Hub is powered on and if you haven't forgotten this network, then the Driver Station might try and connect to the Control Hub and might be unable to connect to the Robot Controller smartphone.
+
+Once you have successfully installed the FTC apps onto your Android phones, you will want to establish a secure wireless connection between the two devices.  This connection will allow your Driver Station phone to select op modes on your Robot Controller phone and send gamepad input to these programs.  Likewise, it will allow your op modes running on your Robot Controller phone to send telemetry data to your Driver Station phone where it can be displayed for your drivers. The process to connect the two phones is known as “pairing.”
 
 Note that it will take an estimated 10 minutes to complete this task.
 
