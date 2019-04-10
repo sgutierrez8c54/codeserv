@@ -1,4 +1,4 @@
-To be able to program using the Blocks Programming Tool or the OnBot Java Programming tool, your laptop will need a Javascript-enabled browser.  Both tools are Javascript applications that are served up by the Program and Manage server of the Robot Controller.
+In order to be able to program your Robot Controller using the Blocks Programming Tool or the OnBot Java Programming tool, your laptop will need a Javascript-enabled browser.  Both tools are Javascript applications that are served up by the Program and Manage server of the Robot Controller.
 
 The Blocks Programming Tool and the OnBot Java Programming Tool should work with most modern web browsers.  However, _FIRST_ recommends the use of Google Chrome with these tools.  If you would like to use Google Chrome as your browser, you can download it for free from the Google Chrome website.
 
