@@ -58,7 +58,7 @@ When the Robot Controller reaches the block labeled “call MyFIRSTOpMode.waitFo
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic4.jpg" width="300"><p>
 
-After the “call MyFIRSTOpMode.waitForStart”, there is a conditional "if" block that only gets executed if the op mode is still active (i.e., a stop command hasn't been received).  
+After the “call MyFIRSTOpMode.waitForStart”, there is a conditional "if" block ("if call MyFIRSTOpMode.isActive") that only gets executed if the op mode is still active (i.e., a stop command hasn't been received).  
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic4bControlhub.jpg" width="600"><p>
 
@@ -74,6 +74,10 @@ This green control block will perform the steps listed under the “do” portio
 In this section, you will add some blocks to your op mode that will allow you to control a DC motor with a gamepad.
 
 Note that you will need an estimated 15 minutes to complete this task.
+
+Important Note: The programming blocks for user configured devices (motors, servos and sensors) will only be visible in the Blocks tool if there is an active configuration file with the configured devices included in the file.  If a type of device is not included in the active configuration file, then its programming blocks will be missing from the palette of blocks.
+
+If you did not (create and activate a configuration file yet)[https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Configuring-Your-Hardware],then you should follow the (instructions in the wiki)[https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Configuring-Your-Hardware] to do so.  After you created and activated your configuration file, you can close and then reopen your op mode so that the programming blocks for the newly configured devices will be visible.
 
 | Modifying Your Op Mode to Control a DC Motor |
 | ---- |
