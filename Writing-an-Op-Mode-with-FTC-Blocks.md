@@ -8,7 +8,7 @@ The FTC Blocks Programming Tool is a user-friendly programming tool that is serv
 Users drag and drop jigsaw-shaped programming blocks onto a design “canvas” and arrange these blocks to create the program logic for their op mode.
 The FTC Blocks Programming Tool is powered by Google’s Blockly software and was developed with support from Google.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/BlocksPicture1.jpg" width="500"><p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/BlocksPicture1New.jpg" width="500"><p>
 
 The examples in this section use a Windows laptop computer to connect to the Robot Controller.  This Windows laptop computer has a Javascript-enabled web browser installed that is used to access the FTC Blocks Programming Tool. 
 
@@ -20,17 +20,27 @@ Note that the process used to create and edit an op mode is identical if you are
 
 Note that if you prefer, you can use an alternate device, such as an Apple Mac laptop, an Apple iPad, an Android tablet, or a Chromebook, instead of a Windows computer to access the FTC Blocks Programming Tool.  The instructions included in this document, however, assume that you are using a Windows laptop.
 
-Note that this section of the wiki assumes that you have already setup and configured your Android devices and robot hardware. It also assumes that you have successfully connected your laptop to the Progam & Manage server on the Robot Controller device.
+Also note that this section of the wiki assumes that you have already setup and configured your Android devices and robot hardware. It also assumes that you have successfully connected your laptop to the Robot Controller's Progam & Manage wireless network.
 
 ### Creating Your First Op Mode
-If you connected your laptop successfully to the Programming Mode wireless network of the Robot Controller, then you are ready to create your first op mode.  In this section, you will use the FTC Blocks Programming Tool to create the program logic for your first op mode.
+If you connected your laptop successfully to the Program & Manage wireless network of the Robot Controller, then you are ready to create your first op mode.  In this section, you will use the FTC Blocks Programming Tool to create the program logic for your first op mode.
 
 Note that it will take an estimated 10 minutes to create your first op mode.
 
 | Creating Your First Op Mode |
 | ---- |
-| 1. Launch the web browser on your laptop (FIRST recommends using Google Chrome).<br/><br/>Find the web address that is displayed on the Programming Mode screen of the Robot Controller.  In our example, the web address is “192.168.49.1:8080”.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep1a.jpg" width="350"> </p>Type this web address into the address field of your browser to navigate to the Programming Mode web server.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep1b.jpg" width="500"> </p>|
-| 2. Verify that your web browser is connected to the programming mode server.  If it is connected to the programming mode server successfully, the main FTC Blocks Programming Tool project screen should be displayed.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep2.jpg" width="600"> |
+| 1. Launch the web browser on your laptop (FIRST recommends using Google Chrome).<br/><br/>Find the web address that is displayed on the Programming Mode screen of the Robot Controller.  
+
+<br/> <br/>Important Note: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080".
+
+<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep1a.jpg" width="350"> </p>
+
+<br/><br/>If your Robot Controller is a Control Hub, then the address to access the Program & Manage server is "192.168.43.1:8080".  Notice the difference in the third octet of the IP addresses (the Control Hub has a "43" instead of a "49"). 
+
+<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep1aControlHub.jpg" width="350"> </p>
+
+Type this web address into the address field of your browser and press RETURN to navigate to the Program & Manage web server.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep1bControlHub.jpg" width="500"> </p>|
+| 2. Verify that your web browser is connected to the programming mode server.  If it is connected to the programming mode server successfully, the main FTC Blocks Programming Tool project screen should be displayed.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep2ControlHub.jpg" width="600"> |
 | 3. Press the “Create New Op Mode” button which should be visible towards the upper left hand corner of the browser window.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep3.jpg" width="400"></p>When prompted, specify a name for the op mode and hit “OK” to continue.  |
 | 4. Verify that you created the new op mode.  You should see your newly created op mode opened for editing in your web browser’s main screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/WritingFirstOpModeStep4.jpg" width="700"></p>Notice that the left-hand side of the browser’s screen contains a list of categorized programming blocks.  If you click on a category, the browser will display a list of available related programming blocks.<br/><br/>The right-hand side of the screen is where you arrange your programming blocks to create the logic for your op mode. |
 
