@@ -128,7 +128,7 @@ Note it will take an estimated 1 minute to complete this task.
 | ---- |
 | 1. Press the Android back arrow to exit the Program & Manage screen.  You need to exit the Program & Manage screen before you can run your op mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExitingProgrammingModeStep1ControlHub.jpg" width="175"></p> |
 
-Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](https://github.com/FIRST-Tech-Challenge/TmpTesting/wiki/Running-Your-Op-Mode).
+Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Running-Your-Op-Mode).
 
 
 
