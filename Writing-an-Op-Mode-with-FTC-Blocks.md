@@ -1,5 +1,5 @@
 ### What’s an Op Mode?
-During a typical _FIRST_ Tech Challenge match, a team’s robot must perform a variety of tasks to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write programs called “op modes” (which stands for “operational modes”) to specify the behavior for their robot.  These op modes run on the Robot Controller phone after being selected on the Driver Station phone.
+During a typical _FIRST_ Tech Challenge match, a team’s robot must perform a variety of tasks to score points.  For example, a team might want their robot to follow a white line on the competition floor and then score a game element into a goal autonomously during a match.  Teams write programs called _op modes_ (which stands for “operational modes”) to specify the behavior for their robot.  These op modes run on the Robot Controller phone after being selected on the Driver Station phone.
 
 Teams who are participating in the _FIRST_ Tech Challenge have a variety of programming tools that they can use to create their own op modes.  This section of the wiki explains how to use the FTC Blocks Programming Tool to write an op mode for an FTC robot.
 
@@ -13,6 +13,10 @@ The FTC Blocks Programming Tool is powered by Google’s Blockly software and wa
 The examples in this section use a Windows laptop computer to connect to the Robot Controller.  This Windows laptop computer has a Javascript-enabled web browser installed that is used to access the FTC Blocks Programming Tool. 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/BlocksPicture2.jpg" width="500"><p>
+
+Note that the process used to create and edit an op mode is identical if you are using a Control Hub as your Robot Controller.
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/BlocksPicture2b.jpg" width="500"><p>
 
 Note that if you prefer, you can use an alternate device, such as an Apple Mac laptop, an Apple iPad, an Android tablet, or a Chromebook, instead of a Windows computer to access the FTC Blocks Programming Tool.  The instructions included in this document, however, assume that you are using a Windows laptop.
 
