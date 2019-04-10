@@ -9,6 +9,7 @@ Teams who are using a Control Hub as the Robot Controller will only need to conf
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ControlHubAndPhone.jpg" alt="Control Hub and Android Phone" width="200"><p>
 
+Important Note: Eventually the Control Hub will need be renamed so that its name complies with rule \<RS01\>.  However, for now, we will 
 #### Users with Two Android Smartphones
 Teams who have two smartphones and are not using a Control Hub will need to configure one smartphone for use as a Robot Controller and a second smartphone for use as a Driver Station.  The process is as follows,
 * Rename one smartphone to "\<TEAM NUMBER\>-RC" (where \<TEAM NUMBER\> is replaced by your team number).
@@ -98,6 +99,8 @@ Also note that it will take an estimated 10 minutes to complete this task.
 #### Users with Two Android Smartphones
 Once you have successfully installed the FTC apps onto your Android phones, you will want to establish a secure wireless connection between the two devices.  This connection will allow your Driver Station phone to select op modes on your Robot Controller phone and send gamepad input to these programs.  Likewise, it will allow your op modes running on your Robot Controller phone to send telemetry data to your Driver Station phone where it can be displayed for your drivers. The process to connect the two phones is known as “pairing.”
 
+Important Note: If your Driver Station was previously paired to a Control Hub, and you currently would like to connect to an Android smartphone Robot Controller, then before attempting to pair to the Robot Controller, you should forget the Wi-Fi network for the previous Control Hub (using the Android Wifi Settings screen on the Driver Station) and then power cycle the Driver Station phone.  If the previous Control Hub is powered on and if you haven't forgotten this network, then the Driver Station might try and connect to the Control Hub and will be unable to connect to the Robot Controller smartphone.
+
 Note that it will take an estimated 10 minutes to complete this task.
 
 | Step| Image |
@@ -108,7 +111,7 @@ Note that it will take an estimated 10 minutes to complete this task.
 | 4. Touch the three vertical dots on the upper right <br/>hand corner of the main screen of the FTC Driver Station <br/>app.  This will launch a pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep4.jpg" width="175"> |
 | 5. Select **Settings** from the pop-up menu. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep5.jpg" width="175"> |
 | 6. From the **Settings** screen, look for and select <br/>**Pairing Method** to launch the **Pairing** <br/>**Method** screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep6.jpg" width="175"> |
-| 7. Touch the words **Wifi Direct** to indicate <br/> that this Driver Station will be pairing with <br/> another Android device. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep7.jpg" width="175"> |
+| 7. Verify that the **Wifi Direct** mode is selected, which means <br/> that this Driver Station will be pairing with <br/> another Android device. <br/><br/> | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep7.jpg" width="175"> |
 | 8. From the **Settings** screen, look for and select <br/>**Pair with Robot Controller** to launch the **Pair**<br/>**with Robot Controller **screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep8.jpg" width="175"> |
 | 9. Find the name of your Robot Controller from the <br/>list and select it.<br/><br/>After you have made your selection, use the back-arrow <br/>key to return to the Settings screen.<br/><br/>Then press the back-arrow key one more time to return <br/>to the main Driver Station screen. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep9.jpg" width="175"> |
 | 10. When the Driver Station returns to its main <br/>screen, the first time you attempt to connect to the <br/>Robot Controller a prompt should appear on the Robot <br/>Controller screen.<br/><br/>Click on the **ACCEPT** button to accept the connection <br/>request from the Driver Station. | <img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/PairingNewStep10.jpg" width="175"> |
