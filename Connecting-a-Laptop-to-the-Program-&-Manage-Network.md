@@ -20,4 +20,4 @@ If you cannot see your Programming Mode wireless network in the list of availabl
 1.	Is the Robot Controller running and connected to the Driver Station?
 2.	Is your Windows laptop updated with the most current system updates and service packs?  Older versions of Windows 8 and 10, for example, had issues that could prevent the laptop from displaying the Program & Manage wireless network in the list of available networks.
 
-If you are still having issues with connecting the laptop to the Robot Controller, visit [Troubleshooting](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting) section of this wiki for instructions on how to manually connect to the Program & Manage wireless network with a Windows 10 laptop.
+If you are still having issues with connecting the laptop to the Robot Controller, visit [Troubleshooting](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting) section of this wiki for instructions on [how to manually connect to the Program & Manage wireless network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#manually-connecting-to-the-blocks-programming-mode-wi-fi-network) with a Windows 10 laptop.
