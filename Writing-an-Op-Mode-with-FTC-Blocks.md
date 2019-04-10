@@ -58,11 +58,15 @@ When the Robot Controller reaches the block labeled “call MyFIRSTOpMode.waitFo
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic4.jpg" width="300"><p>
 
+After the “call MyFIRSTOpMode.waitForStart”, there is a conditional "if" block that only gets executed if the op mode is still active (i.e., a stop command hasn't been received).  
+
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic4bControlhub.jpg" width="300"><p>
+
 Any blocks that are placed after the “Put run blocks here” comment and before the green block labeled “repeat while call MyFirstOpMode.opModeIsActive” will be executed sequentially by the Robot Controller after the Start button has been pressed.
 
 The green block labeled “repeat while call MyFirstOpMode.opModeIsActive” is an iterative or looping control structure.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic5.jpg" width="500"><p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic5ControlHub.jpg" width="500"><p>
 
 This green control block will perform the steps listed under the “do” portion of the block as long as the condition “call MyFIRSTOpMode.opModeIsActive” is true.  What this means is that the statements included in the “do” portion of the block will repeatedly be executed as long as the op mode “MyFIRSTOpMode” is running.   Once the user presses the Stop button, the “call MyFIRSTOpMode.opModeIsActive” clause is no longer true and the “repeat while” loop will stop repeating itself.
 
