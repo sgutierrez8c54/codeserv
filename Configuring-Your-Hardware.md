@@ -2,7 +2,7 @@
 Before you can communicate with the motor, servo and sensors that are connected to the Control Hub or Expansion Hub, you first must create a configuration file on your Robot Controller , so that the Robot Controller will know what hardware is available on the Control Hub's or Expansion Hub's external ports.
 
 #### Connecting an Android Smartphone to an Expansion Hub
-If you are using an Android smartphone as a Robot Controller, you must physically connect the Robot Controller smartphone to the Expansion Hub using a USB cable and an On-The-Go (OTG) adapter. Also, you should verify that the Driver Station is currently connected to the Robot Controller.
+If you are using an Android smartphone as a Robot Controller, you must physically connect the Robot Controller smartphone to the Expansion Hub using a USB cable and an On-The-Go (OTG) adapter. Also, you should verify that the Driver Station is currently paired to the Robot Controller.
 
 | Connecting an Android Smartphone to an Expansion Hub |
 | ---- |
@@ -13,7 +13,7 @@ If you are using an Android smartphone as a Robot Controller, you must physicall
 | 5. The first time you connect the Robot Controller smartphone to the Expansion Hub, the Android operating system should prompt you to ask if it is OK to associate the newly detected USB device (which is the Expansion Hub) with the FTC Robot Controller app.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ConfiguringHardwareStep5.jpg" width="250"></p><br/> **Important Information!**<br/>You might be prompted multiple times to associate the USB hardware with the FTC Robot Controller.  Whenever you are prompted by your phone with this message, you should always select the “Use by default for this USB device” option and hit the “OK” button to associate the USB device with the FTC Robot Controller app.<br/><br/>If you fail to make this association, then the Robot Controller app might not reliably connect to this Expansion Hub the next time you turn your system on. |
 
 #### Getting the Control Hub Ready
-If you are using a Control Hub, you do not need to make any additional connections.  You simply need to make sure that the Control Hub is powered on and connected to the Driver Station.
+If you are using a Control Hub, you do not need to make any additional connections.  You simply need to make sure that the Control Hub is powered on and paired to the Driver Station.
 
 ### Creating a Configuration File Using the Driver Station
 Although the configuration file needs to reside on the Robot Controller, for this tutorial we will use the Driver Station app to create the configuration file remotely.  The Driver Station can be used to create a configuration file for a Control Hub or for an Android smartphone Robot Controller. 
