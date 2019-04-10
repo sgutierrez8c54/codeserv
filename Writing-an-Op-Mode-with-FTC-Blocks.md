@@ -60,7 +60,7 @@ When the Robot Controller reaches the block labeled “call MyFIRSTOpMode.waitFo
 
 After the “call MyFIRSTOpMode.waitForStart”, there is a conditional "if" block that only gets executed if the op mode is still active (i.e., a stop command hasn't been received).  
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic4bControlhub.jpg" width="300"><p>
+<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ExaminingStructurePic4bControlhub.jpg" width="600"><p>
 
 Any blocks that are placed after the “Put run blocks here” comment and before the green block labeled “repeat while call MyFirstOpMode.opModeIsActive” will be executed sequentially by the Robot Controller after the Start button has been pressed.
 
