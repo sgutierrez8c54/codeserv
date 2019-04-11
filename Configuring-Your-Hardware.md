@@ -1,5 +1,5 @@
 ### Before You Begin...
-Before you can communicate with the motor, servo and sensors that are connected to the Control Hub or Expansion Hub, you first must create a configuration file on your Robot Controller , so that the Robot Controller will know what hardware is available on the Control Hub's or Expansion Hub's external ports.
+Before you can communicate with the motor, servo and sensors that are connected to the Control Hub or Expansion Hub, you first must create a configuration file on your Robot Controller, so that the Robot Controller will know what hardware is available on the Control Hub's or Expansion Hub's external ports.
 
 #### Connecting an Android Smartphone to an Expansion Hub
 If you are using an Android smartphone as a Robot Controller, you must physically connect the Robot Controller smartphone to the Expansion Hub using a USB cable and an On-The-Go (OTG) adapter. Also, you should verify that the Driver Station is currently paired to the Robot Controller.
