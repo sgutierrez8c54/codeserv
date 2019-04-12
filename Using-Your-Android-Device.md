@@ -5,7 +5,7 @@ When you first power on an Android phone, it usually starts off with the screen 
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_screenlock.jpg" width="200"><p>
 
-Depending on your security settings, you might be challenged for a pass code or PIN number.  Use the touch screen to enter in the pass code or PIN value and tap on the checkbox symbol to log into the device.
+Depending on your security settings, you might be challenged for a pass code or PIN number.  Use the touch screen to enter in the pass code or PIN value and tap on the check mark to log into the device.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/android_screenkeypad.jpg" width="200"><p>
 
