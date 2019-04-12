@@ -19,7 +19,7 @@ Note that it will take an estimated 15 minutes to complete this task.
 
 ### Touch Sensor
 
-The REV Robotics Touch Sensor can be connected to a digital port on the Expansion Hub.  The Touch Sensor is HIGH (returns TRUE) when it is not pressed.  It is pulled LOW (returns FALSE) when it is pressed.
+For this example, we assume that the REV Robotics Touch Sensor has been configured as a digital touch sensor in the Robot Controller's active configuration file.  We will use the "isPressed" programming block to determine if the button on the sensor is currently pressed or not.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVTouchSensor.jpg" width="190"><p>
 
@@ -31,10 +31,10 @@ Note that it will take an estimated 15 minutes to complete this task.
 
 | Modifying the Op Mode to Display Button (Touch Sensor) State|
 | ---- |
-| 1. Place the Robot Controller in Programming Mode.  Verify that your laptop is still connected to the Robot Controller’s Programming Mode Wi-Fi network.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep1.jpg" width="175"></p> |
-| 2. Verify that “MyFIRSTOpMode” is opened for editing. If it is not, you can click on the FIRST logo in the upper left hand corner of the browser window on the laptop.  This should take you to the main FTC Blocks Development Tool project screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep2.jpg" width="400"></p>Click on the “MyFIRSTOpMode” project to open it for editing if it is not already opened. |
-| 3. Click on the “Other Devices” category to expand it.  If you configured the touch sensor as a digital device, you should see the “Digital Channel” subcategory. Click on “Digital Channel” to display the list of available programming blocks.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep3.jpg" width="200"></p> |
-| 4. Select the “set digitalTouch.Mode to” block and drag it to the position after the “Put initialization blocks here” comment. By default, this block will set the digital channel named “digitalTouch” to input mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep4.jpg" width="400"></p> |
+| 1. Verify that your laptop is still connected to the Robot Controller’s Programming Mode Wi-Fi network. |
+| 2. Verify that “MyFIRSTOpMode” is opened for editing. If it is not, you can click on the FIRST logo in the upper left hand corner of the browser window on the laptop.  This should take you to the main FTC Blocks Development Tool project screen.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep2ControlHub.jpg" width="400"></p>Click on the “MyFIRSTOpMode” project to open it for editing if it is not already opened. |
+| 3. If it's not already expanded, click on the “Sensors” category to expand it.  If you configured the touch sensor as a digital device, you should see the “Digital Channel” subcategory. Click on “Digital Channel” to display the list of available programming blocks.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep3ControlHub.jpg" width="200"></p> |
+| 4. Select the “set digitalTouch.Mode to” block and drag it to the position after the “Put initialization blocks here” comment. By default, this block will set the digital channel named “digitalTouch” to input mode.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep4ControlHub.jpg" width="400"></p> |
 | 5. Click on the “Logic” category.  Find and click on the “if do else” block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep5.jpg" width="175"></p> |
 | 6. Drag the “if do else” block to the position before the “telemetry.update” block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep6.jpg" width="175"></p> |
 | 7. Click on the “Other Devices” category to expand it.   Click on the “Digital Channel” subcategory, then find and select the “digitalTouch.State” block.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/TouchSensorOpModeStep7.jpg" width="175"></p> |
