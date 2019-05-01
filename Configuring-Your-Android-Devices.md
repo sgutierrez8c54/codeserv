@@ -9,7 +9,7 @@ Teams who are using a Control Hub with the integrated Robot Controller will only
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ControlHubAndPhone.jpg" alt="Control Hub and Android Phone" width="200"><p>
 
-IMPORTANT NOTE: Eventually the Control Hub will need be renamed so that its name complies with Game Manual rule 
+**IMPORTANT NOTE:** Eventually the Control Hub will need be renamed so that its name complies with Game Manual rule 
 \<RS01\>.  
 #### Users with Two Android Smartphones
 Teams who have two smartphones and are not using a Control Hub will need to configure one smartphone for use as a Robot Controller and a second smartphone for use as a Driver Station.  The process is as follows,
