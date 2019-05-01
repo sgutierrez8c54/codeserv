@@ -23,7 +23,7 @@ The Expansion Hub is also connected to a 12V battery which is used to power the 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVExpansionHubLayout.jpg" width="600"><p>
 
 ### REV Robotics Control Hub
-For the 2019-2020 season, teams in select regions will have the option of using the [REV Robotics Control Hub](http://www.revrobotics.com/rev-31-1152/).  The Control Hub is an integrated version of the Robot Controller.  It combines an Android device built into the same case as a REV Robotics Expansion Hub.  
+For the 2019-2020 season, teams in select regions will have the option of using the REV Robotics Control Hub.  The Control Hub is an integrated version of the Robot Controller.  It combines an Android device built into the same case as a REV Robotics Expansion Hub.  
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ControlHubEquals.jpg" width="600"><p>  
 
