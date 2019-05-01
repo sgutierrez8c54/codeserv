@@ -11,7 +11,7 @@ Note that it will take an estimated 5 minutes to complete this task.
 
 | Connecting 12V Power to the Hub |
 | ---- |
-| 1. If your 12V battery has a Tamiya style connector, connect the Tamiya to XT30 adapter cable to the matching end of the switch cable.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep1.jpg" width="250"></p><br/>Do not plug connect the 12V battery to the Tamiya adapter yet.  We will connect the battery during a later step. |
+| 1. If your 12V battery has a Tamiya style connector, connect the Tamiya to XT30 adapter cable to the matching end of the switch cable.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep1.jpg" width="250"></p><br/>Important Note: Do not connect the 12V battery to the Tamiya adapter yet.  We will connect the battery during a later step. |
 | 2. Connect the other end of the switch cable to a matching XT30 port on the Hub.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep2.jpg" width="350"></p> |
 | 3. Verify that the switch is in the OFF position.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep3.jpg" width="250"></p> |
 | 4. Connect the 12V battery to the Tamiya to XT30 cable.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/Connecting12VStep4.jpg" width="350"></p> |
