@@ -16,7 +16,7 @@ Each tool has its own merits and weaknesses.  For many users (especially rookies
 
 The FTC OnBot Java Programming Tool is similar to the Blocks Programming Tool. However, OnBot Java is a text-based tool and it requires that the user have a sound understanding of the Java programming language.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ipadPhoneChromebook.jpg" width="500"></p>
+<p align="center">[[/images/Choosing-a-Programming-Tool/ipadPhoneChromebook.jpg]]</p>
 
 It is important to note that with the Blocks Programming Tool and the OnBot Java Programming Tool, a user only needs a web browser to create, edit and build op modes for their robot.  A user can even create, edit and build op modes using an iPad, an Android phone, or a Chromebook.  
 
