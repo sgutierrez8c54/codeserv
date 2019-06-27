@@ -6,5 +6,5 @@ Note that it will take an estimated 15 minutes (depending on the speed of your I
 
 | Installing a Javascript-Enabled Browser |
 | ---- |
-| 1. Visit the Google Chrome website (using your computer’s existing browser) and follow onscreen instructions to download and install Chrome.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/InstallingBrowserStep1.jpg" width="350"><p align="center">https://www.google.com/chrome/browser/desktop/index.html</p>|
-| 2. Note that your computer might prompt you with a security warning during the installation process.  If you are prompted with this warning, click on the “Run” button to continue with the installation.<br/><br/><p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/InstallingBrowserStep2.jpg" width="500"> |
+| 1. Visit the Google Chrome website (using your computer’s existing browser) and follow onscreen instructions to download and install Chrome.<br/><br/><p align="center">[[/images/Installing-a-Javascript-Enabled-Browser/InstallingBrowserStep1.jpg]]<p align="center">https://www.google.com/chrome/browser/desktop/index.html</p>|
+| 2. Note that your computer might prompt you with a security warning during the installation process.  If you are prompted with this warning, click on the “Run” button to continue with the installation.<br/><br/><p align="center">[[/images/Installing-a-Javascript-Enabled-Browser/InstallingBrowserStep2.jpg]] |
