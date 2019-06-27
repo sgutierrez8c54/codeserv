@@ -20,16 +20,16 @@ The REV Robotics Expansion Hub is the electronic input/output (or “I/O”) mod
 
 The Expansion Hub is also connected to a 12V battery which is used to power the Expansion Hub, the motors, the servos and sensors.  If an Android smartphone is used as the Robot Controller, then the smartphone will have its own independent battery.  If a REV Robotics Control Hub is used as the Robot Controller, then the Control Hub will use the main 12V battery to power its internal Android device.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVExpansionHubLayout.jpg" width="600"><p>
+<p align="center">[[/images/The-FTC-Control-System/REVExpansionHubLayout.jpg]]<p>
 
 ### REV Robotics Control Hub
 For the 2019-2020 season, teams in select regions will have the option of using the REV Robotics Control Hub.  The Control Hub is an integrated version of the Robot Controller.  It combines an Android device built into the same case as a REV Robotics Expansion Hub.  
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/ControlHubEquals.jpg" width="600"><p>  
+<p align="center">[[/images/The-FTC-Control-System/ControlHubEquals.jpg]]<p>  
 
 The Control Hub, which has its built-in Android device connected directly to the Expansion Hub using an internal serial bus, eliminates the need for an external USB connection between the Android Robot Controller and the I/O module.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/REVControlHubLayout.jpg" width="600"><p>
+<p align="center">[[/images/The-FTC-Control-System/REVControlHubLayout.jpg]]<p>
 
 ### What's an Op Mode?
 
