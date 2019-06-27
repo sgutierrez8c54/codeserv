@@ -77,7 +77,7 @@ Note that you will need an estimated 15 minutes to complete this task.
 
 Important Note: The programming blocks for user configured devices (motors, servos and sensors) will only be visible in the Blocks tool if there is an active configuration file with the configured devices included in the file.  If a type of device is not included in the active configuration file, then its programming blocks will be missing from the palette of blocks.
 
-If you did not [create and activate a configuration file yet](https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Configuring-Your-Hardware), then you should follow the [instructions in the wiki](https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Configuring-Your-Hardware) to do so.  After you created and activated your configuration file, you can close and then reopen your op mode so that the programming blocks for the newly configured devices will be visible.
+If you did not [create and activate a configuration file yet](Configuring-Your-Hardware), then you should follow the [instructions in the wiki](Configuring-Your-Hardware) to do so.  After you created and activated your configuration file, you can close and then reopen your op mode so that the programming blocks for the newly configured devices will be visible.
 
 | Modifying Your Op Mode to Control a DC Motor |
 | ---- |
@@ -128,7 +128,7 @@ Note it will take an estimated 1 minute to complete this task.
 | ---- |
 | 1. Press the Android back arrow to exit the Program & Manage screen.  You need to exit the Program & Manage screen before you can run your op mode.<br/><br/><p align="center">[[/images/Writing-an-Op-Mode-with-FTC-Blocks/ExitingProgrammingModeStep1ControlHub.jpg]]</p> |
 
-Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](https://github.com/FIRST-Tech-Challenge/ftc_app/wiki/Running-Your-Op-Mode).
+Congratulations! You wrote your first op mode using the FTC Blocks Programming Tool!  You will learn how to run your op mode in the the section entitled [Running Your Op Mode](Running-Your-Op-Mode).
 
 
 
