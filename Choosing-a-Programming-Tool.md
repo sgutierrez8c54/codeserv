@@ -6,11 +6,11 @@ You will need to select a programming tool to be able to write op modes for your
 
 2. **The FTC OnBot Java Programming Tool** - A text-based programming tool that lets programmers use a web browser to create, edit and save their Java op modes.  This tool is recommended for programmers who have basic to advanced Java skills and who would like to write text-based op modes.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/onBotJavaScreen.jpg" width="500"><p>
+<p align="center">[[/images/Choosing-a-Programming-Tool/onBotJavaScreen.jpg]]<p>
 
 3. **Android Studio** - An advanced integrated development environment for creating Android apps.  This tool is the same tool that professional Android app developers use.  Android Studio is only recommended for advanced users who have extensive Java  programming experience.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/androidStudioScreen.jpg" width="500"><p>
+<p align="center">[[/images/Choosing-a-Programming-Tool/androidStudioScreen.jpg]]<p>
 
 Each tool has its own merits and weaknesses.  For many users (especially rookies and novice programmers), _**the FTC Blocks Programming Tool is the best overall tool to use**_.  The Blocks Programming Tool is intuitive and easy-to-learn.  It is the fastest way to get started programming your robot.
 
