@@ -166,11 +166,11 @@ When you create or edit an op mode the OnBot Java editor will auto-save the .jav
 
 If you are satisfied with your op mode and are ready to build, press the Build button (which is the button with the wrench symbol, see image below) to start the build process.  Note that the build process will build **all of the .java files** on your Robot Controller.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_BuildButton.jpg" width="175"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_BuildButton.jpg]]</p>
 
 You should see messages appear in the message pane, which is located in the lower right hand side of the window.  If your build was successful, you should see a “Build succeeded!” message in the message pane.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_BuildSucceeded.jpg" width="550"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_BuildSucceeded.jpg]]</p>
 
 Once you have built the binary files with your updated op modes, they are ready to run on the Robot Controller.  Before we run our example op mode, let’s see what happens if a problem occurs during the build process.
 
@@ -191,11 +191,11 @@ telemetry.addData("Status",);
 
 Note that when you eliminate the second argument, a little “x” should appear next to the line with the modified addData statement.  This “x” indicates that there is a syntax error in the statement.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_SyntaxError.jpg" width="350"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_SyntaxError.jpg]]</p>
 
 After you have modified your op mode, you can press the build button and see what error messages appear.  
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_IllegalStart.jpg" width="550"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_IllegalStart.jpg]]</p>
 
 When you first attempt to build the op mode, you should get an “illegal start of expression error”.  This is because the addData method is missing its second argument.  The OnBot Java system also directs you to the file that has the error, and the location within the file where the error occurs.  
 
@@ -209,7 +209,7 @@ telemetry.addData("Status", "Initialized");
 
 After you have corrected the addData statement, push the build button again to see what happens.  The OnBot Java system should complain that it cannot find the symbol “Zervo” in a source file called “org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java” at line 51, column 13.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_cannotFind.jpg" width="550"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_cannotFind.jpg]]</p>
 
 You should restore the statement back to its original form and then push the build button and verify that the op mode gets built properly.
 
@@ -220,19 +220,19 @@ private Servo servoTest;
 If you successfully rebuilt your op mode, you are ready to run the op mode.  Verify that the Driver Station is still connected to the Robot Controller.  Since you designated that your example op mode is a tele-operated op mode, it will be listed as a “TeleOp” op mode.  
 On the Driver Station, use the “TeleOp” dropdown list control to display the list of available op modes.  Select your op mode (“MyFIRSTJavaOpMode”) from the list.
  
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_SelectMyFIRSTOpMode.jpg" width="175"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_SelectMyFIRSTOpMode.jpg]]</p>
  
 Press the INIT button to initialize the op mode.  
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_MyFIRSTPushInit.jpg" width="175"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_MyFIRSTPushInit.jpg]]</p>
  
 The op mode will execute the statements in the runOpMode method up to the waitForStart statement.  It will then wait until you press the start button (which is represented by the triangular shaped symbol) to continue.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_PressStart.jpg" width="175"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_PressStart.jpg]]</p>
  
 Once you press the start button, the op mode will continue to iterate and send the “Status: Running” message to the Driver Station.  To stop the op mode, press the square-shaped stop button.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_PressStop.jpg" width="175"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_PressStop.jpg]]</p>
  
 Congratulations!  You ran your first java op mode!
 
