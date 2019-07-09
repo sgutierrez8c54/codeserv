@@ -9,11 +9,6 @@ The Blocks Programming Tool has several built-in example op modes that demonstra
 
 <p align="center"><img src="https://raw.githubusercontent.com/FIRST-Tech-Challenge/WikiSupport/master/ftc_app/images/BlocksCreateVuMarkExample.jpg" width="350"><p> 
 
-### Control System Wiki
-There is an up-to-date online wiki for the FTC Android control system.  This document serves as a convenient online reference for all topics related to the control system:
-
-[https://github.com/ftctechnh/ftc_app/wiki](https://github.com/ftctechnh/ftc_app/wiki)
-
 ### Technology Forum
 Registered teams can create user accounts on the FIRST Tech Challenge forum.  Teams can use the forum to ask questions and receive support from the FIRST Tech Challenge community.
 
