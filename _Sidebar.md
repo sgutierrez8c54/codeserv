@@ -1,4 +1,4 @@
-1.  [Home](/wiki/)
+1.  [Home](/ftc_app/wiki/)
 2.  [The FTC Control System](The-FTC-Control-System)
 3.  [Choosing a Programming Tool](Choosing-a-Programming-Tool)
 4.  [Blocks Tutorial](Blocks-Tutorial)
