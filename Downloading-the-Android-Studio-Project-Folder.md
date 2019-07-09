@@ -2,13 +2,15 @@
 
 The FTC SDK can be downloaded from a GitHub repository.  GitHub is a web-based version control company that lets individuals and organizations host content online.   In order to access the FTC software, you will need to have a GitHub account.  You can create one for free by visiting the GitHub website:
 
-https://github.com/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/
 
-Once you have created a GitHub account, you can visit the FTC public repository for the FTC software:
+For the 2019-2020 season and beyond, each new FIRST Tech Challenge season has its own unique public GitHub repository.  
 
-https://github.com/ftctechnh/ftc_app
+The current season's public repository can be found at the following address:
 
-Important note for advanced GitHub users: this tutorial assumes that the user is a novice with respect to using GitHub and the git version control software.  If you are a GitHub power user, you can use git to create a local copy of the ftc_app repository.  This document, however, does not explain how to use git to access the repository.  It provides instructions on downloading the repository as a .ZIP file instead.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/FIRST-Tech-Challenge/SkyStone
+
+Important note for advanced GitHub users: this tutorial assumes that the user is a novice with respect to using GitHub and the git version control software.  If you are a GitHub power user, you can use git to _clone _a local copy of the current season's public GitHub repository.  This document, however, does not explain how to use git to access the repository.  It provides instructions on downloading the repository as a .ZIP file instead.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/ClickOnReleases.jpg" width="500"><p>
 
