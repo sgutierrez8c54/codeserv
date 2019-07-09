@@ -6,11 +6,11 @@ Teams who use Android Studio **_must_** disable Instant Run.
 ### Locating Instant Run Settings
 When you first launch Android Studio a Welcome screen should appear.  You can navigate to the Instant Run Settings from this Welcome screen by selecting the "Configure->Settings" item from the "Configure" dropdown list in the lower right hand corner of the screen.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/ConfigureSettings.jpg" width="500"><p>
+<p align="center">[[/images/Disabling-Android-Studio-Instant-Run/ConfigureSettings.jpg]]<p>
 
 On the left hand side of the Settings window, there should be a category called "Build, Execution, Deployment".  Within this category, click on the "Instant Run" subcategory to display the Instant Run settings for your Android Studio installation.  By default, Instant Run is enabled when you first install Android Studio.  Uncheck the "Enable Instant Run to hot swap code/resource changes on deploy (default enabled)" option and then click on the "OK" button to disable Instant Run.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/InstantRunConfiguration.jpg" width="600"><p>
+<p align="center">[[/images/Disabling-Android-Studio-Instant-Run/InstantRunConfiguration.jpg]]<p>
 
 ### Additional Information
 The Google Android Developer website has additional information about Instant Run.  It also has instructions on how to disable this feature:
