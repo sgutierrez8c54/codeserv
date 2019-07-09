@@ -16,7 +16,7 @@ Teams who are participating in the FIRST Tech Challenge have a variety of progra
 
 The FTC OnBot Java Programming Tool is a user-friendly programming tool that is served up by the Robot Controller phone.  A user can create custom op modes for their robot using this tool and then save these op modes directly onto the Robot Controller.  Users write their op modes using Java.  The op modes are compiled very quickly on the Robot Controller and then loaded dynamically by the Robot Controller during run time.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc001_MainScreen.jpg" width="500"><p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot Java)/OnBotDoc001_MainScreen.jpg]]<p>
 
 The examples in this document use a Windows laptop computer to connect to the Robot Controller.  This Windows laptop computer has a Javascript-enabled web browser installed that is used to access the FTC OnBot Java Programming Tool.
 
