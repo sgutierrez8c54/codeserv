@@ -3,6 +3,11 @@ Android Studio is an advanced integrated development environment for creating An
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/androidStudioScreen.jpg" width="250"><p>
 
+### System Requirements
+Before you are able to start programming using Android Studio, you must first verify that you have a computer that is capable of running the Android Studio development environment.  Please refer to the Android Studio developer webpage for a detailed list of system requirements:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://developer.android.com/studio
+
 ### Table of Contents
 1. Introduction
     * [The FTC Control System](https://github.com/ftctechnh/ftc_app/wiki/The-FTC-Control-System)
