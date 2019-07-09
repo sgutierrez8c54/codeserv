@@ -23,7 +23,7 @@ Click on the green “DOWNLOAD ANDROID STUDIO” button to start the download pr
 <p align="center">[[/images/Installing-Android-Studio/DownloadAndroidStudio.jpg]]<p>
 
 
-Accept the license terms and then push the blue “DOWNLOAD ANDROID STUDIO” button to download the software.
+Accept the license terms and then push the blue “DOWNLOAD ANDROID STUDIO” button on the Android Developer webpage to download the software.
 
 <p align="center">[[/images/Installing-Android-Studio/AndroidStudioWelcomeSetup.jpg]]<p>
 
