@@ -5,7 +5,7 @@ A servo motor is a special type of motor.  A servo motor is designed for precise
 
 In the figure below, “standard scale” 180-degree servo is shown.  This type of servo is popular with hobbyists and with FIRST Tech Challenge teams.  This servo motor can rotate its shaft through a range of 180 degrees.  Using an electronic module known as a servo controller you can write an op mode that will move a servo motor to a specific position.  Once the motor reaches this target position, it will hold the position, even if external forces are applied to the shaft of the servo.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_HitecServo.jpg" width="150"><p>
+<p align="center">[[/images/Controlling-a-Servo-(Blocks)/hs485hbServo.jpg]]<p>
 
 Servo motors are useful when you want to do precise movements (for example, sweep an area with a sensor to look for a target or move the control surfaces on a remotely controlled airplane).
 
@@ -16,11 +16,11 @@ With a typical servo, you can specify a target position for the servo.  The serv
 
 For the FIRST Tech Challenge control system, you can specify a target position that ranges from 0 to 1 for a servo.  A target position of 0 corresponds to zero degrees of rotation and a target position of 1 corresponds to 180 degrees of rotation for a typical servo motor.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/servo0to80.jpg" width="175"><p>
+<p align="center">[[/images/Controlling-a-Servo-(Blocks)/servo0to80.jpg]]<p>
 
 In this example, you will use the colored buttons on the right side of the F310 controller to control the position of the servo.  Initially, the op mode will move the servo to the midway position (90 degrees of its 180-degree range).  Pushing the yellow “Y” button will move the servo to the zero-degree position.  Pushing the blue “X” button or the red “B” button will move the servo to the 90-degree position.  Pushing the green “A” button will move the servo to the 180-degree position.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_F310.jpg" width="300"><p>
+<p align="center">[[/images/Controlling-a-Servo-(Blocks)/LogitechF310.jpg]]<p>
 
 Modify your op mode to add the following code:
 
