@@ -18,9 +18,9 @@ From the main repository web page, click on the “releases” link to jump to t
 
 <p align="center">[[/images/Downloading-the-Android-Studio-Project/Releases.jpg]]<p>
 
-Each software release should include a **Downloads** section that you can use to download the software that you will need to program your robot.
+Each software release should include an **Assets** section that you can use to download the software that you will need to program your robot.  Note that you might have to click on the triangular symbol to expand this **Assets** section.
 
-<p align="center">[[/images/Downloading-the-Android-Studio-Project/Downloads.jpg]]<p>
+<p align="center">[[/images/Downloading-the-Android-Studio-Project/Assets.jpg]]<p>
 
 Click on the Source code (zip) link to download the compressed Android Studio project folder.
 ### Extracting the Contents of the Archived Project File
@@ -32,7 +32,7 @@ Before you can import the FTC project into Android Studio, you must first extrac
 
 <p align="center">[[/images/Downloading-the-Android-Studio-Project/ProvideName.jpg]]<p>
 
-Highlight the suggested name for the destination folder (in the figure above, the suggested name is “ftc_app-2.00”) and change the destination folder name into something more user friendly.  In this example, we will change the name of the destination folder to “mycopy”.
+Highlight the suggested name for the destination folder (in the figure above, the suggested name is “SkyStone-5.0”) and change the destination folder name into something more user friendly.  In this example, we will change the name of the destination folder to “mycopy”.
 
 <p align="center">[[/images/Downloading-the-Android-Studio-Project/Rename.jpg]]<p>
 
@@ -51,6 +51,6 @@ Android Studio should prompt you to select the project folder that you would lik
 
 <p align="center">[[/images/Downloading-the-Android-Studio-Project/SelectProjectFolder.jpg]]<p>
 
-In the figure above the project folder called “ftc_app-2.00” is selected to be imported into Android Studio.  It might take Android Studio several minutes to import the project.  Once the project has been successfully imported, the screen should look similar to the one depicted in the image below.
+In the figure above the project folder called “SkyStone-5.0” is selected to be imported into Android Studio.  It might take Android Studio several minutes to import the project.  Once the project has been successfully imported, the screen should look similar to the one depicted in the image below.
 
 <p align="center">[[/images/Downloading-the-Android-Studio-Project/SuccessfullyImported.jpg]]<p>
