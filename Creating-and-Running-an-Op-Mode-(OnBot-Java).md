@@ -268,7 +268,7 @@ tgtPower = -this.gamepad1.left_stick_y;
 
 The object gamepad1 is available for you to access in the runOpMode method.  It represents the state of gamepad #1 on your Driver Station.  Note that for the F310 gamepads that are used during the competition, the Y value of a joystick ranges from -1, when a joystick is in its topmost position, to +1, when a joystick is in its bottommost position. In the example code above, you negate the left_stick_y value so that pushing the left joystick forward will result in a positive power being applied to the motor.  Note that in this example, the notion of forwards and backwards for the motor is arbitrary.  However, the concept of negating the joystick y value can be very useful in practice.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_left_stick_y.jpg" width="300"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_left_stick_y.jpg]]</p>
 
 The next set of statements sets the power of motorTest to the value represented by the variable tgtPower.  The values for target power and actual motor power are then added to the set of data that will be sent via the telemetry mechanism to the Driver Station.
 
@@ -286,15 +286,15 @@ After you have modified your op mode to include these new statements, press the 
 Your op mode takes input from a gamepad and uses this input to control a DC motor.  To run your op mode, you will need to connect a Logitech F310 gamepad to the Driver Station.  
 Before you connect your gamepad to the phone, verify that the switch on the bottom of the gamepad is set to the “X” position.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_SwitchXMode.jpg" width="300"></p>
+<p align="center">[[/images/Running-Your-Op-Mode/RunningOpModeStep1.jpg]]</p>
 
 Connect the gamepad to the Driver Station using the Micro USB OTG adapter cable.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_USBOTGAdapter.jpg" width="300"></p>
+<p align="center">[[/images/Running-Your-Op-Mode/RunningOpModeStep2.jpg]]</p>
 
 Your example op mode is looking for input from the gamepad designated as the user or driver #1.  Press the Start button and the A button simultaneously on the Logictech F310 controller to designate your gamepad as user #1. Note that pushing the Start button and the B button simultaneously would designate the gamepad as user #2.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_PressStartAndA.jpg" width="300"></p>
+<p align="center">[[/images/Running-Your-Op-Mode/RunningOpModeStep3.jpg]]</p>
 
 If you successfully designated the gamepad to be user #1, you should see a little gamepad icon above the text “User 1” in the upper right hand corner of the Driver Station Screen.  Whenever there is activity on gamepad #1, the little icon should be highlighted in green.  If the icon is missing or if it does not highlight in green when you use your gamepad, then there is a problem with the connection to the gamepad.
 
@@ -302,4 +302,4 @@ Select, initialize and run your “MyFIRSTJavaOpMode” op mode.  It is importan
  
 If you configured your gamepad properly, then the left joystick should control the motion of the motor.  As you run your op mode, be careful and make sure you do not get anything caught in the turning motor.  Note that the User #1 gamepad icon should highlight green each time you move the joystick.  Also note that the target power and actual motor power values should be displayed in the telemetry area on the Driver Station.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/OnBotDoc_RunOpModeDCMotor.jpg" width="175"></p>
+<p align="center">[[/images/Creating-and-Running-an-Op-Mode-(OnBot-Java)/OnBotDoc_RunOpModeDCMotor.jpg]]</p>
