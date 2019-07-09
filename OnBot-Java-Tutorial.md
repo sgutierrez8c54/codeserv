@@ -5,7 +5,7 @@ The FTC OnBot Java Programming Tool is a text-based programming tool that lets p
 
 ### Table of Contents
 1. Introduction
-    * [The FTC Control System]The-FTC-Control-System)
+    * [The FTC Control System](The-FTC-Control-System)
     * [Required Materials](Required-Materials)
     * [Using Your Android Device](Using-Your-Android-Device)
 2. Configuring Your Hardware
