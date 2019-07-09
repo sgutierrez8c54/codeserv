@@ -11,7 +11,7 @@ Before you download and install the Android Studio you should first check the li
 http://developer.android.com/sdk/index.html#Requirements
 
 ### Java Development Kit
-Earlier versions of Android Studio used to require that the user install the Java Development Kit software separately.  Current versions of Android Studio incorporate the Java development software as part of the entire install package.  It is no longer necessary (or recommended) to install the Java Development Kit separately.
+Earlier versions of Android Studio required that the user install the Java Development Kit software separately.  Current versions of Android Studio incorporate the Java development software as part of the entire install package.  It is no longer necessary (or recommended) to install the Java Development Kit separately.  Instead, it is recommended that you use the Java Development Kit that is included with Android Studio.
 
 ### Downloading and Installing Android Studio
 Once you have verified that your laptop satisfies the minimum system requirements, you can go to the Android developer’s website to download and install Android Studio:
