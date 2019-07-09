@@ -10,7 +10,7 @@ The current season's public repository can be found at the following address:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/FIRST-Tech-Challenge/SkyStone
 
-Important note for advanced GitHub users: this tutorial assumes that the user is a novice with respect to using GitHub and the git version control software.  If you are a GitHub power user, you can use git to _clone _a local copy of the current season's public GitHub repository.  This document, however, does not explain how to use git to access the repository.  It provides instructions on downloading the repository as a .ZIP file instead.
+**Important Note for Advanced GitHub Users:** this tutorial assumes that the user is a novice with respect to using GitHub and the git version control software.  If you are a GitHub power user, you can use git to _clone _a local copy of the current season's public GitHub repository.  This document, however, does not explain how to use git to access the repository.  It provides instructions on downloading the repository as a .ZIP file instead.
 
 <p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/ClickOnReleases.jpg" width="500"><p>
 
