@@ -1,4 +1,4 @@
-In the section titled [Writing an Op Mode with FTC Blocks](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks) you learned how to use the FTC Blocks Programming Tool to write an op mode that controls a 12V DC motor.  In this section, you will learn how to write an op mode that controls a servo motor.
+In the section titled [Writing an Op Mode with FTC Blocks](Writing-an-Op-Mode-with-FTC-Blocks) you learned how to use the FTC Blocks Programming Tool to write an op mode that controls a 12V DC motor.  In this section, you will learn how to write an op mode that controls a servo motor.
 
 ### What is a Servo Motor?
 A servo motor is a special type of motor that is designed for precise motion.  A typical servo motor has a limited range of motion.
