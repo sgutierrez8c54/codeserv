@@ -20,11 +20,11 @@ https://developer.android.com/studio/index.html
 
 Click on the green “DOWNLOAD ANDROID STUDIO” button to start the download process.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/DownloadAndroidStudio.jpg" width="500"><p>
+<p align="center">[[/images/Installing-Android-Studio/DownloadAndroidStudio.jpg]]<p>
 
 
 Accept the license terms and then push the blue “DOWNLOAD ANDROID STUDIO” button to download the software.
 
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/AndroidStudio/AndroidStudioWelcomeSetup.jpg" width="350"><p>
+<p align="center">[[/images/Installing-Android-Studio/AndroidStudioWelcomeSetup.jpg]]<p>
 
 Once the setup package has downloaded, launch the application and follow the on-screen instructions to install Android Studio.
