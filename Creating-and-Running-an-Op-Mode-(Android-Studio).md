@@ -200,7 +200,7 @@ Verify that the Robot Controller phone is connected to your laptop and that the 
 
 <p align="center">[[/images/Creating-and-Running-an-Op-Mode-(Android-Studio)/phoneUSBConnected.jpg]]</p>
 
-Or, if you are using a Control Hub, verify that the Control Hub is connected to your laptop through its USB Type C port.  Note that the Control Hub should automatically have USB debugging permission enabled.
+Or, if you are using a Control Hub, verify that the Control Hub is powered by a freshly charged 12V battery, and that it is connected to your laptop through its USB Type C port.  Note that the Control Hub should automatically have USB debugging permission enabled.
 
 <p align="center">[[/images/Creating-and-Running-an-Op-Mode-(Android-Studio)/controlHubUSBConnected.jpg]]</p>
 
