@@ -298,7 +298,8 @@ After you have modified your op mode to include these new statements, press the 
 ### Running Your Op Mode with a Gamepad Connected
 
 Your op mode takes input from a gamepad and uses this input to control a DC motor.  To run your op mode, you will need to connect a Logitech F310 gamepad to the Driver Station.  
-Before you connect your gamepad to the phone, verify that the switch on the bottom of the gamepad is set to the “X” position.
+
+Before you connect your gamepad to the phone, verify that the switch on the bottom of the gamepad is set to the “X” (i.e., the "Xbox" mode) position.
 
 <p align="center">[[/images/Running-Your-Op-Mode/RunningOpModeStep1.jpg]]</p>
 
