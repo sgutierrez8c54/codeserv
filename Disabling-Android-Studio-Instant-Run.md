@@ -15,4 +15,4 @@ On the left hand side of the Settings window, there should be a category called 
 ### Additional Information
 The Google Android Developer website has additional information about Instant Run.  It also has instructions on how to disable this feature:
 
-[https://developer.android.com/studio/run/index.html#disable-ir](https://developer.android.com/studio/run/index.html#disable-ir)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[https://developer.android.com/studio/run/index.html#disable-ir](https://developer.android.com/studio/run/index.html#disable-ir)
