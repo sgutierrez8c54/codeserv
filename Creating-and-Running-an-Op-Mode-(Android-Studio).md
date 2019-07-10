@@ -226,7 +226,9 @@ If this happens, Android Studio will prompt you if it's OK to uninstall the prev
 
 <p align="center">[[/images/Creating-and-Running-an-Op-Mode-(Android-Studio)/RCLaunched.jpg]]</p>
 
-If the installation was successful, the Robot Controller app should be launched on the target Android device.
+If the installation was successful, the Robot Controller app should be launched on the target Android device.  If you are using an Android phone as your Robot Controller, you should see the main Robot Controller app screen displayed on the phone.  
+
+Although the Control Hub lacks a built in screen, if you are Control Hub user, you can verify that the app was installed onto your Control Hub properly by looking at your Driver Station.  If the Driver Station indicates that it is successfully connected to the Control Hub (after momentarily disconnecting while the update was occurring) then the app was successfully updated.
 
 ### Running Your Op Mode
 If you successfully built and installed your updated Android app with your new op mode, then you are ready to run the op mode.  Verify that the Driver Station is still connected to the Robot Controller.  Since you designated that your example op mode is a tele-operated op mode, it will be listed as a “TeleOp” op mode.  
