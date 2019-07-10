@@ -313,7 +313,7 @@ Your example op mode is looking for input from the gamepad designated as the use
 
 If you successfully designated the gamepad to be user #1, you should see a little gamepad icon above the text “User 1” in the upper right hand corner of the Driver Station Screen.  Whenever there is activity on gamepad #1, the little icon should be highlighted in green.  If the icon is missing or if it does not highlight in green when you use your gamepad, then there is a problem with the connection to the gamepad.
 
-Select, initialize and run your “MyFIRSTJavaOpMode” op mode.  It is important to note that whenever you rebuild an op mode, you must stop the current op mode run and then restart it before the changes that you just built take effect. 
+Select, initialize and run your “MyFIRSTJavaOpMode” op mode. 
  
 If you configured your gamepad properly, then the left joystick should control the motion of the motor.  As you run your op mode, be careful and make sure you do not get anything caught in the turning motor.  Note that the User #1 gamepad icon should highlight green each time you move the joystick.  Also note that the target power and actual motor power values should be displayed in the telemetry area on the Driver Station.
 
