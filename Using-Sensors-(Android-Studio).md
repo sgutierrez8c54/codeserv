@@ -20,7 +20,7 @@ After you have modified your op mode, build and install the updated Robot Contro
 
 The REV Robotics Touch Sensor can be connected to a digital port on the Expansion Hub.  The Touch Sensor is HIGH (returns TRUE) when it is not pressed.  It is pulled LOW (returns FALSE) when it is pressed.
  
-<p align="center"><img src="https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/ftc_app/images/OnBotJava/REVTouchSensor.jpg" width="150"><p>
+<p align="center">[[/images/Using-Sensors-(Blocks)/REVTouchSensor.jpg]]<p>
 
 The Expansion Hub digital ports contain two digital pins per port.  When you use a 4-wire JST cable to connect a REV Robotics Touch sensor to an Expansion Hub digital port, the Touch Sensor is wired to the second of the two digital pins within the port.  The first digital pin of the 4-wire cable remains disconnected.
 
