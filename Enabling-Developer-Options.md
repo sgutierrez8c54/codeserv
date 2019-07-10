@@ -2,6 +2,8 @@ After you have configured your Android phone, you will also have to make sure th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://developer.android.com/studio/run/device.html#device-developer-options
 
+**Important Note for Control Hub Users:** The Control Hub has Developer Options enabled from the factory, so you do _**NOT**_ need to do this step for your Control Hub.
+
 In order to be able to use the Android Studio tools to install apps onto your phone, you will need to make sure that the Developer Options and USB debugging are enabled for both of your phones.
 
 <p align="center">[[/images/Enabling-Developer-Options/DeveloperOptions.jpg]]<p>
