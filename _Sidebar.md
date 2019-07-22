@@ -4,5 +4,6 @@
 4.  [Blocks Tutorial](Blocks-Tutorial)
 5.  [OnBot Java Tutorial](OnBot-Java-Tutorial)
 6.  [Android Studio Tutorial](Android-Studio-Tutorial)
-7.  [Advanced Topics](Advanced-Topics)
-8.  [Troubleshooting](Troubleshooting)
+7.  [Managing Your Control System](Managing-Your-Control-System)
+8.  [Advanced Topics](Advanced-Topics)
+9.  [Troubleshooting](Troubleshooting)
