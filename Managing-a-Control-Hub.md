@@ -447,7 +447,7 @@ Jumped over the lazy dogs.
 Mary had a little lamb.
 Is fleece was white as snow.
 
-### Changing Its Operating WiFi Channel
+### Changing Its WiFi Channel
 hello
 
 The quick brown fox
