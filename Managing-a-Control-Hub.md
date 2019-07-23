@@ -65,7 +65,7 @@ You can use the _Manage_ interface to upload the firmware file to the Control Hu
 | Updating the Expansion Hub Firmware|
 | ---- |
 | 1. On the _Manage_ page of the Control Hub user interface, press the _Select Firmware_ button to to select the firmware file that you would like to upload.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectFirmwareFile.jpg]]</p>An _Upload_ button should appear after you successfully selected a file.|
-| 2. Press the _Upload_ button to to upload the firmware file from your computer to the that you would like to upload.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadFirmwareFile.jpg]]</p>The words "Firmware upload complete" should appear once the file has been uploaded successfully.|
+| 2. Press the _Upload_ button to upload the firmware file from your computer to the Control Hub.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadFirmwareFile.jpg]]</p>The words "Firmware upload complete" should appear once the file has been uploaded successfully.|
 | 3. On the Driver Station, touch the three dots in the upper right hand corner to display a pop-up menu.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/touchThreeDots.jpg]]</p>Select _Settings_ from the pop-up menu to display the Settings activity.|
 | 4. Select _Settings_ from the pop-up menu to display the Settings activity.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/touchSettings.jpg]]</p>|
 | 5. On the Driver Station, scroll down and select the _Advanced Settings_ item (under the _ROBOT CONTROLLER SETTINGS_ category).<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectAdvancedSettings.jpg]]</p>Select _Settings_ from the pop-up menu to display the Settings activity.|
