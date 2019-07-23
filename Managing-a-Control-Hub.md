@@ -57,6 +57,22 @@ It's often helpful when troubleshooting problems with the Control System to down
 | 2. Verify that the Robot Controller log file was downloaded to the Downloads directory of your computer.|
 | 3. Use a text editor such as [Notepad++](https://notepad-plus-plus.org/) or Microsoft's WordPad to open and view the contents of the log file.  Note that the Windows app, Notepad, will not properly display the contents of the log file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/notepadplusplus.jpg]]|
 
+### Updating the Expansion Hub Firmware
+The Control Hub has its own built-in REV Robotics Expansion Hub.  The purpose of the Expansion Hub board is to facilitate communication between the Control Hub's Android controller and the motors, servos, and sensors of the robot.  Periodically, REV Robotics will release new versions of the firmware which contains fixes and improvements for the Expansion Hub.  The firmware releases are in the form of a binary (".bin") file.
+
+You can use the _Manage_ interface to upload the firmware file to the Control Hub.  You can then use a Driver Station that is connected to the Control Hub to initiate the firmware update.  New firmware images can be obtained from the [REV Robotics website](http://www.revrobotics.com/software/).
+
+| Updating the Expansion Hub Firmware|
+| ---- |
+| 1. On the _Manage_ page of the Control Hub user interface, press the _Select Firmware_ button to to select the firmware file that you would like to upload.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectFirmwareFile.jpg]]</p><br/><br/>An _Upload_ button should appear after you successfully selected a file.|
+| 2. Press the _Upload_ button to to upload the firmware file from your computer to the that you would like to upload.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadFirmwareFile.jpg]]</p><br/><br/>The words "Firmware upload complete" should appear once the file has been uploaded successfully.|
+| 3. On the Driver Station, touch the three dots in the upper right hand corner to display a pop-up menu.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/touchThreeDots.jpg]]</p><br/><br/>Select _Settings_ from the pop-up menu to display the Settings activity.|
+| 4. On the Driver Station, scroll and select the _Advanced Settings_ item (under the _ROBOT CONTROLLER SETTINGS_ category).<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectAdvancedSettings.jpg]]</p><br/><br/>Select _Settings_ from the pop-up menu to display the Settings activity.|
+| 5. Select the _Expansion Hub Firmware Update_ item on the _ADVANCED ROBOT CONTROLLER SETTINGS_ activity.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectExpansionHubFirmwareUpdate.jpg]]</p>|
+| 6. If a firmware file that is different from the version currently installed on the Expansion Hub was successfully uploaded, the Driver Station should display some information about the current firmware version and the new firmware version. Press the _Update Expansion Hub Firmware_ button to start the update process.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/pressUpdateExpansionHubFirmwareButton.jpg]]</p>|
+| 7. A progress bar will display while the firmware is being updated.  Do not power off the Control Hub/Expansion Hub during this process.  The Driver Station will display a message when the update process is complete.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsUpdateComplete.jpg]]</p>|
+
+
 
 
 
