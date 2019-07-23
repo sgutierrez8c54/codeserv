@@ -49,7 +49,7 @@ You can select the operating channel for the Control Hub from the _Manage_ page.
 | 3. Verify on the Driver Station that the Control Hub is operating on the desired WiFi channel.  The operating channel should be displayed under the network name in the "Network:" section of the main Driver Station screen.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsOperatingChannel.jpg]]|
 
 ### Downloading the Log File
-It's often helpful, when troubleshooting problems with the Control System, to download the log file from the Control Hub.  This can be done from the _Manage_ page.
+It's often helpful when troubleshooting problems with the Control System to download the log file from the Control Hub.  This can be done from the _Manage_ page.
 
 | Downloading the Log File|
 | ---- |
