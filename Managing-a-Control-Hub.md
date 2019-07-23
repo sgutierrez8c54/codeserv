@@ -24,6 +24,17 @@ You can change the password of a Control Hub using a laptop or Chromebook that i
 | 1. On the _Manage_ page of the Control Hub user interface, find specify your new password and then confirm this new password in the _Access Point Password_ section of the page.  Press the _Change Password_ to change the password.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/changePassword.jpg]]|
 | 2. After you press the _Change Password_ button, a dialog box will appear, indicating that the password has been changed and that you will need to reconnect to the wireless network using the new password.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/changePasswordWarning.jpg]]|
 
+### Resetting a Control Hub
+If you forget the network name or password for a Control Hub, you can reset the Hub's name and password back to their factory default values. Resetting a Control Hub will restore its default network name and password.  
+
+**Important Note:** Existing configuration files and op modes should not be affected by the reset. This includes op modes that were created using the Blocks, OnBot Java and Android Studio tools. 
+
+| Resetting a Control Hub |
+| ---- |
+| 1. Turn off the power to your Control Hub for 5 seconds. |
+| 2. Press and hold the button on the Control Hub (see image below).<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/controlHubButton.jpg]]|
+| 3. Power on the Control Hub while continuing to hold the button.  Monitor the LED while the Control Hub is rebooting.  Eventually, the LED will switch from being solid blue, to a multi-color blink pattern.<br/><br/>When the reset has started, the LED should blink purple, yellow, blue, and then red.  This pattern should occur five times in rapid succession.<br/><br/>Once the multi-colored blink pattern is complete, you can release the button.  The Control Hub's network name and password should be restored to their factory values.<br/><br/>Note that the reboot and reset process should take approximately 30 seconds to complete.|
+
 ### Changing the WiFi Channel
 hello
 
