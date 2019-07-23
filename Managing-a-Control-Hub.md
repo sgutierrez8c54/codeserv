@@ -33,7 +33,7 @@ If you forget the network name or password for a Control Hub, you can reset the 
 | ---- |
 | 1. Turn off the power to your Control Hub for 5 seconds. |
 | 2. Press and hold the button on the Control Hub (see image below).<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/controlHubButton.jpg]]|
-| 3. Power on the Control Hub while continuing to hold the button.  Monitor the LED while the Control Hub is rebooting.  Eventually, the LED will switch from being solid blue, to a multi-color blink pattern.<br/><br/>When the reset has started, the LED should blink purple, yellow, blue, and then red.  This pattern should occur five times in rapid succession.<br/><br/>Once the multi-colored blink pattern is complete, you can release the button.  The Control Hub's network name and password should be restored to their factory values.<br/><br/>Note that the reboot and reset process should take approximately 30 seconds to complete.|
+| 3. Power on the Control Hub while continuing to hold the button.  Monitor the LED while the Control Hub is rebooting.  Eventually, the LED will switch from being solid blue, to a multi-color blink pattern.<br/><br/>When the reset has started, the LED should blink purple, yellow, blue, and then red.  This pattern should occur five times in rapid succession.<br/><br/>Once the multi-colored blink pattern is complete, you can release the button.  The Control Hub's network name and password should be restored to their factory values.  Note that the reboot and reset process should take approximately 30 seconds to complete.|
 
 ### Changing the WiFi Channel
 hello
