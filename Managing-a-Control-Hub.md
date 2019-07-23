@@ -48,6 +48,15 @@ You can select the operating channel for the Control Hub from the _Manage_ page.
 | 2. Press the _Change Channel_ button to change to the new channel.  Note that when the channel change occurs, the Driver Station might momentarily disconnect from the Control Hub.  It should eventually, however, reconnect to Control Hub's wireless network.|
 | 3. Verify on the Driver Station that the Control Hub is operating on the desired WiFi channel.  The operating channel should be displayed under the network name in the "Network:" section of the main Driver Station screen.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsOperatingChannel.jpg]]|
 
+### Downloading the Log File
+
+
+| Downloading the Log File|
+| ---- |
+| 1. On the _Manage_ page of the Control Hub user interface, use the drop down selector to select the desired operating channel.  Note that the Control Hub supports both the 2.4 GHz and 5 GHz bands.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectChannel.jpg]]|
+| 2. Press the _Change Channel_ button to change to the new channel.  Note that when the channel change occurs, the Driver Station might momentarily disconnect from the Control Hub.  It should eventually, however, reconnect to Control Hub's wireless network.|
+| 3. Verify on the Driver Station that the Control Hub is operating on the desired WiFi channel.  The operating channel should be displayed under the network name in the "Network:" section of the main Driver Station screen.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsOperatingChannel.jpg]]|
+
 
 
 
