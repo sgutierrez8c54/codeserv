@@ -49,13 +49,13 @@ You can select the operating channel for the Control Hub from the _Manage_ page.
 | 3. Verify on the Driver Station that the Control Hub is operating on the desired WiFi channel.  The operating channel should be displayed under the network name in the "Network:" section of the main Driver Station screen.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsOperatingChannel.jpg]]|
 
 ### Downloading the Log File
-
+It's often helpful, when troubleshooting problems with the Control System, to download the log file from the Control Hub.  This can be done from the _Manage_ page.
 
 | Downloading the Log File|
 | ---- |
-| 1. On the _Manage_ page of the Control Hub user interface, use the drop down selector to select the desired operating channel.  Note that the Control Hub supports both the 2.4 GHz and 5 GHz bands.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectChannel.jpg]]|
-| 2. Press the _Change Channel_ button to change to the new channel.  Note that when the channel change occurs, the Driver Station might momentarily disconnect from the Control Hub.  It should eventually, however, reconnect to Control Hub's wireless network.|
-| 3. Verify on the Driver Station that the Control Hub is operating on the desired WiFi channel.  The operating channel should be displayed under the network name in the "Network:" section of the main Driver Station screen.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsOperatingChannel.jpg]]|
+| 1. On the _Manage_ page of the Control Hub user interface, press the _Download Logs_ button to download the Robot Controller lot file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadLogs.jpg]]|
+| 2. Verify that the Robot Controller log file was downloaded to the Downloads directory of your computer.|
+| 3. Use a text editor such as [Notepad++](https://notepad-plus-plus.org/) or Microsoft's WordPad to open and view the contents of the log file.  Note that the Windows app, Notepad, will not properly display the contents of the log file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/notepadplusplus.jpg]]|
 
 
 
