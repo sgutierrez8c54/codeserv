@@ -25,9 +25,9 @@ You can change the password of a Control Hub using a laptop or Chromebook that i
 | 2. After you press the _Change Password_ button, a dialog box will appear, indicating that the password has been changed and that you will need to reconnect to the wireless network using the new password.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/changePasswordWarning.jpg]]|
 
 ### Resetting a Control Hub
-If you forget the network name or password for a Control Hub, you can reset the Hub's name and password back to their factory default values. Resetting a Control Hub will restore its default network name and password.  
+If you forget the network name or password for a Control Hub, you can reset the Hub's name and password back to their factory default values.  
 
-**Important Note:** Existing configuration files and op modes should not be affected by the reset. This includes op modes that were created using the Blocks, OnBot Java and Android Studio tools. 
+**Important Note:** Resetting a Control Hub will restore its default network name and password.  However, existing configuration files and op modes should not be affected by the reset. This includes op modes that were created using the Blocks, OnBot Java and Android Studio tools. 
 
 | Resetting a Control Hub |
 | ---- |
