@@ -73,7 +73,16 @@ You can use the _Manage_ interface to upload the firmware file to the Control Hu
 | 7. If a firmware file that is different from the version currently installed on the Expansion Hub was successfully uploaded, the Driver Station should display some information about the current firmware version and the new firmware version. Press the _Update Expansion Hub Firmware_ button to start the update process.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/pressUpdateExpansionHubFirmwareButton.jpg]]</p>|
 | 8. A progress bar will display while the firmware is being updated.  Do not power off the Control Hub/Expansion Hub during this process.  The Driver Station will display a message when the update process is complete.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsUpdateComplete.jpg]]</p>|
 
+### Updating the Robot Controller App
+It is important to know how to update the Robot Controller app that is installed on a Control Hub.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.
 
+The Control Hub lacks a touch screen and Google Play support.  Unfortunately, teams that use the Control Hub cannot update the Control Hub's Robot Controller app directly through the Google Play store.
+
+Instead, Control Hub users can download the Robot Controller app from the appropriate FIRST-Tech-Challenge repository (for the Skystone season, the app can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk)) and use the _Manage_ page of the Control Hub's browser-based interface to complete the update.
+
+| Updating the Expansion Hub Firmware|
+| ---- |
+| 1. On the _Manage_ page of the Control Hub user interface, press the _Select Firmware_ button to to select the firmware file that you would like to upload.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectFirmwareFile.jpg]]</p>An _Upload_ button should appear after you successfully selected a file.|
 
 
 
