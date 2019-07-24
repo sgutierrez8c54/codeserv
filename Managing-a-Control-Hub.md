@@ -98,7 +98,7 @@ Note that if you are an Android Studio user, then by updating to the newest vers
 | 9. When the update process is complete and you have successfully reconnected your computer to the Control Hub's network, you should see an "installed successfully" message on the _Manage_ web page.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerInstalledSuccessfully.jpg]]</p>|
 
 ### Updating the Control Hub OS
-REV Robotics periodically releases new versions of the Control Hub operating system (OS). These new versions typically incorporate fixes, improvements, and new features.   
+REV Robotics periodically releases new versions of the Control Hub operating system (OS). These new versions incorporate fixes, improvements, and new features.   
 
 Note that you can see the Control Hub OS version number through the Driver Station user interface. Select the _About_ menu option on the Driver Station and note the Operating System Version number under the _ABOUT ROBOT CONTROLLER_ section.
 
