@@ -76,7 +76,7 @@ You can use the _Manage_ interface to upload the firmware file to the Control Hu
 ### Updating the Robot Controller App
 It is important to know how to update the Robot Controller app that is installed on a Control Hub.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  
 
-Note that you can view the Robot Controller app information through the Driver Station user interface. Select the About menu option on the Driver Station and note the App Version under the _ABOUT ROBOT CONTROLLER_ section.
+Note that you can see the Robot Controller app version number through the Driver Station user interface. Select the _About _menu option on the Driver Station and note the App Version number under the _ABOUT ROBOT CONTROLLER_ section.
 
 <p align="center">[[/images/Managing-a-Control-Hub/aboutRobotController.jpg]]</p>
 
