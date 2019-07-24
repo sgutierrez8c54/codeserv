@@ -80,9 +80,19 @@ The Control Hub lacks a touch screen and Google Play support.  Unfortunately, te
 
 Instead, Control Hub users can download the Robot Controller app from the appropriate FIRST-Tech-Challenge repository (for the Skystone season, the app can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk)) and use the _Manage_ page of the Control Hub's browser-based interface to complete the update.
 
-| Updating the Expansion Hub Firmware|
+Note that if you are an Android Studio user, then by updating to the newest version of the Android Studio project folder you will update the Robot Controller app when you build the project and install it on your Control Hub
+
+| Updating the Robot Controller App|
 | ---- |
-| 1. On the _Manage_ page of the Control Hub user interface, press the _Select Firmware_ button to to select the firmware file that you would like to upload.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectFirmwareFile.jpg]]</p>An _Upload_ button should appear after you successfully selected a file.|
+| 1. Go to the current season's GitHub repository and look in the "doc/apk" subdirectory to download the appropriate APK file.  For the Skystone season, the APK files can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk)).|
+| 2. Click on the _FtcRobotController-release.apk_ link in the repository to access the Robot Controller file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/apkFolderOnRepo.jpg]]</p>|
+| 3. Click on the _Download_ button to download the Robot Controller app as an APK file to your computer.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadRobotControllerAPK.jpg]]</p>|
+| 4. On the _Manage_ page of the Control Hub's browser-based interface, click on the _Select App_ button to select the the Robot Controller app that you would like to upload to the Control Hub.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectRobotControllerAPK.jpg]]</p>An _Update_ button should appear if an APK file was successfully selected.|
+| 5. Click on the _Update_ button to begin the update process.the the Robot Controller app that you would like to upload to the Control Hub.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerPleaseWait.jpg]]</p>|
+| 6. During the update process, if the Control Hub detects that the digital signature of the APK that is being installed is different from the digital signature of the APK that is already installed, the Hub might prompt you to ask if it is OK to uninstall the current app and replace it with the new one.<br/><br/>This difference in digital signatures can occur, for example, if the previous version of the app was built and installed using Android Studio, but the newer app was downloaded from the GitHub repository.<br/><br/>Press _OK_ to uninstall the old app and continue with the update process.<p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerWarning.jpg]]</p>|
+| 7. If the update process had to uninstall the previous version of the Robot Controller app, the network name and password for the Control Hub will be reset back to their factory values.  If this happens, then you will need to reconnect your computer to the Control Hub using the factory default values.<p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerUninstalling.jpg]]</p>|
+| 9. When the update process is complete and you have successfully reconnected your computer to the Control Hub's network, you should see an "installed successfully" message on the _Manage_ web page.<p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerInstalledSuccessfully.jpg]]</p>|
 
-
+### Connecting to the Control Hub using Wireless ADB 
+MOVE THIS TO EARLIER IN THIS MANAGING A CONTROL HUB LIST.
 
