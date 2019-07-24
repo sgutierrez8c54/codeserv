@@ -98,5 +98,16 @@ Note that if you are an Android Studio user, then by updating to the newest vers
 | 9. When the update process is complete and you have successfully reconnected your computer to the Control Hub's network, you should see an "installed successfully" message on the _Manage_ web page.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerInstalledSuccessfully.jpg]]</p>|
 
 ### Connecting to the Control Hub using Wireless ADB 
-MOVE THIS TO EARLIER IN THIS MANAGING A CONTROL HUB LIST.
+Advanced users who use Android Studio to build and install the Robot Controller app onto their Control Hub should be familiar with the Android Debug Bridge (adb) utility.  adb is included with the Android development platform tools.  It can be used to communicate with an Android device such as the Control Hub.
+
+Traditionally, programmers use a hard-wired USB connection to communicate using adb to their Android device.  adb also supports a mode where commands are sent back and forth through a wireless connection.
+
+The Control Hub is configured so that it automatically will support an adb wireless connection request on port 5555.
+
+| Connecting to the Control Hub using Wireless ADB|
+| ---- |
+| 1. Verify that your laptop is connected to the Program & Manage wireless network of the Control Hub.  If you are connected to the network, you should be able to see the _Robot Controller Connection Info_ page when you navigate to address "192.168.43.1:8080":<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/RCConnectionInfoPage.jpg]]</p>If your laptop is not connected and you are unable to access the _Robot Controller Connection Info_ page, then read the instructions in the following [tutorial](Connecting-a-Laptop-to-the-Program-&-Manage-Network) to learn how to connect to the Program & Manage network.<p align="center"><br/>[Connecting a Laptop to the Program & Manage Network](Connecting-a-Laptop-to-the-Program-&-Manage-Network)|
+| 2. Verify that the PATH environment variable for your Windows computer includes the path to the adb.exe executable file.  The [Android Developer website](https://developer.android.com/studio/command-line/adb) tells you where in your Android SDK installation you can find the adb.exe file.  This [post](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) from [HelpDeskGeek.com](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) shows how to add a directory to your Windows PATH environment variable.|
+| 3. Open a Windows Command Prompt and type in "adb.exe connect 192.168.43.1:5555".  This should connect your adb server to the Control Hub over the wireless connection.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/adbConnected.jpg]]</p>|
+
 
