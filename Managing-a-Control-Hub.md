@@ -53,7 +53,7 @@ It's often helpful when troubleshooting problems with the Control System to down
 
 | Downloading the Log File|
 | ---- |
-| 1. On the _Manage_ page of the Control Hub user interface, press the _Download Logs_ button to download the Robot Controller lot file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadLogs.jpg]]|
+| 1. On the _Manage_ page of the Control Hub user interface, press the _Download Logs_ button to download the Robot Controller log file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadLogs.jpg]]|
 | 2. Verify that the Robot Controller log file was downloaded to the Downloads directory of your computer.|
 | 3. Use a text editor such as [Notepad++](https://notepad-plus-plus.org/) or Microsoft's WordPad to open and view the contents of the log file.  Note that the Windows app, Notepad, will not properly display the contents of the log file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/notepadplusplus.jpg]]|
 
