@@ -74,7 +74,9 @@ You can use the _Manage_ interface to upload the firmware file to the Control Hu
 | 8. A progress bar will display while the firmware is being updated.  Do not power off the Control Hub/Expansion Hub during this process.  The Driver Station will display a message when the update process is complete.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsUpdateComplete.jpg]]</p>|
 
 ### Updating the Robot Controller App
-It is important to know how to update the Robot Controller app that is installed on a Control Hub.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  Note that you can view the Robot Controller app information through the Driver Station user interface. Select the About menu option on the Driver Station and note the App Version under the _ABOUT ROBOT CONTROLLER_ section.
+It is important to know how to update the Robot Controller app that is installed on a Control Hub.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  
+
+Note that you can view the Robot Controller app information through the Driver Station user interface. Select the About menu option on the Driver Station and note the App Version under the _ABOUT ROBOT CONTROLLER_ section.
 
 <p align="center">[[/images/Managing-a-Control-Hub/aboutRobotController.jpg]]</p>
 
