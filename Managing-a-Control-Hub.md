@@ -76,7 +76,7 @@ You can use the _Manage_ interface to upload the firmware file to the Control Hu
 ### Updating the Robot Controller App
 It is important to know how to update the Robot Controller app that is installed on a Control Hub.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  
 
-Note that you can see the Robot Controller app version number through the Driver Station user interface. Select the _About _menu option on the Driver Station and note the App Version number under the _ABOUT ROBOT CONTROLLER_ section.
+Note that you can see the Robot Controller app version number through the Driver Station user interface. Select the _About_ menu option on the Driver Station and note the App Version number under the _ABOUT ROBOT CONTROLLER_ section.
 
 <p align="center">[[/images/Managing-a-Control-Hub/aboutRobotController.jpg]]</p>
 
@@ -91,11 +91,29 @@ Note that if you are an Android Studio user, then by updating to the newest vers
 | 1. Go to the current season's GitHub repository and look in the "doc/apk" subdirectory to download the appropriate APK file.  For the Skystone season, the APK files can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk).|
 | 2. Click on the _FtcRobotController-release.apk_ link in the repository to access the Robot Controller file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/apkFolderOnRepo.jpg]]</p>|
 | 3. Click on the _Download_ button to download the Robot Controller app as an APK file to your computer.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadRobotControllerAPK.jpg]]</p>|
-| 4. On the _Manage_ page, click on the _Select App_ button to select the the Robot Controller app that you would like to upload to the Control Hub.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectRobotControllerAPK.jpg]]</p>An _Update_ button should appear if an APK file was successfully selected.|
+| 4. On the _Manage_ page, click on the _Select App_ button to select the Robot Controller app that you would like to upload to the Control Hub.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectRobotControllerAPK.jpg]]</p>An _Update_ button should appear if an APK file was successfully selected.|
 | 5. Click on the _Update_ button to begin the update process.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerPleaseWait.jpg]]</p>|
 | 6. During the update process, if the Control Hub detects that the digital signature of the APK that is being installed is different from the digital signature of the APK that is already installed, the Hub might prompt you to ask if it is OK to uninstall the current app and replace it with the new one.<br/><br/>This difference in digital signatures can occur, for example, if the previous version of the app was built and installed using Android Studio, but the newer app was downloaded from the GitHub repository.<br/><br/>Press _OK_ to uninstall the old app and continue with the update process.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerWarning.jpg]]</p>|
 | 7. If the update process had to uninstall the previous version of the Robot Controller app, the network name and password for the Control Hub will be reset back to their factory values.  If this happens, then you will need to reconnect your computer to the Control Hub using the factory default values.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerUninstalling.jpg]]</p>|
 | 9. When the update process is complete and you have successfully reconnected your computer to the Control Hub's network, you should see an "installed successfully" message on the _Manage_ web page.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerInstalledSuccessfully.jpg]]</p>|
+
+### Updating the Control Hub OS
+REV Robotics periodically releases new versions of the Control Hub operating system (OS). These new versions typically incorporate fixes, improvements, and new features.   
+
+Note that you can see the Control Hub OS version number through the Driver Station user interface. Select the _About_ menu option on the Driver Station and note the Operating System Version number under the _ABOUT ROBOT CONTROLLER_ section.
+
+<p align="center">[[/images/Managing-a-Control-Hub/aboutRobotControllerOSVersion.jpg]]</p>
+
+Control Hub users can download a new Control Hub OS file from the REV Robotics website and use the _Manage_ page to complete the update of the OS.
+
+| Updating the Control Hub OS|
+| ---- |
+| 1. Download the new Control Hub OS update file from the [REV Robotics website](http://www.revrobotics.com/software/).|
+| 2. On the _Manage_ page, click on the _Select Update File..._ button to select the Robot Controller app that you would like to upload to the Control Hub.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectOSUpdateFile.jpg]]</p>An _Update & Reboot_ button should appear if an APK file was successfully selected.|
+| 3. Click on the _Update & Reboot_ button to start the update process.  Please wait while the OS file gets uploaded to the Control Hub.  Note that since the file is relatively large, it might take several minutes before the upload is complete. Do not turn off the Control Hub while the process is underway.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/osUpdatePleaseWait.jpg]]</p>|
+| 4. If the upload was successful, the _Manage_ page will display a message indicating that the device is being rebooted and the update is being installed.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/osUpdateVerificationSucceeded.jpg]]</p>|
+| 5. When the OS update has completed, the Control Hub LED should switch from blue, back to its normal blink pattern (green, the it will blink blue once to indicate the Hub's serial address number).  Reconnect your computer to the Control Hub network and verify that the update was a success. <br/><br/><p align="center">[[/images/Managing-a-Control-Hub/osUpdateSuccess.jpg]]</p>Note that you can also check the About menu (through the Driver Station app) to verify the updated version number of the Control Hub OS.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/aboutRobotControllerNewOSVersion.jpg]]</p>|
+
 
 ### Connecting to the Control Hub Using Wireless ADB 
 Advanced users who use Android Studio to build and install the Robot Controller app onto their Control Hub should be familiar with the Android Debug Bridge (adb) utility.  adb is included with the Android development platform tools.  It can be used to communicate with an Android device such as the Control Hub.
