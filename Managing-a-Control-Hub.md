@@ -78,7 +78,7 @@ It is important to know how to update the Robot Controller app that is installed
 
 The Control Hub lacks a touch screen and Google Play support.  Unfortunately, teams that use the Control Hub cannot update the Control Hub's Robot Controller app directly through the Google Play store.
 
-Instead, Control Hub users can download the Robot Controller app from the appropriate FIRST-Tech-Challenge repository (for the Skystone season, the app can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk)) and use the _Manage_ page of the Control Hub's browser-based interface to complete the update.
+Instead, Control Hub users can download the Robot Controller app from the appropriate FIRST-Tech-Challenge repository (for the Skystone season, the app can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk)) and use the _Manage_ page to complete the update.
 
 Note that if you are an Android Studio user, then by updating to the newest version of the Android Studio project folder you will update the Robot Controller app when you build the project and install it on your Control Hub
 
