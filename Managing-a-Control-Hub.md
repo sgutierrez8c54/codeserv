@@ -100,7 +100,7 @@ Note that if you are an Android Studio user, then by updating to the newest vers
 ### Uploading a Custom Webcam Calibration File
 The Robot Controller app has built-in calibration information for a variety of commonly available webcams.  Users can also create their own custom calibration files and then upload these files to a Control Hub. 
 
-A commented example of what the contents of a calibration file should look like can be found in a file called teamwebcamcalibrations.xml, which is included with the FTC Android Studio project folder.  For the Skystone season, this example calibration file can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml). 
+A commented example of what the contents of a calibration file should look like can be found in a file called _teamwebcamcalibrations.xml_, which is included with the FTC Android Studio project folder.  For the Skystone season, this example calibration file can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml). 
 
 | Uploading a Custom Webcam Calibration File|
 | ---- |
