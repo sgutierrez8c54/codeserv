@@ -14,8 +14,6 @@ This section contains helpful tips on how to manage your Control System:
 
 2. [Managing a Smartphone Robot Controller](Managing-a-Smartphone-Robot-Controller)
     * [Changing the Name](Managing-a-Smartphone-Robot-Controller#Changing-the-Name)
-    * [Changing the Password](Managing-a-Smartphone-Robot-Controller#Changing-the-Password)
-    * [Resetting a Control Hub](Managing-a-Smartphone-Robot-Controller#Resetting-a-Control-Hub)
     * [Changing the WiFi Channel](Managing-a-Smartphone-Robot-Controller#Changing-the-WiFi-Channel)
     * [Downloading the Log File](Managing-a-Smartphone-Robot-Controller#Downloading-the-Log-File)
     * [Updating the Expansion Hub Firmware](Managing-a-Smartphone-Robot-Controller#Updating-the-Expansion-Hub-Firmware)
