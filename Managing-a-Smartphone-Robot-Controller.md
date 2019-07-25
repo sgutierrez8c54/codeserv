@@ -12,7 +12,7 @@ You can also use the FTC app to change the Robot Controller phone's name.
 | 1. On the Robot Controller phone, touch the three dots in the upper right hand corner to display a pop-up menu.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/touchThreeDots.jpg]]</p>|
 | 2. Select the _Settings_ menu item from the pop-up menu.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/selectSettings.jpg]]|
 | 3. Click on _Robot Controller Name_ on the _ROBOT CONTROLLER SETTINGS_ page.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickRobotControllerName.jpg]]|
-| 4.Specify the new Robot Controller Name and press _OK_ to accept the changes.  <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/specifyNewRobotControllerName.jpg]]|
+| 4.Specify the new Robot Controller Name and press _OK_ to accept the changes. <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/specifyNewRobotControllerName.jpg]]|
 
 ### Changing the WiFi Channel
 By default the smartphone Robot Controller automatically picks its own operating WiFi channel.  However, it is sometimes necessary to specify the operating channel for the device.
@@ -29,8 +29,8 @@ You can change the operating channel using the Advanced Settings menu on the Rob
 | 2. Tap the three dots in the upper right hand corner of the Driver Station's main screen to display the pop-up menu and select _Settings_ from the menu.|
 | 3. Scroll down to the _ROBOT CONTROLLER SETTINGS_ section of the _Settings_ screen and click on the words _Advanced Settings_ to display the _ADVANCED ROBOT CONTROLLER SETTINGS_ activity.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickAdvancedSettings.jpg]]|
 | 4. Click on the _Change Wifi Channel_ link to display a list of available channels.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickChangeWifiChannel.jpg]]|
-| 4. Select the desired operating channel.  The phone should display a toast message if the channel change was successful.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/successChangeWifiChannel.jpg]]|
-
+| 5. Select the desired operating channel.  The phone should display a toast message if the channel change was successful.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/successChangeWifiChannel.jpg]]|
+| 6.Use the Android back arrow to return to the main Driver Station screen.  The new operating channel should be displayed in the "Network:" section under the Robot Controller's name <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/operatingWifiChannel.jpg]]|
 
 ### Downloading the Log File
 It's often helpful when troubleshooting problems with the Control System to download the log file from the Control Hub.  This can be done from the _Manage_ page.
