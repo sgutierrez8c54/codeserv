@@ -33,11 +33,13 @@ You can change the operating channel using the Advanced Settings menu on the Rob
 | 6. Use the Android back arrow to return to the main Driver Station screen.  The new operating channel should be displayed in the "Network:" section under the Robot Controller's name <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/operatingWifiChannel.jpg]]|
 
 ### Downloading the Log File
-It's often helpful when troubleshooting problems with the Control System to download the log file from the Control Hub.  This can be done from the _Manage_ page.
+It's often helpful when troubleshooting problems with the Control System to download the log file from the Robot Controller.  This can be done from the _Manage_ page.  Note that the log file name is _robotControllerLog.txt_ by default.
 
 | Downloading the Log File|
 | ---- |
-| 1. On the _Manage_ page of the Control Hub user interface, press the _Download Logs_ button to download the Robot Controller log file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadLogs.jpg]]|
+| 1. Verify that your laptop or Chromebook is connected to the Program & Manage wireless network of the smartphone Robot Controller.  If you are connected to the network, you should be able to see the _Robot Controller Connection Info_ page when you navigate to address "192.168.49.1:8080":<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/RCConnectionInfoPage.jpg]]</p>If your laptop or Chromebook is not connected and you are unable to access the _Robot Controller Connection Info_ page, then read the instructions in the following [tutorial](Connecting-a-Laptop-to-the-Program-&-Manage-Network) to learn how to connect to the Program & Manage network.<p align="center"><br/>[Connecting a Laptop to the Program & Manage Network](Connecting-a-Laptop-to-the-Program-&-Manage-Network)|
+| 2. Click on the _Manage_ link towards the top of the _Robot Controller Connection Info_ page to navigate to the Manage page.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/manageLink.jpg]]|
+| 3. Click the _Download Logs_ button to download the Robot Controller log file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadLogs.jpg]]|
 | 2. Verify that the Robot Controller log file was downloaded to the Downloads directory of your computer.|
 | 3. Use a text editor such as [Notepad++](https://notepad-plus-plus.org/) or Microsoft's WordPad to open and view the contents of the log file.  Note that the Windows app, Notepad, will not properly display the contents of the log file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/notepadplusplus.jpg]]|
 
