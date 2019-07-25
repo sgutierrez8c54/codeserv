@@ -30,7 +30,7 @@ You can change the operating channel using the Advanced Settings menu on the Rob
 | 3. Scroll down to the _ROBOT CONTROLLER SETTINGS_ section of the _Settings_ screen and click on the words _Advanced Settings_ to display the _ADVANCED ROBOT CONTROLLER SETTINGS_ activity.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickAdvancedSettings.jpg]]|
 | 4. Click on the _Change Wifi Channel_ link to display a list of available channels.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickChangeWifiChannel.jpg]]|
 | 5. Select the desired operating channel.  The phone should display a toast message if the channel change was successful.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/successChangeWifiChannel.jpg]]|
-| 6.Use the Android back arrow to return to the main Driver Station screen.  The new operating channel should be displayed in the "Network:" section under the Robot Controller's name <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/operatingWifiChannel.jpg]]|
+| 6. Use the Android back arrow to return to the main Driver Station screen.  The new operating channel should be displayed in the "Network:" section under the Robot Controller's name <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/operatingWifiChannel.jpg]]|
 
 ### Downloading the Log File
 It's often helpful when troubleshooting problems with the Control System to download the log file from the Control Hub.  This can be done from the _Manage_ page.
