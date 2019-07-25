@@ -5,7 +5,7 @@ In order to comply with game manual rule \<RS01\>, the name of the Robot Control
 
 You can also use the FTC app to change the Robot Controller phone's name.
 
-**Important Note:** Changing the name of a Robot Controller changes the name of its wireless network.  Once the name is changed, you might need to reconnect your devices (Driver Station and programming laptop/Chromebook) to the new network.
+**Important Note:** Once the name of your Robot Controller is changed, you might need to reconnect your devices (Driver Station and programming laptop/Chromebook) to the newly changed network.
 
 | Changing the Name of a Robot Controller|
 | ---- |
