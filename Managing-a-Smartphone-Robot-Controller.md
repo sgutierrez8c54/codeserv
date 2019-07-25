@@ -21,7 +21,7 @@ For example, at a large competition an FTA might ask that you switch to a design
 
 You can change the operating channel using the Advanced Settings menu on the Robot Controller or Driver Station.
 
-**Important Note:** Not every Android phone supports channel changing through the FTC software.  Refer to rule \<RE06\> for a list of _FIRST_-approved phones that support channel changing through the FTC software.
+**Important Note:** Not every Android phone supports channel changing through the FTC software.  Refer to rule \<RE06\> in the game manual for a list of _FIRST_-approved phones that support channel changing through the FTC software.
 
 | Changing the WiFi Channel|
 | ---- |
