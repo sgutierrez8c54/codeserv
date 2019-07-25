@@ -14,41 +14,23 @@ You can also use the FTC app to change the Robot Controller phone's name.
 | 3. Click on _Robot Controller Name_ on the _ROBOT CONTROLLER SETTINGS_ page.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickRobotControllerName.jpg]]|
 | 4.Specify the new Robot Controller Name and press _OK_ to accept the changes.  <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/specifyNewRobotControllerName.jpg]]|
 
-### Changing the Password
-By default, the Control Hub has its password set to "password" at the factory.  It is a good idea to change the password from its default value before you begin using your Control Hub.
-
-You can change the password of a Control Hub using a laptop or Chromebook that is connected to the Hub's Program & Management page.
-
-**Important Note:** Commit your new password to memory or store it in a secure location so you will not forget it.  You will need this password to manage and operate your Control Hub.  Also note, once the password has been changed, you will have to reconnect your devices (Driver Station and programming laptop/Chromebook) to the network using the new password.
-
-| Changing the Password of a Control Hub|
-| ---- |
-| 1. On the _Manage_ page of the Control Hub user interface, find specify your new password and then confirm this new password in the _Access Point Password_ section of the page.  Press the _Change Password_ to change the password.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/changePassword.jpg]]|
-| 2. After you press the _Change Password_ button, a dialog box will appear, indicating that the password has been changed and that you will need to reconnect to the wireless network using the new password.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/changePasswordWarning.jpg]]|
-
-### Resetting a Control Hub
-If you forget the network name or password for a Control Hub, you can reset the Hub's name and password back to their factory default values.  
-
-**Important Note:** Resetting a Control Hub will restore its default network name and password.  However, existing configuration files and op modes should not be affected by the reset. This includes op modes that were created using the Blocks, OnBot Java and Android Studio tools. 
-
-| Resetting a Control Hub |
-| ---- |
-| 1. Turn off the power to your Control Hub for 5 seconds. |
-| 2. Press and hold the button on the Control Hub (see image below).<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/controlHubButton.jpg]]|
-| 3. Power on the Control Hub while continuing to hold the button.  Monitor the LED while the Control Hub is rebooting.  Eventually, the LED will switch from being solid blue, to a multi-color blink pattern.<br/><br/>When the reset has started, the LED should blink purple, yellow, blue, and then red.  This pattern should occur five times in rapid succession.<br/><br/>Once the multi-colored blink pattern is complete, you can release the button.  The Control Hub's network name and password should be restored to their factory values.  Note that the reboot and reset process should take approximately 30 seconds to complete.|
-
 ### Changing the WiFi Channel
-The Control Hub acts as a wireless access point for the Driver Station and for the programming laptop or Chromebook.  By default the Control Hub automatically picks an operating WiFi channel.  However, it is sometimes necessary to specify the operating channel for the Hub.
+By default the smartphone Robot Controller automatically picks its own operating WiFi channel.  However, it is sometimes necessary to specify the operating channel for the device.
 
 For example, at a large competition an FTA might ask that you switch to a designated channel to avoid wireless interference that is present in the venue.  Similarly, an FTA might ask you to switch to a specific channel because the FTA is monitoring that designated channel for interference or other wireless disruptions.
 
-You can select the operating channel for the Control Hub from the _Manage_ page.
+You can change the operating channel using the Advanced Settings menu on the Robot Controller or Driver Station.
+
+**Important Note:** Not every Android phone supports channel changing through the FTC software.  Refer to rule \<RE06\> for a list of _FIRST_-approved phones that support channel changing through the FTC software.
 
 | Changing the WiFi Channel|
 | ---- |
-| 1. On the _Manage_ page of the Control Hub user interface, use the drop down selector to select the desired operating channel.  Note that the Control Hub supports both the 2.4 GHz and 5 GHz bands.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectChannel.jpg]]|
-| 2. Press the _Change Channel_ button to change to the new channel.  Note that when the channel change occurs, the Driver Station might momentarily disconnect from the Control Hub.  It should eventually, however, reconnect to Control Hub's wireless network.|
-| 3. Verify on the Driver Station that the Control Hub is operating on the desired WiFi channel.  The operating channel should be displayed under the network name in the "Network:" section of the main Driver Station screen.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsOperatingChannel.jpg]]|
+| 1. Verify that the Driver Station is connected to your Robot Controller.|
+| 2. Tap the three dots in the upper right hand corner of the Driver Station's main screen to display the pop-up menu and select _Settings_ from the menu.|
+| 3. Scroll down to the _ROBOT CONTROLLER SETTINGS_ section of the _Settings_ screen and click on the words _Advanced Settings_ to display the _ADVANCED ROBOT CONTROLLER SETTINGS_ activity.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickAdvancedSettings.jpg]]|
+| 4. Click on the _Change Wifi Channel_ link to display a list of available channels.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/clickChangeWifiChannel.jpg]]|
+| 4. Select the desired operating channel.  The phone should display a toast message if the channel change was successful.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/successChangeWifiChannel.jpg]]|
+
 
 ### Downloading the Log File
 It's often helpful when troubleshooting problems with the Control System to download the log file from the Control Hub.  This can be done from the _Manage_ page.
