@@ -97,6 +97,16 @@ Note that if you are an Android Studio user, then by updating to the newest vers
 | 7. If the update process had to uninstall the previous version of the Robot Controller app, the network name and password for the Control Hub will be reset back to their factory values.  If this happens, then you will need to reconnect your computer to the Control Hub using the factory default values.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerUninstalling.jpg]]</p>|
 | 9. When the update process is complete and you have successfully reconnected your computer to the Control Hub's network, you should see an "installed successfully" message on the _Manage_ web page.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerInstalledSuccessfully.jpg]]</p>|
 
+### Uploading a Custom Webcam Calibration File
+The Robot Controller app has built-in calibration information for a variety of commonly available webcams.  Users can also create their own custom calibration files and then upload these files to a Control Hub. 
+
+A commented example of what the contents of a calibration file should look like can be found in a file called teamwebcamcalibrations.xml, which is included with the FTC Android Studio project folder.  For the Skystone season, this example calibration file can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml). 
+
+| Uploading a Custom Webcam Calibration File|
+| ---- |
+| 1. On the _Manage_ page, click on the _Select Webcam Calibration File..._ button to select the calibration file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectWebcamCalibrationFile.jpg]]</p>An _Upload_ button should appear if a file was successfully selected.|
+| 2. Click on the _Upload_ button to upload the selected file.  If the upload was successful, then the _Manage_ page will display a message indicating that the upload has completed.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadWebcamCalibrationFileComplete.jpg]]</p>|
+
 ### Updating the Control Hub OS
 REV Robotics periodically releases new versions of the Control Hub operating system (OS). These new versions incorporate fixes, improvements, and new features.   
 
