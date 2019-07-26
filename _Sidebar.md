@@ -1,6 +1,6 @@
 1.  [Home](Home)
 2.  [Getting Started](Blocks-Tutorial)
-3.  [Managing Your Control System](Managing-Your-Control-System)
+3.  [Managing the Control System](Managing-the-Control-System)
 4.  [Programming Using Java (Advanced Users Only)](Programming-Using-Java)
 5.  [Advanced Topics](Advanced-Topics)
 6.  [Troubleshooting](Troubleshooting)
