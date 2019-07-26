@@ -18,7 +18,7 @@ This section contains helpful tips on how to manage your Control System:
     * [Downloading the Log File](Managing-a-Smartphone-Robot-Controller#Downloading-the-Log-File)
     * [Updating the Expansion Hub Firmware](Managing-a-Smartphone-Robot-Controller#Updating-the-Expansion-Hub-Firmware)
     * [Updating the Robot Controller App](Managing-a-Smartphone-Robot-Controller#Updating-the-Robot-Controller-App)
-    * [Uploading a Custom Webcam Calibration File](Managing-a-Smartphone-Robot-Controller#Uploading-a-Custom-Webcam-Calibration-File)
+    * [Uploading a Custom Webcam Calibration File](Managing-a-Smartphone-Robot-Controller#uploading-a-custom-webcam-calibration-file)
 
 
 
