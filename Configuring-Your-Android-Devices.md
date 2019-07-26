@@ -10,7 +10,8 @@ Teams who are using a Control Hub with the integrated Robot Controller will only
 <p align="center">[[/images/Configuring-Your-Android-Devices/ControlHubAndPhone.jpg]]<p>
 
 **IMPORTANT NOTE:** Eventually the Control Hub will need be renamed so that its name complies with Game Manual rule 
-\<RS01\>.  
+\<RS01\>, but for now we will use the Control Hub with its default name.  You can learn how to manage a Control Hub (and modify its name, password, etc.) in [this tutorial](Managing-a-Control-Hub).  
+
 #### Users with Two Android Smartphones
 Teams who have two smartphones and are not using a Control Hub will need to configure one smartphone for use as a Robot Controller and a second smartphone for use as a Driver Station.  The process is as follows,
 * Rename one smartphone to "\<TEAM NUMBER\>-RC" (replace \<TEAM NUMBER\> with your team number).
