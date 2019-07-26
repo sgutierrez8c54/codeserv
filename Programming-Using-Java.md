@@ -18,7 +18,7 @@ The FTC Control System can be programmed using the Java programming language.  T
         - It has a very powerful integrated development tool.
         - It provides sophisticated auto-complete functionality.
         - It has built-in, advanced debugging and monitoring tools.
-        - Is integrated with git (a version control software).
+        - It is integrated with git (a version control software).
     * Disadvantages 
         - Requires advanced programming skills.
         - Requires an advanced knowledge of Java.
