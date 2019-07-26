@@ -1,5 +1,5 @@
 1.  [Home](Home)
-2.  [Beginners Tutorial](Beginners-Tutorial)
+2.  [Getting Started](Getting-Started)
 3.  [Managing Your Control System](Managing-Your-Control-System)
 4.  [Programming Using Java (Advanced Users Only)](Programming-Using-Java)
 5.  [Advanced Topics](Advanced-Topics)
