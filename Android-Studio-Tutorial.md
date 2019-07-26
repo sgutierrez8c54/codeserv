@@ -1,5 +1,5 @@
 ### Introduction
-his tutorial will take you step-by-step through the process of configuring, programming, and operating your Control System. This tutorial uses Android Studio to help you get started programming your robot.
+This tutorial will take you step-by-step through the process of configuring, programming, and operating your Control System. This tutorial uses Android Studio to help you get started programming your robot.
 
 Android Studio is an advanced integrated development environment for creating Android apps. This tool is the same tool that professional Android app developers use. Android Studio is only recommended for **advanced users** who have **extensive Java programming experience**.
 
