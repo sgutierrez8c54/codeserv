@@ -24,7 +24,7 @@ The easiest way to update the Driver Station App is using the Google Play store.
 2.	Access to a wireless network that can connect to the Internet.
 3.	Your Android smartphone.
 
-**Important Note:** If you update your Driver Station, then you should also update your Robot Controller software to the same version number.  If you are a Blocks or OnBot Java programmer, you can use Google Play to update the Robot Controller App.  If you are an Android programmer, you should update your copy of the FTC Android Studio project folder to the newest version to match the Driver Station update.
+**Important Note:** If you update your Driver Station, then you should also update your Robot Controller software to the same version number.  If you are a Blocks or OnBot Java programmer, you can use Google Play to update the Robot Controller app.  If you are an Android programmer, then you should update your copy of the FTC Android Studio project folder to the newest version to match the Driver Station update.
 
 | Updating the Driver Station App (Using Google Play)|
 | ---- |
