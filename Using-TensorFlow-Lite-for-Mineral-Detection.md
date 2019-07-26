@@ -11,7 +11,7 @@ The FIRST Tech Challenge software contains sample Blocks and Java op modes that 
 
 Click on the following links to learn more about these sample Op Modes.
 
-* [Blocks Tensor Flow Object Detection Example](https://github.com/ftctechnh/ftc_app/wiki/Blocks-Sample-TensorFlow-Object-Detection-Op-Mode)
-* [Java Tensor Flow Object Detection Example](https://github.com/ftctechnh/ftc_app/wiki/Java-Sample-TensorFlow-Object-Detection-Op-Mode)
+* [Blocks Tensor Flow Object Detection Example](Blocks-Sample-TensorFlow-Object-Detection-Op-Mode)
+* [Java Tensor Flow Object Detection Example](Java-Sample-TensorFlow-Object-Detection-Op-Mode)
 
  
