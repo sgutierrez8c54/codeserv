@@ -1,9 +1,9 @@
 # Index
   * [Wi-Fi Blocker at Venue (*Listed 01/2019*)](Troubleshooting#wi-fi-blocker-at-venue-listed-012019)
-  * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
-  * [Motorola E4, G5 and G5 Plus Phones Disconnecting Momentarily (*Reported 10/2018, Updated 11/2018*)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#motorola-e4-phones-disconnecting-momentarily-reported-102018)
-  * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
-  * [Commonly Encountered Problems (Blocks)](https://github.com/ftctechnh/ftc_app/wiki/Troubleshooting#commonly-encountered-problems-blocks)
+  * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
+  * [Motorola E4, G5 and G5 Plus Phones Disconnecting Momentarily (*Reported 10/2018, Updated 11/2018*)](Troubleshooting#motorola-e4-phones-disconnecting-momentarily-reported-102018)
+  * [Manually Connecting to the Blocks Programming Mode Wi-Fi Network](Troubleshooting#manually-connecting-to-the-blocks-programming-mode-wi-fi-network)
+  * [Commonly Encountered Problems (Blocks)](Troubleshooting#commonly-encountered-problems-blocks)
 
 # Commonly Encountered Problems
 
@@ -123,9 +123,9 @@ If you add this init_loop() method, then the Robot Controller will constantly se
 
 ### Manually Connecting to the Blocks Programming Mode Wi-Fi Network
 
-The section of this wiki with the title [Connecting Your Laptop to the FTC Blocks Programming Mode Server](https://github.com/ftctechnh/ftc_app/wiki/Writing-an-Op-Mode-with-FTC-Blocks#connecting-your-laptop-to-the-ftc-blocks-programming-mode-server) describes how to search for the blocks programming mode Wi-Fi network from a list of available networks and then connect to it with a Windows laptop.  For some Windows devices, the laptop might not display your blocks programming mode Wi-Fi network in its list of available networks.  This problem can occur with some Windows 10 machines (and possibly with some Windows 8 machines), especially if the computer does not have current system updates and service packs. 
+The section of this wiki with the title [Connecting Your Laptop to the FTC Blocks Programming Mode Server](Writing-an-Op-Mode-with-FTC-Blocks#connecting-your-laptop-to-the-ftc-blocks-programming-mode-server) describes how to search for the blocks programming mode Wi-Fi network from a list of available networks and then connect to it with a Windows laptop.  For some Windows devices, the laptop might not display your blocks programming mode Wi-Fi network in its list of available networks.  This problem can occur with some Windows 10 machines (and possibly with some Windows 8 machines), especially if the computer does not have current system updates and service packs. 
 
-If you are having problems seeing your FTC Blocks Programming Wi-Fi network in your list of available networks, make sure that your Driver Station is paired and connected to your Robot Controller (see the section called [Pairing the Driver Station to the Robot Controller](https://github.com/ftctechnh/ftc_app/wiki/Configuring-Your-Android-Devices#pairing-the-driver-station-to-the-robot-controller) of this document).  Also, make sure that your Robot Controller is in Programming Mode.  Also, make sure that your Windows 10 device has its most current updates installed from Microsoft.
+If you are having problems seeing your FTC Blocks Programming Wi-Fi network in your list of available networks, make sure that your Driver Station is paired and connected to your Robot Controller (see the section called [Pairing the Driver Station to the Robot Controller](Configuring-Your-Android-Devices#pairing-the-driver-station-to-the-robot-controller) of this document).  Also, make sure that your Robot Controller is in Programming Mode.  Also, make sure that your Windows 10 device has its most current updates installed from Microsoft.
 
 If you have verified that the Driver Station is paired and connected to the Robot Controller and that the Robot Controller is in Programming Mode, and if you have verified that your Windows 10 updates are current, then you might have to manually connect your Windows 10 computer to the blocks programming mode Wi-Fi network.
 
