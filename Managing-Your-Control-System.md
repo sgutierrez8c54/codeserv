@@ -1,4 +1,4 @@
-This section contains helpful tips on how to manage your Control System:
+This section contains helpful tips on how to manage your Control System.  It assumes that you have already completed the [Getting Started Tutorial](Blocks-Tutorial).
 
 1. [Managing a Control Hub](Managing-a-Control-Hub)
     * [Changing the Name](Managing-a-Control-Hub#Changing-the-Name)
