@@ -72,7 +72,7 @@ If you use the FTC Blocks Development Tool or the FTC OnBot Java Tool to write y
 2.	Access to a wireless network that can connect to the Internet.
 3.	Your Android smartphone.
 
-**Important Note:** If you update your Robot Controller, you should also update your Driver Station software to the same version number.
+**Important Note:** If you update your Robot Controller, then you should also update your Driver Station software to the same version number.
 
 | Updating the Robot Controller App (Using Google Play)|
 | ---- |
