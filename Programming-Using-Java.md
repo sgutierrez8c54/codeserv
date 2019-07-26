@@ -10,7 +10,7 @@ The FTC Control System can be programmed using the Java programming language.  T
         - The source code editor has limited features.
         - The auto-complete function is limited.
         - Not integrated with version control software (such as git).
-    * Click [here](OnBot-Java-Tutorial) to learn how to program with the OnBot Java tool.
+    * Click [here](OnBot-Java-Tutorial) to learn how to program with the [OnBot Java tool](OnBot-Java-Tutorial).
 
 2. **[Android Studio](Android-Studio-Tutorial)** -  Android Studio is the development tool that is recommended by Google to author Android apps.  Android Studio can be used to create, edit and build _op modes_ for an FTC robot.  However, Android Studio is only recommended for experienced programmers.  Inexperienced programmers should use the [Blocks programming tool](Blocks-Tutorial) instead.   
 
@@ -24,6 +24,6 @@ The FTC Control System can be programmed using the Java programming language.  T
         - Requires an advanced knowledge of Java.
         - Requires a modern, high-performing development computer.
         - Can be very difficult for a novice to install, configure and maintain.
-     * Click [here](Android-Studio-Tutorial) to learn how to program with Android Studio.
+     * Click [here](Android-Studio-Tutorial) to learn how to program with [Android Studio](Android-Studio-Tutorial).
 
 **Important Note:** Both Java programming tools require that the user have an in-depth understanding of the Java programming language.  If you are not an advanced Java programmer, then FIRST recommends that you take a look at the [Blocks Tutorial](Blocks-Tutorial) and that you consider using the Blocks tool to program your robot.
