@@ -1,4 +1,4 @@
-### Welcome to the FTC Control System Wiki!
+### Welcome to the FTC Control System Online Documentation!
 
 This wiki provides information about using the _FIRST_ Tech Challenge (FTC) control system. It is a "living document" and is intended to be a central repository for information on how to configure, program, operate, and troubleshoot the FTC control system.
 
