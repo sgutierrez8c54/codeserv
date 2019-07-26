@@ -1,6 +1,4 @@
-The FTC Control System can be programmed using the Java programming language.  There are two different programming tools that are available for programming the Control System in Java.
-
-**Important Note:** Both Java programming tools require that the user have an in-depth understanding of the Java programming language.  If you are not an advanced Java programmer, then FIRST recommends that you take a look at the [Blocks Tutorial](Blocks-Tutorial) and that you consider using the Blocks tool to program your robot.
+The FTC Control System can be programmed using the Java programming language.  There are two different programming tools that are available for FTC Teams.
 
 1. **[OnBot Java](OnBot-Java-Tutorial)** -  With the OnBot Java tool, a user can create, edit and build _op modes_ through a Chrome web browser.
     * Advantages 
@@ -28,3 +26,4 @@ The FTC Control System can be programmed using the Java programming language.  T
         - Can be very difficult for a novice to install, configure and maintain.
      * If you are an advanced programmer, then click [here](Android-Studio-Tutorial) to learn how to program with Android Studio.
 
+**Important Note:** Both Java programming tools require that the user have an in-depth understanding of the Java programming language.  If you are not an advanced Java programmer, then FIRST recommends that you take a look at the [Blocks Tutorial](Blocks-Tutorial) and that you consider using the Blocks tool to program your robot.
