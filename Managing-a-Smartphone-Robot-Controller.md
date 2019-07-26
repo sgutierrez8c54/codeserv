@@ -74,6 +74,8 @@ If you use the FTC Blocks Development Tool or the FTC OnBot Java Tool to write y
 
 **Important Note:** If you update your Robot Controller, then you should also update your Driver Station software to the same version number.
 
+**Important Note:** if you are an Android Studio user, then you cannot use the Google Play Store to update your Robot Controller app.  Instead, by updating to the newest version of the FTC Android Studio project folder, you will update the Robot Controller app when you build the project and install it on your smartphone.  For the Skystone season, you can download the newest version of the project folder [here](https://github.com/FIRST-Tech-Challenge/SkyStone).
+
 | Updating the Robot Controller App (Using Google Play)|
 | ---- |
 | 1. Connect your Android phone to the wireless network that has access to the Internet.|
@@ -85,8 +87,6 @@ If you use the FTC Blocks Development Tool or the FTC OnBot Java Tool to write y
 | 7. The update process might prompt you to accept request for permissions that are needed in order to run the app on your Android phone.  If prompted, hit the “ACCEPT” button to accept the request and to continue with the update process.|
 | 8. Once the update process is complete, the “UPDATE” button on the screen should change to an “OPEN” button.  You can press the “OPEN” button to launch the new app.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/openFTCRobotController.jpg]]</p>|
 | 9. After you have updated the software, you must forget the wireless network that you used to connect to the internet to access the Google Play store.  You do not want to have your Android devices configured to connect to anything other than each other during a competition.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/forgetWifiNetwork.jpg]]</p>|
-
-Note that if you are an Android Studio user, then by updating to the newest version of the Android Studio project folder you will update the Robot Controller app when you build the project and install it on your smartphone.  For the Skystone season, you can download the newest version of the project folder [here](https://github.com/FIRST-Tech-Challenge/SkyStone).
 
 ### Uploading a Custom Webcam Calibration File
 The Robot Controller app has built-in calibration information for a variety of commonly available webcams.  Users can also create their own custom calibration files and then upload these files to a Control Hub. 
