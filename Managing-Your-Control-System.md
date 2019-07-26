@@ -20,5 +20,9 @@ This section contains helpful tips on how to manage your Control System:
     * [Updating the Robot Controller App](Managing-a-Smartphone-Robot-Controller#Updating-the-Robot-Controller-App)
     * [Uploading a Custom Webcam Calibration File](Managing-a-Smartphone-Robot-Controller#Uploading-a-Custom-Webcam-Calibration-File)
 
+2. [Managing a Smartphone Driver Station](Managing-a-Smartphone-Driver-Station)
+    * [Changing the Name](Managing-a-Smartphone-Driver-Station#Changing-the-Name)
+    * [Updating the Driver Station App](Managing-a-Smartphone-Driver-Station#Updating-the-Driver-Station-App)
+
 
 
