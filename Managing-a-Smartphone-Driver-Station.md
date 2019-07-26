@@ -15,7 +15,7 @@ You can also use the FTC app to change the Driver Station phone's name.
 ### Updating the Driver Station App
 It is important to know how to update the Driver Station app that is installed on your smartphone.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  
 
-Note that you can see the Driver STation app version number through the Driver Station user interface. Select the _About_ menu option on the Driver Station and note the App Version number under the _ABOUT DRIVER STATION_ section.
+Note that you can see the Driver Station app version number through the Driver Station user interface. Select the _About_ menu option on the Driver Station and note the App Version number under the _ABOUT DRIVER STATION_ section.
 
 <p align="center">[[/images/Managing-a-Smartphone-Driver-Station/aboutDriverStation.jpg]]</p>
 
