@@ -1,5 +1,9 @@
-### Getting Started with the FTC Control System
-This tutorial will take you step-by-step through the process of configuring, programming, and operating your Control System.  This tutorial uses the _Blocks Programming Tool_ to help you get started quickly.  The FTC Blocks Programming Tool is a visual design tool that lets programmers use a web browser to create, edit and save their _op modes_.  Even if you have experience programming in Java, FIRST recommends getting starting with Blocks.
+### Introduction
+This tutorial will take you step-by-step through the process of configuring, programming, and operating your Control System.  This tutorial uses the _Blocks Programming Tool_ to help you get started quickly.  
+
+The FTC Blocks Programming Tool is a visual design tool that lets programmers use a web browser to create, edit and save their _op modes_.  
+
+_FIRST_ recommends getting starting with Blocks, even if you are an experienced programmer.  Using Blocks is the _easiest_ and _fastest_ way to get acquainted with the FTC Control System!
 
 <p align="center">[[/images/Blocks-Tutorial/BlocksPicture1.jpg]]<p>
 
