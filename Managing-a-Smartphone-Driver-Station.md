@@ -10,7 +10,7 @@ You can also use the FTC app to change the Driver Station phone's name.
 | 1. On the Driver Station phone, touch the three dots in the upper right hand corner to display a pop-up menu.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/touchThreeDots.jpg]]</p>|
 | 2. Select the _Settings_ menu item from the pop-up menu.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/selectSettings.jpg]]|
 | 3. Click on _Driver Station Name_ on the _DRIVER STATION SETTINGS_ page.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/clickDriverStationName.jpg]]|
-| 4.Specify the new Driver Station Name and press _OK_ to accept the changes. <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/specifyNewDriverStationName.jpg]]|
+| 4. Specify the new Driver Station Name and press _OK_ to accept the changes. <br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/specifyNewDriverStationName.jpg]]|
 
 ### Updating the Driver Station App
 It is important to know how to update the Driver Station app that is installed on your smartphone.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  
