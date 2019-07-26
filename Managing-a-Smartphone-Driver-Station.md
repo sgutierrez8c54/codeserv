@@ -32,7 +32,7 @@ The easiest way to update the Driver Station App is using the Google Play store.
 | 2. Launch the Google Play Store app on the Android device.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/launchGooglePlayStore.jpg]]</p>|
 | 3. In the Google Play Store, if you haven’t signed into your Google account yet, follow the onscreen instructions to log into your Google account.|
 | 4. In the search window of the Google Play Store type in the words “FTC Driver Station” to find the app in the Play Store.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/findFTCDriverStation.jpg]]</p>|
-| 5. If more than one app appears in the search results, then select the  app (“FTC Driver Station”) that you want to update on your Android phone.|
+| 5. Select the app (“FTC Driver Station”) that you want to update on your Android phone from the search result list.|
 | 6. If you do not have the most current version of the Driver Station app, then the Google Play Store listing should have a button that reads “UPDATE”.  Press the “UPDATE” button and follow the onscreen instructions to update your app.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/updateFTCDriverStation.jpg]]</p>|
 | 7. The update process might prompt you to accept request for permissions that are needed in order to run the app on your Android phone.  If prompted, hit the “ACCEPT” button to accept the request and to continue with the update process.|
 | 8. Once the update process is complete, the “UPDATE” button on the screen should change to an “OPEN” button.  You can press the “OPEN” button to launch the new app.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Driver-Station/openFTCDriverStation.jpg]]</p>|
