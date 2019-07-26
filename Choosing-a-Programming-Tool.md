@@ -1,4 +1,6 @@
-You will need to select a programming tool to be able to write op modes for your competition robot.  There are currently three recommended programming tools that are available:
+You will need to select a programming tool to be able to write op modes for your competition robot.  FIRST strongly recommends that *all users* begin by learning how to use the **[Blocks programming tool](Blocks-Tutorial)**.  
+
+There are currently three programming tools that are available for the FTC teams to use:
 
 1. **The FTC Blocks Programming Tool** - A visual, programming tool that lets programmers use a web browser to create, edit and save their op modes.  This tool is recommended for novice programmers and for users who prefer to design their op modes visually, using a drag-and-drop interface.
 
