@@ -6,7 +6,7 @@ This wiki provides information about using the _FIRST_ Tech Challenge (FTC) cont
 
 Are you new to the _FIRST_ Tech Challenge?  Would you like to learn the basics of operating the _Control System_ that is used by FTC teams to build a competition robot?  If so, then the following tutorial provides step-by-step instructions on how to get started:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ Beginner's Tutorial ]()
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ Getting Started ]()
 
 ### Navigating the Wiki
 You can navigate the sections of this Wiki by using the sidebar located on the right hand side of this web page (see example screenshot below). Click on a section heading to navigate to the topic.
