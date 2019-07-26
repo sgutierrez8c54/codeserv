@@ -4,7 +4,7 @@ This wiki provides information about using the _FIRST_ Tech Challenge (FTC) cont
 
 ### New to the _FIRST_ Tech Challenge?
 
-Are you new to the _FIRST_ Tech Challenge?  Would you like to learn the basics of operating the _Control System_ that are used by FTC teams to build a competition robot?  The following tutorial provides step-by-step instructions on how to get started with your Control System.  
+Are you new to the _FIRST_ Tech Challenge?  Would you like to learn the basics of operating the _Control System_ that is used by FTC teams to build a competition robot?  The following tutorial provides step-by-step instructions on how to get started with your Control System.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ Beginner's Tutorial ]()
 
