@@ -61,28 +61,32 @@ You can use the _Manage_ interface to upload the firmware file to the Robot Cont
 | 9. A progress bar will display while the firmware is being updated.  Do not power off the Robot Controller/Expansion Hub during this process.  The Driver Station will display a message when the update process is complete.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/dsUpdateComplete.jpg]]</p>|
 
 ### Updating the Robot Controller App
-It is important to know how to update the Robot Controller app that is installed on a Control Hub.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  
+It is important to know how to update the Robot Controller app that is installed on your smartphone.  FIRST periodically releases new versions of this app, which contain improvements and fixes, as well as season-specific data and features.  
 
-Note that you can see the Robot Controller app version number through the Driver Station user interface. Select the _About_ menu option on the Driver Station and note the App Version number under the _ABOUT ROBOT CONTROLLER_ section.
+Note that you can see the Robot Controller app version number through the Robot Controller or Driver Station user interface. Select the _About_ menu option on the Robot Controller or Driver Station and note the App Version number under the _ABOUT ROBOT CONTROLLER_ section.
 
 <p align="center">[[/images/Managing-a-Control-Hub/aboutRobotController.jpg]]</p>
 
-The Control Hub lacks a touch screen and Google Play support.  Unfortunately, teams that use the Control Hub cannot update the Control Hub's Robot Controller app directly through the Google Play store.
+If you use the FTC Blocks Development Tool or the FTC OnBot Java Tool to write your op modes, then the easiest way to update the Robot Controller App is using the Google Play store.  To be able to use the Google Play Store to update your software, you will first need the following items:
+1.	A Google e-mail account (available for free from Google).
+2.	Access to a wireless network that can connect to the Internet.
+3.	Your Android smartphone.
 
-Instead, Control Hub users can download the Robot Controller app from the appropriate FIRST-Tech-Challenge repository (for the Skystone season, the app can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk)) and use the _Manage_ page to complete the update.
+**Important Note:** If you update your Robot Controller, you should also update your Driver Station software to the same version number.
 
-Note that if you are an Android Studio user, then by updating to the newest version of the Android Studio project folder you will update the Robot Controller app when you build the project and install it on your Control Hub
-
-| Updating the Robot Controller App|
+| Updating the Robot Controller App (Using Google Play)|
 | ---- |
-| 1. Go to the current season's GitHub repository and look in the "doc/apk" subdirectory to download the appropriate APK file.  For the Skystone season, the APK files can be found [here](https://github.com/FIRST-Tech-Challenge/SkyStone/tree/master/doc/apk).|
-| 2. Click on the _FtcRobotController-release.apk_ link in the repository to access the Robot Controller file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/apkFolderOnRepo.jpg]]</p>|
-| 3. Click on the _Download_ button to download the Robot Controller app as an APK file to your computer.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/downloadRobotControllerAPK.jpg]]</p>|
-| 4. On the _Manage_ page, click on the _Select App_ button to select the Robot Controller app that you would like to upload to the Control Hub.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectRobotControllerAPK.jpg]]</p>An _Update_ button should appear if an APK file was successfully selected.|
-| 5. Click on the _Update_ button to begin the update process.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerPleaseWait.jpg]]</p>|
-| 6. During the update process, if the Control Hub detects that the digital signature of the APK that is being installed is different from the digital signature of the APK that is already installed, the Hub might prompt you to ask if it is OK to uninstall the current app and replace it with the new one.<br/><br/>This difference in digital signatures can occur, for example, if the previous version of the app was built and installed using Android Studio, but the newer app was downloaded from the GitHub repository.<br/><br/>Press _OK_ to uninstall the old app and continue with the update process.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerWarning.jpg]]</p>|
-| 7. If the update process had to uninstall the previous version of the Robot Controller app, the network name and password for the Control Hub will be reset back to their factory values.  If this happens, then you will need to reconnect your computer to the Control Hub using the factory default values.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerUninstalling.jpg]]</p>|
-| 9. When the update process is complete and you have successfully reconnected your computer to the Control Hub's network, you should see an "installed successfully" message on the _Manage_ web page.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadRobotControllerInstalledSuccessfully.jpg]]</p>|
+| 1. Connect your Android phone to the wireless network that has access to the Internet.|
+| 2. Launch the Google Play Store app on the Android device.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/launchGooglePlayStore.jpg]]</p>|
+| 3. In the Google Play Store, if you haven’t signed into your Google account yet, follow the onscreen instructions to log into your Google account.|
+| 4. In the search window of the Google Play Store type in the words “FTC Robot Controller” to find the appropriate FTC app for your Android device.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/findFTCRobotController.jpg]]</p>|
+| 5. Select the  app (“FTC Robot Controller”) that you want to update on your Android phone.|
+| 6. If you do not have the most current version of the app, the Google Play Store listing should have a button that reads “UPDATE”.  Press the “UPDATE” button and follow the onscreen instructions to update your app.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/updateFTCRobotController.jpg]]</p>|
+| 7. The update process might prompt you to accept request for permissions that are needed in order to run the app on your Android phone.  When prompted, hit the “ACCEPT” button to accept the request and to continue with the update process.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/acceptUpdateFTCRobotController.jpg]]</p>|
+| 8. Once the update process is complete, the “UPDATE” button on the screen should change to an “OPEN” button.  You can press the “OPEN” button to launch the new app.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/openFTCRobotController.jpg]]</p>|
+| 9. After you have updated the software, you must forget the wireless network that you used to connect to the internet to access the Google Play store.  You do not want to have your Android devices configured to connect to anything other than each other during a competition.<br/><br/><p align="center">[[/images/Managing-a-Smartphone-Robot-Controller/forgetWifiNetwork.jpg]]</p>|
+
+Note that if you are an Android Studio user, then by updating to the newest version of the Android Studio project folder you will update the Robot Controller app when you build the project and install it on your smartphone.  For the Skystone season, you can download the newest version of the project folder [here](https://github.com/FIRST-Tech-Challenge/SkyStone).
 
 ### Uploading a Custom Webcam Calibration File
 The Robot Controller app has built-in calibration information for a variety of commonly available webcams.  Users can also create their own custom calibration files and then upload these files to a Control Hub. 
@@ -93,35 +97,3 @@ A commented example of what the contents of a calibration file should look like 
 | ---- |
 | 1. On the _Manage_ page, click on the _Select Webcam Calibration File..._ button to select the calibration file.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectWebcamCalibrationFile.jpg]]</p>An _Upload_ button should appear if a file was successfully selected.|
 | 2. Click on the _Upload_ button to upload the selected file.  If the upload was successful, then the _Manage_ page will display a message indicating that the upload has completed.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/uploadWebcamCalibrationFileComplete.jpg]]</p>|
-
-### Updating the Control Hub OS
-REV Robotics periodically releases new versions of the Control Hub operating system (OS). These new versions incorporate fixes, improvements, and new features.   
-
-Note that you can see the Control Hub OS version number through the Driver Station user interface. Select the _About_ menu option on the Driver Station and note the Operating System Version number under the _ABOUT ROBOT CONTROLLER_ section.
-
-<p align="center">[[/images/Managing-a-Control-Hub/aboutRobotControllerOSVersion.jpg]]</p>
-
-Control Hub users can download a new Control Hub OS file from the REV Robotics website and use the _Manage_ page to complete the update of the OS.
-
-| Updating the Control Hub OS|
-| ---- |
-| 1. Download the new Control Hub OS update file from the [REV Robotics website](http://www.revrobotics.com/software/).|
-| 2. On the _Manage_ page, click on the _Select Update File..._ button to select the OS update file that you would like to upload.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/selectOSUpdateFile.jpg]]</p>An _Update & Reboot_ button should appear if an update file was successfully selected.|
-| 3. Click on the _Update & Reboot_ button to start the update process.  Please wait while the OS file gets uploaded to the Control Hub.  Note that since the file is relatively large, it might take several minutes before the upload is complete. Do not turn off the Control Hub while the process is underway.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/osUpdatePleaseWait.jpg]]</p>|
-| 4. If the upload was successful, the _Manage_ page will display a message indicating that the device is being rebooted and the update is being installed.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/osUpdateVerificationSucceeded.jpg]]</p>|
-| 5. When the OS update has completed, the Control Hub LED should switch from blue, back to its normal blink pattern (green, then it will blink blue once to indicate the Hub's serial address number, then the pattern repeats itself).  Reconnect your computer to the Control Hub network and verify that the update was a success. <br/><br/><p align="center">[[/images/Managing-a-Control-Hub/osUpdateSuccess.jpg]]</p>Note that you can also check in the About page (through the Driver Station app) to verify the updated version number of the Control Hub OS.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/aboutRobotControllerNewOSVersion.jpg]]</p>|
-
-### Connecting to the Control Hub Using Wireless ADB 
-Advanced users who use Android Studio to build and install the Robot Controller app onto their Control Hub should be familiar with the Android Debug Bridge (adb) utility.  adb is included with the Android development platform tools.  It can be used to communicate with an Android device such as the Control Hub.
-
-Traditionally, programmers use a hard-wired USB connection to communicate using adb to their Android device.  adb also supports a mode where commands are sent back and forth through a wireless connection.
-
-The Control Hub is configured so that it automatically will support an adb wireless connection request on port 5555.
-
-| Connecting to the Control Hub Using Wireless ADB|
-| ---- |
-| 1. Verify that your laptop is connected to the Program & Manage wireless network of the Control Hub.  If you are connected to the network, you should be able to see the _Robot Controller Connection Info_ page when you navigate to address "192.168.43.1:8080":<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/RCConnectionInfoPage.jpg]]</p>If your laptop is not connected and you are unable to access the _Robot Controller Connection Info_ page, then read the instructions in the following [tutorial](Connecting-a-Laptop-to-the-Program-&-Manage-Network) to learn how to connect to the Program & Manage network.<p align="center"><br/>[Connecting a Laptop to the Program & Manage Network](Connecting-a-Laptop-to-the-Program-&-Manage-Network)|
-| 2. Verify that the PATH environment variable for your Windows computer includes the path to the adb.exe executable file.  The [Android Developer website](https://developer.android.com/studio/command-line/adb) tells you where in your Android SDK installation you can find the adb.exe file.  This [post](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) from [HelpDeskGeek.com](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) shows how to add a directory to your Windows PATH environment variable.|
-| 3. Open a Windows Command Prompt and type in "adb.exe connect 192.168.43.1:5555".  This should connect your adb server to the Control Hub over the wireless connection.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/adbConnected.jpg]]</p>|
-
-
