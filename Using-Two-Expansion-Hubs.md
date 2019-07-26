@@ -35,7 +35,9 @@ For example, if your Expansion Hub has an address of 2, and it is successfully c
  
 This sequence will repeat over and over again. 
 
-Use this process to check the serial addresses for each of your Expansion Hubs.  Note that the factory default address is 2. 
+Use this process to check the serial addresses for each of your Expansion Hubs.  
+
+**Important Note:** By default, a REV Robotics Expansion Hub should have its address preset at the factory to a value of 2.  Also by default, a REV Robotics Control Hub should have the address for its internal Expansion Hub preset at the factory to a value of 1.  If you are using a Control Hub combined with a second Expansion Hub, then their factory addresses (1 and 2 respectively) should not conflict. You should not need to change either address for this combination.
 
 ### Changing the Address of an Expansion Hub 
 You can use the Advanced Settings menu of the FTC Robot Controller App to change the address of an Expansion Hub.  Note that it is recommended that when you change the address of an Expansion Hub, you only connect one Expansion Hub to the Robot Controller during the change address process.
