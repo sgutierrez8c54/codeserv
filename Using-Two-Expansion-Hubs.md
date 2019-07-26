@@ -3,6 +3,8 @@ A single REV Robotics Expansion Hub has a limited amount of input/output (I/O) p
 
 This document describes how to connect and configure two Expansion Hubs for use in the FIRST Tech Challenge.  Note that the FIRST Tech Challenge Game Manual Part 1 (rule \<RE07\>, part f) limits the maximum number of Expansion Hubs on a single robot to two.  
 
+**Important Note:** This document describes the process for setting up a smartphone Robot Controller with two Expansion Hubs.  The process is similar if you want to connect a Control Hub (which has its own built-in Expansion Hub) to another Expansion Hub.
+
 ### Equipment Needed 
 To follow along with the instructional steps in this document, you will need the following items:
 
