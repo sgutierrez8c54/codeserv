@@ -8,9 +8,11 @@ Are you new to the _FIRST_ Tech Challenge?  Would you like to learn the basics o
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ Beginner's Tutorial ]()
 
+### Navigating the Wiki
+You can navigate the sections of this Wiki by using the sidebar located on the right hand side of this web page (see example screenshot below). Click on a section heading to navigate to the topic.
+
 <p align="center">[[/images/Home/UseSidebarToNavigate.jpg|Use sidebar to navigate.]]<p>
 
-You can navigate the sections of this Wiki by using the sidebar located on the right hand side of this web page (see example screenshot above). Click on a section heading to navigate to the topic.
 
 ### Additional Information
 For additional information about using the _FIRST_ Tech Challenge control system, check out the official _FIRST_ Tech Challenge videos on YouTube:
