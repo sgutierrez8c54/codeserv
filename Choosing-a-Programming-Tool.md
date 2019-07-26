@@ -12,7 +12,7 @@ You will need to select a programming tool to be able to write op modes for your
 
 <p align="center">[[/images/Choosing-a-Programming-Tool/androidStudioScreen.jpg]]<p>
 
-Each tool has its own merits and weaknesses.  For many users (especially rookies and novice programmers), _**the FTC Blocks Programming Tool is the best overall tool to use**_.  The Blocks Programming Tool is intuitive and easy-to-learn.  It is the fastest way to get started programming your robot.
+Each tool has its own merits and weaknesses.  For many users (especially rookies and novice programmers), _**the FTC Blocks Programming Tool is the best overall tool to use**_.  The Blocks Programming Tool is intuitive and easy-to-learn.  _**It is the fastest way to get started programming your robot.**_
 
 The FTC OnBot Java Programming Tool is similar to the Blocks Programming Tool. However, OnBot Java is a text-based tool and it requires that the user have a sound understanding of the Java programming language.
 
