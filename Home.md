@@ -2,13 +2,11 @@
 
 This wiki provides information about using the _FIRST_ Tech Challenge (FTC) control system. It is a "living document" and is intended to be a central repository for information on how to configure, program, operate, and troubleshoot the FTC control system.
 
-### New to the _FIRST _Tech Challenge?
+### New to the _FIRST_ Tech Challenge?
 
-Are you new to the _FIRST_ Tech Challenge?  Would you like to the basics of operating the _Control System_ that are used by teams to build a competition robot?  The following tutorial provides step-by-step instructions on how to connect, configure, program and operate your Control System.  
+Are you new to the _FIRST_ Tech Challenge?  Would you like to learn the basics of operating the _Control System_ that are used by FTC teams to build a competition robot?  The following tutorial provides step-by-step instructions on how to get started with your Control System.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ Beginner's Tutorial ]()
-
-If you are new to the FIRST Tech Challenge, then we highly recommend that you begin with this Beginner's Tutorial.
 
 <p align="center">[[/images/Home/UseSidebarToNavigate.jpg|Use sidebar to navigate.]]<p>
 
