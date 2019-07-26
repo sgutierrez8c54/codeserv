@@ -26,4 +26,6 @@ The FTC Control System can be programmed using the Java programming language.  T
         - Can be very difficult for a novice to install, configure and maintain.
      * Click [here](Android-Studio-Tutorial) to learn how to program with [Android Studio](Android-Studio-Tutorial).
 
-**Important Note:** Both Java programming tools require that the user have an in-depth understanding of the Java programming language.  If you are not an advanced Java programmer, then FIRST recommends that you take a look at the [Blocks Tutorial](Blocks-Tutorial) and that you consider using the Blocks tool to program your robot.
+**Important Note:** Both Java programming tools require that the user have an in-depth understanding of the Java programming language.  If you are not an advanced Java programmer, then FIRST recommends that you consider using the [Blocks tool](Blocks-Tutorial) to program your robot.
+
+If you are unsure which programming tool is best suited for your needs, please visit [this tutorial](Choosing-a-Programming-Tool) which summarizes the differences.
