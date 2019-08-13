@@ -1,7 +1,7 @@
 ### Javadoc Reference Pages
 As you start to write more complicated op modes, you will need to use more features of the FIRST Tech Challenge software development kit (SDK).  You can reference online Javadoc material that provide descriptions of the available FIRST Tech Challenge-related classes and methods, at the following web address:
 
-[http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html](http://ftctechnh.github.io/ftc_app/doc/javadoc/index.html)
+[https://first-tech-challenge.github.io/SkyStone/doc/javadoc/index.html](https://first-tech-challenge.github.io/SkyStone/doc/javadoc/index.html)
 
 ### Sample Op Modes
 
