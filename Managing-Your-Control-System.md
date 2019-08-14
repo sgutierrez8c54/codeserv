@@ -11,6 +11,7 @@ This section contains helpful tips on how to manage your Control System.  It ass
     * [Uploading a Custom Webcam Calibration File](Managing-a-Control-Hub#Uploading-a-Custom-Webcam-Calibration-File)
     * [Updating the Control Hub OS](Managing-a-Control-Hub#Updating-the-Control-Hub-OS)
     * [Connecting to the Control Hub Using Wireless ADB](Managing-a-Control-Hub#Connecting-to-the-Control-Hub-Using-Wireless-ADB)
+    * [Disabling/Enabling the Internal Android Controller](Managing-a-Control-Hub#disablingenabling-the-internal-android-controller)
 
 2. [Managing a Smartphone Robot Controller](Managing-a-Smartphone-Robot-Controller)
     * [Changing the Name](Managing-a-Smartphone-Robot-Controller#Changing-the-Name)
