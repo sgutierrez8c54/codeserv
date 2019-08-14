@@ -163,6 +163,10 @@ You should now be able to use your Control Hub as an Expansion Hub.  Note that i
 
 **IMPORTANT NOTE:** A _disabled_ internal Android controller is not really disabled. Instead, the Robot Controller app is not active and a user can connect to the Expansion Hub portion of the Control Hub using the USB **Mini** port on the back of the Control Hub.  When you disable your internal Android controller, you still might see the Wi-Fi network established by the internal Android controller (which is still powered on whenever the Control Hub is turned on).
 
+The following screen shot shows the commands that can be issued to disable the internal Android controller of a Control Hub.
+
+<p align="center">[[/images/Managing-a-Control-Hub/disablingInternalAndroidController.jpg]]<p>
+
 #### Enabling the Built-In Android Controller
 Follow these steps to enable the built-in Android controller of a Control Hub:
 1.	Connect a USB micro cable from your development laptop to the port labeled "USB C" on the Control Hub.  
@@ -173,6 +177,10 @@ Follow these steps to enable the built-in Android controller of a Control Hub:
 6.	Type the command “reboot” to reboot your Android controller.  Upon reboot, the Android controller should detect that the “persist.ftcandroid.db.disable” propery is now set to false.  It will enable the connection between the Android device and the built in Expansion Hub of the Control Hub.  It will also launch the Robot Controller app on the built-in Android controller and operate as a Control Hub.
 
 Note that if you had previously changed the serial address of the internal Expansion Hub to a value other than 1, then you should change the address back to 1 once the internal Android controller has been re-enabled.  After the address change, you will need to reboot your machine and recreate your configuration file for your Control Hub.
+
+The following screen shot shows the commands that can be issued to re-enable the internal Android controller of a Control Hub.
+
+<p align="center">[[/images/Managing-a-Control-Hub/enablingInternalAndroidController.jpg]]<p>
 
 
  
