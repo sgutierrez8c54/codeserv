@@ -139,4 +139,41 @@ The Control Hub is configured so that it automatically will support an adb wirel
 | 2. Verify that the PATH environment variable for your Windows computer includes the path to the adb.exe executable file.  The [Android Developer website](https://developer.android.com/studio/command-line/adb) tells you where in your Android SDK installation you can find the adb.exe file.  This [post](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) from [HelpDeskGeek.com](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) shows how to add a directory to your Windows PATH environment variable.|
 | 3. Open a Windows Command Prompt and type in "adb.exe connect 192.168.43.1:5555".  This should connect your adb server to the Control Hub over the wireless connection.<br/><br/><p align="center">[[/images/Managing-a-Control-Hub/adbConnected.jpg]]</p>|
 
+### Disabling/Enabling the Internal Android Controller
+
+Each Control Hub has its own built-in Android Controller.  It is possible to enable or disable the Control Hub’s built-in Android controller:
+
+* When the built-in Android controller is disabled, the Control Hub acts like an Expansion Hub.  When the internal controller is disabled, a user can connect an external Android phone to the USB mini (not Type C) port of the Control Hub and use the device just like an Expansion Hub.
+* When the internal Android controller is enabled, the user cannot use the device as an Expansion Hub.  Instead, when the built-in Android controller is enabled, the user must use the device as a Control Hub, and the Driver Station must pair to the Control Hub's built-in Android controller.
+
+**IMPORTANT NOTE:** Disabling/Enabling the internal Android controller requires advanced Android programming skills.  The user must be familiar with using the Android Debug Bridge (ADB) utility.  FIRST does not recommend that users disable their Control Hub's internal Android controller - doing so could cause unforeseen negative effects.  FIRST provides this information for educational purposes only.
+
+**IMPORTANT NOTE:** Unfortunately, the Control Hub is only approved for use during the SKYSTONE season in limited regions. If a team disables a Control Hub's internal Android controller, the team still will most likely not be allowed to use the Control Hub as an Expansion Hub outside of these limited test regions.
+
+#### Disabling the Built-In Android Controller
+Follow these steps to disable the built-in Android controller of a Control Hub:
+1.	Connect a USB micro cable from your development laptop to the port labeled "USB C" on the Control Hub.  
+2.	From a terminal on your laptop, use adb to shell into the Android controller.
+3.	Type the command “getprop persist.ftcandroid.db.disable” to view the current value of the system property called “persist.ftcandroid.db.disable”.  By default this value should be false.
+4.	Use the command “setprop persist.ftcandroid.db.disable true” to change this system property.
+5.	Type the command “getprop persist.ftcandroid.db.disable” to verify that the property was changed to true.
+6.	Type the command “reboot” to reboot your Android controller.  Upon reboot, the Android controller should detect that the “persist.ftcandroid.db.disable” propery is now set to true.  It will disable the connection between the Android device and the built in Expansion Hub of the Control Hub.  
+
+You should now be able to use your Control Hub as an Expansion Hub.  Note that if you do this you might need to change the serial address of the Control Hub's internal Expansion Hub.  By default, the serial number for a Control Hub is set to 1.  If you re-enable the internal Android Controller, you should set the serial number back to 1.
+
+**IMPORTANT NOTE:** A _disabled_ internal Android controller is not really disabled. Instead, the Robot Controller app is not active and a user can connect to the Expansion Hub portion of the Control Hub using the USB **Mini** port on the back of the Control Hub.  When you disable your internal Android controller, you still might see the Wi-Fi network established by the internal Android controller (which is still powered on whenever the Control Hub is turned on).
+
+#### Enabling the Built-In Android Controller
+Follow these steps to enable the built-in Android controller of a Control Hub:
+1.	Connect a USB micro cable from your development laptop to the port labeled "USB C" on the Control Hub.  
+2.	From a terminal on your laptop, use adb to shell into the Android controller.
+3.	Type the command “getprop persist.ftcandroid.db.disable” to view the current value of the system property called “persist.ftcandroid.db.disable”.  If the value is true, then you must change the value back to false to re-enable the internal Android Controller.
+4.	Use the command “setprop persist.ftcandroid.db.disable false” to change this system property.
+5.	Type the command “getprop persist.ftcandroid.db.disable” to verify that the property was changed to false.
+6.	Type the command “reboot” to reboot your Android controller.  Upon reboot, the Android controller should detect that the “persist.ftcandroid.db.disable” propery is now set to false.  It will enable the connection between the Android device and the built in Expansion Hub of the Control Hub.  It will also launch the Robot Controller app on the built-in Android controller and operate as a Control Hub.
+
+Note that if you had previously changed the serial address of the internal Expansion Hub to a value other than 1, then you should change the address back to 1 once the internal Android controller has been re-enabled.  After the address change, you will need to reboot your machine and recreate your configuration file for your Control Hub.
+
+
+ 
 
