@@ -37,7 +37,7 @@ If you are a Blocks or OnBot Java user and you want to use an external web camer
 Instead, follow these directions.
 
 1. Backup copies of your old Blocks and OnBot Java op modes.
-2. Download a 32-bit only version of the Robot Controller app from here.
+2. Download a 32-bit only version of the Robot Controller app from [here](https://github.com/FIRST-Tech-Challenge/SkyStone/releases/download/v5.2/FtcRobotController-release_32bit_v5_2.apk).
 3. Install this 32-bit only version of the Robot Controller onto your Robot Controller device:
     - If you are a Control Hub user, follow the instructions [here](Managing-a-Control-Hub#Updating-the-Robot-Controller-App) to install the 32-bit only version of the app.  **Important Note:** _When you update your Control Hub, make sure you use the 32-bit version of the app that you downloaded from step #2!_
     - If you are a phone user, since you cannot use Google Play, you will have to [sideload](https://www.xda-developers.com/sideload-apps-how-to/) the 32-bit version of the app onto your Robot Controller Android phone.  There are good resources on the Web that show you [how to sideload an app](https://www.xda-developers.com/sideload-apps-how-to/).
