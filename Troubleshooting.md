@@ -31,6 +31,19 @@ We believe the problem occurred when native support for 64-bit devices was intro
 We believe that there is an external library that is incorporated into the UVC webcam support of our software that is not 64-bit compliant.  This bug was did not manifest itself in the pre-release testing and is currently only present in the release version of the v5.2 software.
 
 #### Problem Workaround
+##### Blocks or OnBot Java Users
+If you are a Blocks or OnBot Java user and you want to use an external web camera, then you will need a 32-bit only version of the Robot Controller app to use.  Unfortunately until the 64-bit issue with the external library is fixed, you will not be able to download the Robot Controller app with webcam support from the Google Play store. 
+
+Instead, follow these directions.
+
+1. Backup copies of your old Blocks and OnBot Java op modes.
+2. Download a 32-bit only version of the Robot Controller app from here.
+3. Install this 32-bit only version of the Robot Controller onto your Robot Controller device:
+    - If you are a Control Hub user, follow the instructions [here](Managing-a-Control-Hub#Updating-the-Robot-Controller-App) to install the 32-bit only version of the app.
+    - If you are a phone user, since you cannot use Google Play, you will have to [sideload](https://www.xda-developers.com/sideload-apps-how-to/) the 32-bit version of the app onto your Robot Controller Android phone.  There are good resources on the Web that show you [how to sideload an app](https://www.xda-developers.com/sideload-apps-how-to/).
+4. After you update your Robot Controller with the 32-bit only version of the app, make sure you have a valid configuration file activated.
+5. You can now use the 32-bit only version of the app to edit an run your Vuforia-enabled op modes using an externally connected webcam.
+
 ##### Android Studio Users
 If you are an Android Studio user, you can modify the SKYSTONE Android Studio project and remove the ARM 64-bit support. Use the following steps to remove the ARM 64-bit support from your Android Studio project:
 
