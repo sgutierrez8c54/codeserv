@@ -45,7 +45,7 @@ Instead, follow these directions.
 5. You can now use the 32-bit only version of the app to edit and run your Vuforia-enabled op modes using an externally connected webcam.
 
 ##### Android Studio Users
-If you are an Android Studio user, you can modify the SKYSTONE Android Studio project and remove the ARM 64-bit support. Use the following steps to remove the ARM 64-bit support from your Android Studio project:
+If you are an Android Studio user, you can modify the SKYSTONE Android Studio project and remove the ARM 64-bit support:
 
 1. Open the project using Android Studio.
 2. Expand the "Gradle Scripts" category in the Project pane.
