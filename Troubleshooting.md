@@ -39,7 +39,7 @@ Instead, follow these directions.
 1. Backup copies of your old Blocks and OnBot Java op modes.
 2. Download a 32-bit only version of the Robot Controller app from here.
 3. Install this 32-bit only version of the Robot Controller onto your Robot Controller device:
-    - If you are a Control Hub user, follow the instructions [here](Managing-a-Control-Hub#Updating-the-Robot-Controller-App) to install the 32-bit only version of the app.
+    - If you are a Control Hub user, follow the instructions [here](Managing-a-Control-Hub#Updating-the-Robot-Controller-App) to install the 32-bit only version of the app.  **Important Note:** _When you update your Control Hub, make sure you use the 32-bit version of the app that you downloaded from step #2!_
     - If you are a phone user, since you cannot use Google Play, you will have to [sideload](https://www.xda-developers.com/sideload-apps-how-to/) the 32-bit version of the app onto your Robot Controller Android phone.  There are good resources on the Web that show you [how to sideload an app](https://www.xda-developers.com/sideload-apps-how-to/).
 4. After you update your Robot Controller with the 32-bit only version of the app, make sure you have a valid configuration file activated.
 5. You can now use the 32-bit only version of the app to edit an run your Vuforia-enabled op modes using an externally connected webcam.
