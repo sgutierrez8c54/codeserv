@@ -83,7 +83,7 @@ If you are an Android Studio user, you can modify the SKYSTONE Android Studio pr
 
 <p align="center">[[/images/Troubleshooting/20190920_CleanProject.jpg]]<p>
 
-6. After the Clean Project has completed, select Build->Make Project.
+6. After "Clean Project" has completed, select Build->Make Project.
 
 <p align="center">[[/images/Troubleshooting/20190920_MakeProject.jpg]]<p>
 
