@@ -8,7 +8,7 @@
 # Commonly Encountered Problems
 
 ### Problem with UVC Webcam support and version 5.2 software (*Listed 09/20/19*).
-There is a known issue with the USB Video Class (UVC) external web camera support and the v5.2 FTC Robot Controller software. 
+There is a known issue with the USB Video Class (UVC) external web camera support and the v5.2 FTC Robot Controller software. This problem affects Android Studio, Blocks and OnBot Java teams who are using the v5.2 software and an external webcam.  It does not affect teams who are using the internal camera of an Android Robot Controller phone.
 
 #### Problem Description
 If you are using the v5.2 Robot Controller (RC) app with a UVC webcam connected and configured, the RC app will fail to initialize Vuforia.  
@@ -21,14 +21,14 @@ If you are using the v5.2 Robot Controller (RC) app with a UVC webcam connected 
 
 <p align="center">[[/images/Troubleshooting/20190920_webcamInitializeFailBlocks.jpg]]<p>
 
-As a result, you will be unable to use an externally connected webcam with the v5.2 software. 
+* In some cases, you might not receive any error or warning messages, but the camera stream will not work.  In this case the op mode might seem to run properly, but the camera output will actually be blank. 
 
 **Important Note:** This problem only affects externally connected UVC cameras.  It does _**not**_ affect teams using an Android phone's internal camera.
 
 #### What Causes this Problem?
 We believe the problem occurred when native support for 64-bit devices was introduced with the v5.2 release.  In August 2019, the Google Play store changed its requirements so that it will only allow apps in the store that include native support for 64-bit devices.  
 
-We believe that there is an external library that is incorporated into the UVC webcam support of our software that is not 64-bit compliant.  This bug was did not manifest itself in the pre-release testing and is currently only present in the release version of the v5.2 software.
+We believe that there is an external library that is incorporated into the UVC webcam support of our software that is not 64-bit compliant.  We suspect that this results in a memory corruption error when an external webcam is used with the v5.2 software.  This bug did not manifest itself in the pre-release testing and is currently only present in the release version of the v5.2 software.
 
 #### Problem Workaround
 ##### Blocks or OnBot Java Users
