@@ -32,7 +32,7 @@ We believe that there is an external library that is incorporated into the UVC w
 
 #### Problem Workaround
 ##### Blocks or OnBot Java Users
-If you are a Blocks or OnBot Java user and you want to use an external web camera, then you will need a 32-bit only version of the Robot Controller app to use.  Unfortunately until the 64-bit issue with the external library is fixed, you will not be able to download the Robot Controller app with webcam support from the Google Play store. 
+If you are a Blocks or OnBot Java user and you want to use an external web camera, then you will need a 32-bit only version of the Robot Controller app.  Unfortunately until the 64-bit issue with the external library is fixed, you will not be able to download the Robot Controller app with webcam support from the Google Play store. 
 
 Instead, follow these directions.
 
