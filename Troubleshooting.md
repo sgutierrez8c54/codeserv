@@ -7,6 +7,77 @@
 
 # Commonly Encountered Problems
 
+### Problem with UVC Webcam support and version 5.2 software (*Listed 09/20/19*).
+There is a known issue with the USB Video Class (UVC) external web camera support and the v5.2 FTC Robot Controller software. 
+
+#### Problem Description
+If you are using the v5.2 Robot Controller (RC) app with a UVC webcam connected and configured, the RC app will fail to initialize Vuforia.  
+
+* For Java users, you might see an error message that says _"RuntimeException - Unable to convince Vuforia to generate RGB565 frames!"_.
+
+<p align="center">[[/images/Troubleshooting/20190920_webcamInitializeFail.jpg]]<p>
+
+* For Blocks users, you might see an error message that says _"Error: Fatal error occurred while executing the block labeled "call Tfod.initialize"_.
+
+<p align="center">[[/images/Troubleshooting/20190920_webcamInitializeFailBlocks.jpg]]<p>
+
+As a result, you will be unable to use an externally connected webcam with the v5.2 software. 
+
+**Important Note:** This problem only affects externally connected UVC cameras.  It does _**not**_ affect teams using an Android phone's internal camera.
+
+#### What Causes this Problem?
+We believe the problem occurred when native support for 64-bit devices was introduced with the v5.2 release.  In August 2019, the Google Play store changed its requirements so that it will only allow apps in the store that include native support for 64-bit devices.  
+
+We believe that there is an external library that is incorporated into the UVC webcam support of our software that is not 64-bit compliant.  This bug was did not manifest itself in the pre-release testing and is currently only present in the release version of the v5.2 software.
+
+#### Problem Workaround
+##### Android Studio Users
+If you are an Android Studio user, you can modify the SKYSTONE Android Studio project and remove the ARM 64-bit support. Use the following steps to remove the ARM 64-bit support from your Android Studio project:
+
+1. Open the project using Android Studio.
+2. Expand the "Gradle Scripts" category in the Project pane.
+
+<p align="center">[[/images/Troubleshooting/20190920_ExpandGradleScripts.jpg]]<p>
+
+3. Double click on build.common.gradle to edit the file.
+4. In the script find the line _**abiFilters "armeabi-v7a", "arm64-v8a"**_ and remove the _**, "arm64-v8a"**_ portion of the line.
+    - Note that there should be two references to _**arm64-v8a**_, one for the release version and the other for the debug version of the app.  
+    - Remove the _**arm64-v8a**_ references from all instances within the build.common.gradle file.  Your file should file should like the following:
+
+```
+    // Advanced user code might just want to use Vuforia directly, so we set up the libs as needed
+    // http://google.github.io/android-gradle-dsl/current/com.android.build.gradle.internal.dsl.BuildType.html
+    buildTypes {
+        release {
+            // Disable debugging for release versions so it can be uploaded to Google Play.
+            //debuggable true
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+            renderscriptDebuggable true
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+    }
+```
+5. In Android Studio, select Build->Clean Project to clean the project.
+
+<p align="center">[[/images/Troubleshooting/20190920_CleanProject.jpg]]<p>
+
+6. After the Clean Project has completed, select Build->Make Project.
+
+<p align="center">[[/images/Troubleshooting/20190920_MakeProject.jpg]]<p>
+
+7. After Android Studio has made the project, you can deploy the APK to your Robot Controller as you would normally.  This version of the APK will not have native 64-bit support and should work reliably with the externally connected webcam.
+
+
+ 
+
 ### Wi-Fi Blocker at Venue (*Listed 01/2019*)
 We have had several incidents where FTC (and even FRC) events have been disrupted by the presence of Wi-Fi Blocking technology.  A Wi-Fi Blocker or Suppressor is a device (often built-in as a feature of a wireless access point) that prevents people from using an unauthorized Wi-Fi network in the vicinity of the Blocker.
 
