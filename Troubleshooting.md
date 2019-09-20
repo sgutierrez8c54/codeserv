@@ -56,7 +56,7 @@ If you are an Android Studio user, you can modify the SKYSTONE Android Studio pr
 4. In the script find the line _**abiFilters "armeabi-v7a", "arm64-v8a"**_ and remove the _**, "arm64-v8a"**_ portion of the line.
     - Note that there should be two references to _**arm64-v8a**_, one for the release version and the other for the debug version of the app.  
     - Remove the _**arm64-v8a**_ references from all instances within the build.common.gradle file.  
-    - When you are done, your "buildTypes" portion of your build.common.gradle file should like the following:
+    - When you are done, your "buildTypes" portion of your modified file should like the following:
 
 ```
    // Advanced user code might just want to use Vuforia directly, so we set up the libs as needed
