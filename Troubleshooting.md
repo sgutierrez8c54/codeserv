@@ -1,4 +1,5 @@
 # Index
+  * [Problem with UVC Webcam support and version 5.2 software (*Listed 09/20/19*)](Troubleshooting/problem-with-uvc-webcam-support-and-version-52-software-listed-092019)
   * [Wi-Fi Blocker at Venue (*Listed 01/2019*)](Troubleshooting#wi-fi-blocker-at-venue-listed-012019)
   * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
   * [Motorola E4, G5 and G5 Plus Phones Disconnecting Momentarily (*Reported 10/2018, Updated 11/2018*)](Troubleshooting#motorola-e4-phones-disconnecting-momentarily-reported-102018)
