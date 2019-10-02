@@ -1,5 +1,5 @@
 # Index
-  * [Problem with the Direction of some GoBilda motors (*Listed 10/3/19*).]
+  * [Problem with the Direction of some GoBilda motors (*Listed 10/3/19*).](Troubleshooting#problem-with-the-direction-of-some-gobilda-motors-listed-10319)
   * [Problem with UVC Webcam support and version 5.2 software (*Listed 09/20/19*)](Troubleshooting#problem-with-uvc-webcam-support-and-version-52-software-listed-092019)
   * [Wi-Fi Blocker at Venue (*Listed 01/2019*)](Troubleshooting#wi-fi-blocker-at-venue-listed-012019)
   * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
