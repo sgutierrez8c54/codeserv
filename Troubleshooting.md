@@ -1,4 +1,5 @@
 # Index
+  * [Problem with the Direction of some GoBilda motors (*Listed 10/3/19*).]
   * [Problem with UVC Webcam support and version 5.2 software (*Listed 09/20/19*)](Troubleshooting#problem-with-uvc-webcam-support-and-version-52-software-listed-092019)
   * [Wi-Fi Blocker at Venue (*Listed 01/2019*)](Troubleshooting#wi-fi-blocker-at-venue-listed-012019)
   * [Westside (Los Angeles) Robotics Troubleshooting Guide (*Reported 01/2019*)](Troubleshooting/#westside-los-angeles-robotics-fta-troubleshooting-guide-reported-012019)
@@ -7,6 +8,15 @@
   * [Commonly Encountered Problems (Blocks)](Troubleshooting#commonly-encountered-problems-blocks)
 
 # Commonly Encountered Problems
+
+### Problem with the Direction of some GoBilda motors (*Listed 10/3/19*).
+Mr. Phil reported on the FTC Technology forum an issue that his team detected with some of their recently ordered GoBilda motors.  They found that when they applied a "positive" power to a new motor, the encoder counts went in the opposite direction.  They examined the motors more closely and discovered that + and - power cables/leads were connected in the reverse direction from what they normally are.
+
+If a team encounters this problem, they will need to reverse the polarity of the power leads (for example, connect the black cable to the red +12V pole of the motor controller port and connect the red cable to the black ground pole of the motor controller port) in order for the closed loop control for the motor to work properly.
+
+Details of the problem can be found here:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Warning about goBILDA motor directions](https://ftcforum.usfirst.org/forum/ftc-technology/75167-warning-about-gobilda-motor-directions)
 
 ### Problem with UVC Webcam support and version 5.2 software (*Listed 09/20/19*).
 There is a known issue with the USB Video Class (UVC) external web camera support and the v5.2 FTC Robot Controller software. This problem affects Android Studio, Blocks and OnBot Java teams who are using the v5.2 software and an external webcam.  It does not affect teams who are using the internal camera of an Android Robot Controller phone.
